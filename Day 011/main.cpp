@@ -11,7 +11,7 @@
     Output:
         - The maximum product of any contiguous subarray
 
-    Author: SIddhi
+    Author: Siddhi
 */
 
 #include <iostream>
