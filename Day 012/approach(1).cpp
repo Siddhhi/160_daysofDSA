@@ -12,7 +12,7 @@
     Output:
         - The maximum sum of a circular subarray
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
