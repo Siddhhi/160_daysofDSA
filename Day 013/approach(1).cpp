@@ -1,6 +1,5 @@
 /*
-    Title: 
-        Find the Minimum Missing Positive Integer
+    Title: Find the Minimum Missing Positive Integer
     Description:
         This program identifies the smallest positive integer that is missing from an array.
         The program accounts for both positive and negative numbers, as well as duplicates,
@@ -20,14 +19,6 @@
 
     Output:
         - Smallest positive integer missing from the array.
-
-    Time Complexity:
-        - O(n log n): Due to the sorting step.
-        - O(n): For traversing the sorted array.
-        - Overall: O(n log n).
-
-    Space Complexity:
-        - O(1): No extra data structures used apart from variables.
 
     Author: Siddhi
 */
