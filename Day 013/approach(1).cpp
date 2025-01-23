@@ -1,5 +1,6 @@
 /*
-    Title: Find the Minimum Missing Positive Integer
+    Title: 
+        Find the Minimum Missing Positive Integer
     Description:
         This program identifies the smallest positive integer that is missing from an array.
         The program accounts for both positive and negative numbers, as well as duplicates,
