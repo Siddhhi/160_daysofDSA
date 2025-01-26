@@ -5,29 +5,12 @@
         from an array of integers. The solution modifies the array in-place
         to achieve an O(n) time complexity without requiring extra space.
 
-    Approach:
-        - Rearrange the array such that each positive integer `x` is placed at index `x-1`
-          if it falls within the range [1, size].
-        - After rearranging, traverse the array to identify the first index `i`
-          where `arr[i] != i+1`.
-        - Return `i+1` as the smallest missing positive integer.
-        - If all indices are correctly arranged, return `size+1`.
-
-        Special Case:
-        - Handles cases where the array size is zero or contains all negative integers.
-
     Input:
         - Size of the array (integer).
         - Array elements (integers).
 
     Output:
         - Smallest missing positive integer.
-
-    Time Complexity:
-        - O(n), as each element is moved to its correct position at most once.
-
-    Space Complexity:
-        - O(1), as no additional data structures are used apart from variables.
 
     Author: Siddhi
 */
