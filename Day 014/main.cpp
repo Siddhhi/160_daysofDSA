@@ -6,29 +6,12 @@
         such as leading spaces, optional sign symbols ('+' or '-'), and non-numeric characters.
         It follows the rules similar to the `atoi` function in C.
 
-    Approach:
-        - Skip leading whitespace characters.
-        - Identify the sign of the number (default is positive).
-        - Parse consecutive digits, constructing the integer result.
-        - Handle integer overflow by returning INT_MAX or INT_MIN as appropriate.
-        - Return the final signed integer.
-
-    Special Cases:
-        - Handles leading spaces, optional sign symbols, and invalid input gracefully.
-        - Prevents overflow by checking the result against INT_MAX and INT_MIN during computation.
-
     Input:
         - A string containing the representation of a number.
 
     Output:
         - The integer value derived from the string.
-
-    Time Complexity:
-        - O(n), where `n` is the length of the input string.
-
-    Space Complexity:
-        - O(1), as no additional data structures are used apart from variables.
-
+        
     Author: Siddhi
 */
 
