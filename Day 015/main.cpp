@@ -1,5 +1,6 @@
 /*
-    Title: Binary Addition of Two Strings
+    Title: 
+        Binary Addition of Two Strings
     Description:
         This program performs binary addition of two binary strings. It handles edge cases
         such as leading zeros in the input strings and ensures proper handling of carries during
