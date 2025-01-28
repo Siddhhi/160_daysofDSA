@@ -5,30 +5,13 @@
         This program performs binary addition of two binary strings. It handles edge cases
         such as leading zeros in the input strings and ensures proper handling of carries during
         the addition process.
-
-    Approach:
-        - Remove leading zeros from both binary strings using a helper function.
-        - Traverse both strings from the least significant bit (rightmost) to the most significant bit.
-        - Compute the bit sum of corresponding bits from both strings along with the carry.
-        - Update the carry and append the calculated bit to the result string.
-        - Reverse the result string at the end to get the final binary sum.
-
-    Special Cases:
-        - Handles cases where one or both input strings are empty.
-        - Handles cases with only zeros in the input strings.
-
+        
     Input:
         - Two binary strings representing non-negative binary numbers.
 
     Output:
         - The binary string representing the sum of the two input binary strings.
-
-    Time Complexity:
-        - O(max(m, n)), where `m` and `n` are the lengths of the two binary strings.
-
-    Space Complexity:
-        - O(max(m, n)), due to the result string.
-
+        
     Author:Siddhi
 */
 
