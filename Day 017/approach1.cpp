@@ -1,5 +1,6 @@
 /*
-    Title: First Non-Repeating Character (Brute Force)
+    Title: 
+        First Non-Repeating Character (Brute Force)
     Description:
         This program finds the first non-repeating character in a given string
         using a brute-force approach.
