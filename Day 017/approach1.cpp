@@ -4,29 +4,12 @@
     Description:
         This program finds the first non-repeating character in a given string
         using a brute-force approach.
-
-    Approach:
-        - Use two nested loops:
-          - The **outer loop** picks each character.
-          - The **inner loop** checks if the character appears again in the string.
-        - If a character is found **only once**, return it.
-        - If no unique character is found, return `'$'`.
-
-    Special Cases:
-        - Handles cases where all characters repeat.
-        - Works for both uppercase and lowercase characters.
-
+        
     Input:
         - A string.
 
     Output:
         - The first non-repeating character, or `'$'` if none exists.
-
-    Time Complexity:
-        - O(n²), where `n` is the length of the string.
-
-    Space Complexity:
-        - O(1), as no extra space is used apart from variables.
 
     Author: Siddhi
 */
