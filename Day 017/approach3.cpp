@@ -5,23 +5,7 @@
         This program finds the first non-repeating character in a given string 
         using an optimized approach with an auxiliary array for character tracking.
 
-    Approach:
-        - Use an array `arr[26]` to store character indices:
-          - If a character appears **for the first time**, store its index.
-          - If it appears **again**, mark it as `-2` (invalid).
-        - Find the minimum index from the array that is **not -1 or -2**.
-        - Return the corresponding character.
-
-    Special Cases:
-        - If no unique character is found, return `'$'`.
-
-    Time Complexity:
-        - O(n), where `n` is the length of the string.
-
-    Space Complexity:
-        - O(1), as only a fixed-sized array is used.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
