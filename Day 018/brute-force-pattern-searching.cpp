@@ -11,15 +11,6 @@
         - Count and display the number of comparisons.
         - Print all occurrences of the pattern.
 
-    Edge Cases:
-        - If the pattern length is greater than the text length, exit early.
-
-    Time Complexity:
-        - Worst-case: O(m * n), where m is the length of the text, and n is the pattern length.
-
-    Space Complexity:
-        - O(1), as it uses only a few integer variables.
-
     Author: Siddhi
 */
 
