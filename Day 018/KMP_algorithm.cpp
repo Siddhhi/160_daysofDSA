@@ -1,27 +1,11 @@
 /*
-    Title: KMP Pattern Searching Algorithm
+    Title: 
+        KMP Pattern Searching Algorithm
     Description:
         - This program searches for a pattern in a given text using
           the Knuth-Morris-Pratt (KMP) string matching algorithm.
         - The KMP algorithm preprocesses the pattern to create an LPS (Longest Prefix Suffix) array
           to optimize the searching process.
-
-    Approach:
-        1. Preprocess the pattern to create an LPS array.
-        2. Iterate through the text while comparing the pattern with the text.
-        3. When a mismatch occurs, use the LPS array to avoid unnecessary comparisons.
-        4. If the pattern is found, store the starting index and continue searching.
-
-    Edge Cases:
-        - If the pattern length is greater than the text length, no occurrences will be found.
-
-    Time Complexity:
-        - Worst-case: O(m + n), where m is the length of the text, and n is the length of the pattern.
-        - The time complexity is linear due to the preprocessing of the pattern and the linear scan of the text.
-
-    Space Complexity:
-        - O(n), where n is the length of the pattern, due to the storage of the LPS array.
-
     Author: Siddhi
 */
 
