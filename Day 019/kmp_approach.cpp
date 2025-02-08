@@ -8,12 +8,6 @@
         - Concatenate `s1` with itself: `text = s1 + s1`.
         - Use **KMP algorithm** to check if `s2` is a substring of `text`.
 
-    Time Complexity:
-        - O(n), where n is the length of `s1`.
-
-    Space Complexity:
-        - O(n), due to the LPS array.
-
     Author: Siddhi
 */
 
