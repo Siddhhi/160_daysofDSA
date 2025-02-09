@@ -1,5 +1,6 @@
 /*
-    Title: Minimum Characters for Palindrome
+    Title: 
+        Minimum Characters for Palindrome
     Description:
         - This program finds the minimum number of characters
           that need to be added at the beginning of a string
