@@ -5,17 +5,6 @@
         - This program finds the minimum number of characters
           that need to be added at the beginning of a string
           to make it a palindrome.
-
-    Approach:
-        - Check if progressively shorter prefixes form a palindrome.
-        - If not, keep reducing the prefix and counting required characters.
-
-    Time Complexity:
-        - Worst-case: O(n²), where n is the length of the string.
-
-    Space Complexity:
-        - O(1), as no extra space is used apart from variables.
-
     Author: Siddhi
 */
 
