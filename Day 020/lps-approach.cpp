@@ -4,19 +4,6 @@
         - This program finds the minimum number of characters
           that need to be added at the beginning of a string
           to make it a palindrome.
-
-    Approach:
-        - Uses the **Longest Prefix Suffix (LPS) Array** from the KMP algorithm.
-        - Construct a new string as `s + "$" + reverse(s)`.
-        - Compute the LPS array for this string.
-        - The minimum characters to add is calculated as `(Original Length - Last LPS value)`.
-
-    Time Complexity:
-        - O(n), where n is the length of the string (efficient LPS computation).
-
-    Space Complexity:
-        - O(n), due to the LPS array.
-
     Author: Siddhi
 */
 
