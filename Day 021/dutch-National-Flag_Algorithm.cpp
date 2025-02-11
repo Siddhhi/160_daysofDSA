@@ -3,20 +3,6 @@
     Description:
         - This program sorts an array containing only 0s, 1s, and 2s.
         - It uses the **Dutch National Flag Algorithm** for sorting.
-
-    Approach:
-        - Maintain three pointers: `low`, `mid`, and `high`.
-        - Swap elements and adjust pointers accordingly:
-            - If `arr[mid] == 0`, swap with `arr[low]` and increment both `low` and `mid`.
-            - If `arr[mid] == 1`, increment `mid`.
-            - If `arr[mid] == 2`, swap with `arr[high]` and decrement `high`.
-
-    Time Complexity:
-        - O(n), as we traverse the array once.
-
-    Space Complexity:
-        - O(1), as sorting is done in place.
-
     Author: Siddhi
 */
 
