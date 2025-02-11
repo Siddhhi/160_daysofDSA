@@ -17,7 +17,7 @@
     Space Complexity:
         - O(1), as sorting is done in place.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
