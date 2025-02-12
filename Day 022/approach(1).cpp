@@ -1,19 +1,9 @@
 /*
-    Title: H-Index Calculation (Sorting Approach)
+    Title: 
+        H-Index Calculation (Sorting Approach)
     Description:
         - This program calculates the **H-Index** of a researcher based on citation counts.
         - **H-Index Definition**: A researcher has an H-Index of `h` if they have at least `h` papers with `h` or more citations.
-
-    Approach:
-        - Sort the citation array in **descending order**.
-        - Traverse the sorted array and find the maximum `h` where `citations[h] ≥ h`.
-
-    Time Complexity:
-        - **O(n log n)** (Due to sorting)
-
-    Space Complexity:
-        - **O(1)** (No extra space used apart from variables)
-
     Author: Siddhi
 */
 
