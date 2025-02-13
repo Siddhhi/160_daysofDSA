@@ -3,17 +3,6 @@
     Description:
         - This program computes the **H-Index** in **O(n) time**.
         - Uses a **frequency array** instead of sorting.
-
-    Approach:
-        - Build a frequency array `freq[]` to count citations.
-        - Iterate from `size` down to 0 to accumulate citations and find `h`.
-
-    Time Complexity:
-        - O(n), as we only traverse the array twice.
-
-    Space Complexity:
-        - O(n), due to the frequency array.
-
     Author: Siddhi
 */
 
