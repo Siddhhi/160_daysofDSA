@@ -14,7 +14,7 @@
     Space Complexity:
         - O(n), due to the frequency array.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
