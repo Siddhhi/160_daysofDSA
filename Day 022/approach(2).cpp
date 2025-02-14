@@ -4,7 +4,6 @@
         - This program computes the **H-Index** in **O(n) time**.
         - Uses a **frequency array** instead of sorting.
     Author: Siddhi 
-    
 */
 
 #include <iostream>
