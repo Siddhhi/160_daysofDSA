@@ -3,20 +3,6 @@
     Description:
         - This program merges overlapping intervals when a **new interval** is inserted into a sorted list.
         - If intervals overlap, they are merged into a single interval.
-
-    Approach:
-        - Insert the new interval into the existing list.
-        - Sort the list based on start times.
-        - Merge overlapping intervals by comparing end times.
-
-    Time Complexity:
-        - **O(n log n)** (Due to sorting)
-        - **O(n)** (Merging process)
-        - **Overall: O(n log n)**
-
-    Space Complexity:
-        - **O(n)** (To store the merged intervals)
-
     Author: Siddhi
 */
 
