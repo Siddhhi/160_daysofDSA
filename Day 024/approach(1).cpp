@@ -1,5 +1,6 @@
 /*
-    Title: Merging Overlapping Intervals
+    Title: 
+        Merging Overlapping Intervals
     Description:
         - This program merges overlapping intervals when a **new interval** is inserted into a sorted list.
         - If intervals overlap, they are merged into a single interval.
