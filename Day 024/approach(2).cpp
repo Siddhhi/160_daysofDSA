@@ -4,6 +4,7 @@
     Description:
         - This program merges overlapping intervals when a **new interval** is inserted into a sorted list.
         - It efficiently merges without sorting, reducing the complexity to **O(n)**.
+    
     Author: Siddhi
 */
 
