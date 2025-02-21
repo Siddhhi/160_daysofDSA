@@ -1,6 +1,6 @@
 /*
-    Title: Merging Overlapping Intervals (Optimized O(n) Approach)
-
+    Title: 
+        Merging Overlapping Intervals (Optimized O(n) Approach)
     Description:
         - This program merges overlapping intervals when a **new interval** is inserted into a sorted list.
         - It efficiently merges without sorting, reducing the complexity to **O(n)**.
