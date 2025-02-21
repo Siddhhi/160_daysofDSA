@@ -5,6 +5,7 @@
         - This program merges overlapping intervals in a given list.
         - Two intervals [a, b] and [c, d] are overlapping if `c ≤ b`.
         - The result contains **non-overlapping merged intervals**.
+    
     Author:Siddhi
 */
 
