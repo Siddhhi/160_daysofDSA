@@ -5,18 +5,6 @@
         - This program merges overlapping intervals in a given list.
         - Two intervals [a, b] and [c, d] are overlapping if `c ≤ b`.
         - The result contains **non-overlapping merged intervals**.
-
-    Approach:
-        1. **Sort the intervals** by their start times.
-        2. **Iterate** through the sorted list and merge overlapping intervals.
-        3. Store and print the **merged intervals**.
-
-    Time Complexity:
-        - **O(n log n)** (Sorting step dominates)
-
-    Space Complexity:
-        - **O(n)** (Storing merged intervals)
-
     Author:Siddhi
 */
 
