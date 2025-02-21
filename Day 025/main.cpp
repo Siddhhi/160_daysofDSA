@@ -1,6 +1,6 @@
 /*
-    Title: Merging Overlapping Intervals (O(n log n) Approach)
-
+    Title: 
+        Merging Overlapping Intervals (O(n log n) Approach)
     Description:
         - This program merges overlapping intervals in a given list.
         - Two intervals [a, b] and [c, d] are overlapping if `c ≤ b`.
