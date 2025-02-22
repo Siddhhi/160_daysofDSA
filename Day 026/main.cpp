@@ -13,10 +13,6 @@
 
     Time Complexity:
         - **O(n log n)** (Sorting step dominates)
-
-    Space Complexity:
-        - **O(1)** (In-place processing)
-
     Author: Siddhi
 */
 
