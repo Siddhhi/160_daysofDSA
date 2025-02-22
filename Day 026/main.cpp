@@ -10,9 +10,6 @@
         1. **Sort the intervals** based on their end time using a greedy approach.
         2. **Iterate** through the sorted list and keep track of the current interval's end.
         3. **Count overlapping intervals** that need to be removed.
-
-    Time Complexity:
-        - **O(n log n)** (Sorting step dominates)
     Author: Siddhi
 */
 
