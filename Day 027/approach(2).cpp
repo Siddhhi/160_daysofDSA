@@ -6,19 +6,7 @@
         - The merging is done **without using extra space**.
         - The first array (`arr1`) has the smallest elements, while the second array (`arr2`) holds the larger elements.
 
-    Approach:
-        1. **Iterate** through `arr2` from the last element to the first.
-        2. **If an element of `arr2` is smaller** than the largest element in `arr1`, swap it.
-        3. **Shift elements of `arr1`** to insert the swapped element in the correct position.
-        4. **Repeat the process** to maintain the sorted order.
-
-    Time Complexity:
-        - **O(n * m)** (For each element in `arr2`, we perform at most `n` shifts)
-    
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
-    Author: Vishal
+    Author: Siddhi
 */
 
 #include <iostream>
