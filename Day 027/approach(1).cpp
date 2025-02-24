@@ -6,23 +6,7 @@
         - The merging is done **without using extra space**.
         - The first array (`arr1`) has the smallest elements, while the second array (`arr2`) holds the larger elements.
 
-    Approach:
-        1. **Two-pointer technique**:  
-           - Start from the last element of `arr1` (largest) and the first element of `arr2` (smallest).
-        2. **Swap elements**:
-           - If `arr1[i] > arr2[j]`, swap them.
-           - Move pointers (`i` left, `j` right).
-        3. **Sort both arrays**:
-           - This ensures elements remain in non-decreasing order.
-
-    Time Complexity:
-        - **O(n + m log m + n log n)**  
-          (Swapping takes O(n + m), sorting takes O(n log n + m log m))
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
