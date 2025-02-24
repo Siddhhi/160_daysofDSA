@@ -7,6 +7,7 @@
         - The first array (`arr1`) has the smallest elements, while the second array (`arr2`) holds the larger elements.
 
     Author: Siddhi
+    
 */
 
 #include <iostream>
