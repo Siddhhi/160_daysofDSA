@@ -6,7 +6,7 @@
         - A rotated sorted array is an array that was originally sorted in ascending order but was rotated at some pivot.
         - The minimum element is the pivot point.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
