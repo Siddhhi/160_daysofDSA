@@ -6,15 +6,6 @@
         - A rotated sorted array is an array that was originally sorted in ascending order but was rotated at some pivot.
         - The minimum element is the pivot point.
 
-    Approach:
-        1. **Binary Search Modification:**
-           - If `arr[low] < arr[high]`, the array is already sorted, return `arr[low]`.
-           - Find the middle index `mid`.
-           - If `arr[mid] > arr[high]`, the minimum is in the right half (`low = mid + 1`).
-           - Else, the minimum is in the left half (`high = mid`).
-        2. **Continue until `low == high`, which gives the minimum element.**
-
-
     Author: Vishal Singhaniya
 */
 
