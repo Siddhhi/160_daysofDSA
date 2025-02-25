@@ -14,11 +14,6 @@
            - Else, the minimum is in the left half (`high = mid`).
         2. **Continue until `low == high`, which gives the minimum element.**
 
-    Time Complexity:
-        - **O(log n)** (Binary search reduces search space by half in each step)
-
-    Space Complexity:
-        - **O(1)** (Only constant extra space used)
 
     Author: Vishal Singhaniya
 */
