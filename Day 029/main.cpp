@@ -6,16 +6,6 @@
         - It uses binary search to efficiently determine the **lower bound** and **upper bound** of the target.
         - The count is given by **(upper bound - lower bound)**.
 
-    Approach:
-        1. **Lower Bound (`lowerBound` function)**:
-           - Finds the **first occurrence** of the target element in the array.
-           - If `arr[mid] >= target`, move `high = mid - 1`, else move `low = mid + 1`.
-        2. **Upper Bound (`upperBound` function)**:
-           - Finds the **first element greater than** the target.
-           - If `arr[mid] > target`, move `high = mid - 1`, else move `low = mid + 1`.
-        3. **Count occurrences**:
-           - `upperBound - lowerBound` gives the count.
-
     Time Complexity:
         - **O(log n)** (Binary search in both functions)
 
