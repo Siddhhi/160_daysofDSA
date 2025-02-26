@@ -5,13 +5,6 @@
         - This program finds the number of times a given element appears in a sorted array.
         - It uses binary search to efficiently determine the **lower bound** and **upper bound** of the target.
         - The count is given by **(upper bound - lower bound)**.
-
-    Time Complexity:
-        - **O(log n)** (Binary search in both functions)
-
-    Space Complexity:
-        - **O(1)** (Only constant extra space used)
-
     Author: Siddhi
 */
 
