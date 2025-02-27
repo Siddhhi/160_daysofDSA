@@ -7,19 +7,7 @@
           on the appropriate half of the array.
         - The time complexity is **O(log n)**.
 
-    Approach:
-        1. **Finding the Pivot (`findPivot` function)**:
-           - The pivot is the **smallest element**, which also represents the rotation point.
-           - Uses binary search to efficiently find the pivot.
-        2. **Binary Search (`binarySearch` function)**:
-           - If the array is **not rotated**, perform normal **binary search** on the entire array.
-           - Otherwise, perform **binary search** on either the left or right portion (based on pivot location).
-        3. **Final Search (`search` function)**:
-           - First, find the **pivot index**.
-           - If the **pivot itself** is the target, return its index.
-           - If the **target lies in the left sorted half**, search in that portion.
-           - Otherwise, search in the right sorted half.
-
+    
     Time Complexity:
         - **O(log n)** (Binary search is applied twice)
 
