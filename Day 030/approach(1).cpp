@@ -7,13 +7,6 @@
           on the appropriate half of the array.
         - The time complexity is **O(log n)**.
 
-    
-    Time Complexity:
-        - **O(log n)** (Binary search is applied twice)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Siddhi
 */
 
