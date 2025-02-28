@@ -6,18 +6,6 @@
         - The problem guarantees at least one peak.
         - If multiple peaks exist, any peak index can be returned.
 
-    Approach:
-        1. **Naive Approach (O(n))**:
-           - Traverse the array and check each element.
-           - If an element is greater than both neighbors, return its index.
-        
-
-    Time Complexity:
-        - **O(n)** (Naive approach)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Siddhi
 */
 
