@@ -5,10 +5,6 @@
         - A peak element is an element that is **greater than or equal to its neighbors**.
         - The program efficiently finds a peak using **binary search**.
 
- 
-    Space Complexity:
-        - **O(1)** (Only constant extra space used)
-
     Author: Siddhi
 */
 
