@@ -1,5 +1,6 @@
 /*
-    Title: Finding a Peak Element in an Array (Binary Search Approach)
+    Title: 
+        Finding a Peak Element in an Array (Binary Search Approach)
 
     Description:
         - A peak element is an element that is **greater than or equal to its neighbors**.
