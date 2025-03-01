@@ -5,16 +5,7 @@
         - A peak element is an element that is **greater than or equal to its neighbors**.
         - The program efficiently finds a peak using **binary search**.
 
-    Approach:
-        1. **Binary Search (O(log n))**:
-           - Calculate `mid` of the current search space.
-           - If `arr[mid]` is **greater than both** neighbors, return `mid`.
-           - If the **right neighbor is greater**, move **right** (`low = mid + 1`).
-           - Else, move **left** (`high = mid - 1`).
-
-    Time Complexity:
-        - **O(log n)** (Efficient binary search approach)
-
+ 
     Space Complexity:
         - **O(1)** (Only constant extra space used)
 
