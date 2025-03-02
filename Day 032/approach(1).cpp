@@ -5,11 +5,6 @@
         - Given a sorted array of distinct positive integers, find the K-th missing positive integer.
         - The missing numbers start from 1.
 
-    Approach:
-        1. **Use a set to store the array elements for quick lookup (O(1) per check)**.
-        2. **Iterate through numbers starting from 1**, checking if they exist in the set.
-        3. **When we find K missing numbers, return the K-th missing one**.
-
     Author: Siddhi
 */
 
