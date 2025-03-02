@@ -10,13 +10,6 @@
         2. **Iterate through numbers starting from 1**, checking if they exist in the set.
         3. **When we find K missing numbers, return the K-th missing one**.
 
-    Time Complexity:
-        - **O(N)** (Iterating through numbers to find K missing ones)
-        - **O(1) average lookup time** for checking missing elements (using `set.count()`)
-
-    Space Complexity:
-        - **O(N)** (Set stores all elements of the array)
-
     Author: Siddhi
 */
 
