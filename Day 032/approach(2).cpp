@@ -1,5 +1,6 @@
 /*
-    Title: Finding the K-th Missing Positive Number in a Sorted Array
+    Title: 
+        Finding the K-th Missing Positive Number in a Sorted Array
 
     Description:
         - Given a sorted array of distinct positive integers, find the K-th missing positive integer.
