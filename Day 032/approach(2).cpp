@@ -7,18 +7,6 @@
         - The missing numbers start from 1.
         - The array is sorted in increasing order.
 
-    Approach:
-        1. Traverse the array and check for missing numbers.
-        2. At each index `i`, check if `arr[i] > (i + k)`.
-        3. If condition is met, return `i + k` because this is where the k-th missing element falls.
-        4. If no missing number is found within the array, return `size + k` (i.e., the k-th missing number is beyond the array elements).
-
-    Time Complexity:
-        - **O(N)** (Iterate through the array once)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Vishal Singhaniya
 */
 
