@@ -7,7 +7,7 @@
         - The missing numbers start from 1.
         - The array is sorted in increasing order.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
