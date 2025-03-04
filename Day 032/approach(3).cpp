@@ -7,7 +7,8 @@
         - We use a **binary search** approach to efficiently find the missing number.
 
    
-    Author: Vishal Singhaniya
+    Author: Siddhi
+
 */
 
 #include <iostream>
