@@ -6,14 +6,7 @@
         - The array is assumed to contain unique sorted positive integers.
         - We use a **binary search** approach to efficiently find the missing number.
 
-    Approach:
-        1. **Binary Search (`kthMissing` function)**:
-           - If `arr[mid] > mid + k`, it means the missing count is too high, so move left (`high = mid - 1`).
-           - Else, move right (`low = mid + 1`).
-           - The `res` variable stores the potential answer.
-        2. **Return the result**:
-           - If `low` crosses `high`, `res` holds the missing number.
-
+   
     Time Complexity:
         - **O(log n)** (Binary search reduces the search space efficiently)
 
