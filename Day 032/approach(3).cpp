@@ -7,12 +7,6 @@
         - We use a **binary search** approach to efficiently find the missing number.
 
    
-    Time Complexity:
-        - **O(log n)** (Binary search reduces the search space efficiently)
-
-    Space Complexity:
-        - **O(1)** (Only a few extra variables used)
-
     Author: Vishal Singhaniya
 */
 
