@@ -6,22 +6,6 @@
           **minimum distance** between any two cows is maximized.
         - Uses **binary search on answer** to efficiently find the optimal placement.
 
-    Approach:
-        1. **Sorting the Stall Positions**:
-           - Ensures cows are placed in increasing order.
-        2. **Binary Search (`aggressiveCows` function)**:
-           - Performs binary search on the possible minimum distances (from `1` to `maxDist`).
-           - Uses `checkCow()` to verify if cows can be placed with a given minimum distance.
-        3. **Checking Feasibility (`checkCow` function)**:
-           - Places cows greedily and checks if at least `K` cows can be accommodated.
-
-    Time Complexity:
-        - **O(N log(maxDist))** 
-          (Binary search on distance + O(N) checkCow function per iteration)
-
-    Space Complexity:
-        - **O(1)** (Only uses a few extra variables)
-
     Author: Siddhi
 */
 
