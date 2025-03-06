@@ -1,5 +1,5 @@
 /*
-    Title: Aggressive Cows - Maximum Minimum Distance Placement (Binary Search Approach)
+    Title: Aggressive Cows - Maximum Minimum Distance Placement.
 
     Description:
         - Given 'N' stalls and 'K' cows, place the cows in the stalls such that the 
@@ -22,7 +22,7 @@
     Space Complexity:
         - **O(1)** (Only uses a few extra variables)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
