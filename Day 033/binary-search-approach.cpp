@@ -7,12 +7,7 @@
         - Uses **binary search on answer** to efficiently find the optimal placement.
 
 
-    Time Complexity:
-        - **O(N log(maxDist))** 
-          (Binary search on distance + O(N) checkCow function per iteration)
 
-    Space Complexity:
-        - **O(1)** (Only uses a few extra variables)
 
     Author: Vishal Singhaniya
 */
