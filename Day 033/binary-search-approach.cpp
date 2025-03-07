@@ -7,9 +7,7 @@
         - Uses **binary search on answer** to efficiently find the optimal placement.
 
 
-
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
