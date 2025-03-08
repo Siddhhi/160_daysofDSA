@@ -6,14 +6,6 @@
           allocate books to minimize the **maximum number of pages** a student gets.
         - A student must read **contiguous books**.
 
-    Approach:
-        1. **Iterate through possible maximum page limits** from max(arr) to sum(arr).
-        2. **Use a helper function (`check`) to verify if books can be allocated under a given limit.**
-        3. **Return the first possible maximum pages that satisfy the condition.**
-
-    Time Complexity: **O(N²)** (since we check every page limit from max to sum).
-    Space Complexity: **O(1)** (No extra space used).
-
     Author: Siddhi
 */
 
