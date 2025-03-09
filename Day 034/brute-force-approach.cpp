@@ -14,15 +14,7 @@
 #include <algorithm> // For max_element()
 using namespace std;
 
-/**
- * @brief Checks if we can assign books such that no student gets more than 'pageLimit' pages.
- * 
- * @param arr Array of books with pages.
- * @param k Number of students.
- * @param pageLimit Maximum pages allowed per student.
- * @param size Number of books.
- * @return true if books can be allocated within the limit, false otherwise.
- */
+
 bool check(int arr[], int k, int pageLimit, int size) {
     int count = 1;  // Number of students assigned
     int pageSum = 0;
