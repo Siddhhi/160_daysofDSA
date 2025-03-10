@@ -6,11 +6,7 @@
         - Given two sorted arrays, find the **k-th smallest element** efficiently.
         - The arrays are sorted in non-decreasing order.
     
-    Approach:
-        1. **Use a merge approach** to simulate the merging of two sorted arrays.
-        2. **Maintain two pointers (`x` and `y`)** to track the position in each array.
-        3. **Advance the pointer with the smaller element** until reaching the k-th element.
-        4. **Return the k-th smallest element**.
+   
     
     Time Complexity: **O(k)** (We iterate at most k times)
     Space Complexity: **O(1)** (No extra space used apart from variables).
