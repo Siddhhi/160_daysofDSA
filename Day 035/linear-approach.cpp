@@ -6,11 +6,6 @@
         - Given two sorted arrays, find the **k-th smallest element** efficiently.
         - The arrays are sorted in non-decreasing order.
     
-   
-    
-    Time Complexity: **O(k)** (We iterate at most k times)
-    Space Complexity: **O(1)** (No extra space used apart from variables).
-    
     Author: Siddhi
 */
 
