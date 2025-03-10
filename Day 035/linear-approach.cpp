@@ -15,7 +15,7 @@
     Time Complexity: **O(k)** (We iterate at most k times)
     Space Complexity: **O(1)** (No extra space used apart from variables).
     
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
