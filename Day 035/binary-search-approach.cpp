@@ -5,9 +5,6 @@
         - Given two sorted arrays, find the k-th smallest element in their merged sorted form.
         - The arrays are independently sorted, and we need an efficient way to find the k-th smallest element.
 
-    Time Complexity: **O(log(min(size1, size2)))**
-    Space Complexity: **O(1)** (No extra space used)
-
     Author: Siddhi
 */
 
