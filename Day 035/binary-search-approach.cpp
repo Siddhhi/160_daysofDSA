@@ -16,7 +16,7 @@
     Time Complexity: **O(log(min(size1, size2)))**
     Space Complexity: **O(1)** (No extra space used)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
