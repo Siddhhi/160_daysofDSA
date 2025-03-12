@@ -15,7 +15,7 @@
     Time Complexity: **O(M * N)** (Each element is visited once).
     Space Complexity: **O(M * N)** (For the visited array).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
