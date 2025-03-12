@@ -12,8 +12,7 @@
         4. **Change direction cyclically when needed (`right → down → left → up`)**.
         5. **Repeat until all elements are printed**.
 
-    Time Complexity: **O(M * N)** (Each element is visited once).
-    Space Complexity: **O(M * N)** (For the visited array).
+   
 
     Author: Siddhi
 */
