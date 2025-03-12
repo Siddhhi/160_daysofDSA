@@ -5,15 +5,6 @@
         - Given an M x N matrix, print its elements in spiral order.
         - Start from the top-left corner and traverse in a clockwise spiral.
 
-    Approach:
-        1. **Use direction arrays (`dr` and `dc`) to move right, down, left, and up**.
-        2. **Maintain a `visited` matrix to track visited cells**.
-        3. **Start at (0,0) and follow the current direction until a boundary or visited cell is reached**.
-        4. **Change direction cyclically when needed (`right → down → left → up`)**.
-        5. **Repeat until all elements are printed**.
-
-   
-
     Author: Siddhi
 */
 
