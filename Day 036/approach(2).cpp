@@ -14,7 +14,7 @@
     Time Complexity: **O(M * N)** (Each element is visited once).
     Space Complexity: **O(M * N)** (For storing results in a vector).
 
-    Author: Vishal
+    Author: Siddhi
 */
 
 #include <iostream>
