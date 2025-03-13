@@ -5,11 +5,6 @@
         - Given an M x N matrix, print its elements in **spiral order**.
         - Start from the **top-left** and move in a clockwise spiral.
 
-    Approach:
-        1. **Use four boundaries**: `top`, `bottom`, `left`, `right`.
-        2. **Iterate through layers**, reducing boundaries when elements are traversed.
-        3. **Follow the sequence**: left to right → top to bottom → right to left → bottom to top.
-        4. **Continue until all elements are visited**.
 
     Time Complexity: **O(M * N)** (Each element is visited once).
     Space Complexity: **O(M * N)** (For storing results in a vector).
