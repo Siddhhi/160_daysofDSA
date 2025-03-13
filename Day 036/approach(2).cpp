@@ -5,10 +5,6 @@
         - Given an M x N matrix, print its elements in **spiral order**.
         - Start from the **top-left** and move in a clockwise spiral.
 
-
-    Time Complexity: **O(M * N)** (Each element is visited once).
-    Space Complexity: **O(M * N)** (For storing results in a vector).
-
     Author: Siddhi
 */
 
