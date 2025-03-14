@@ -4,10 +4,6 @@
     Problem Statement:
         - Given an N x N matrix, rotate it 90 degrees in a anticlockwise direction.
         - The rotation should be performed using an auxiliary matrix.
-    
-    
-    Time Complexity: **O(N²)**
-    Space Complexity: **O(N²)** (Since we use an extra matrix)
 
     Author: Siddhi
 */
