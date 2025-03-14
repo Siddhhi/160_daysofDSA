@@ -5,10 +5,6 @@
         - Given an N x N matrix, rotate it 90 degrees in a anticlockwise direction.
         - The rotation should be performed using an auxiliary matrix.
     
-    Approach:
-        1. **Use an extra matrix** to store the rotated values.
-        2. **Iterate over the original matrix** and place each element in its correct position.
-        3. **Print the rotated matrix** as the final output.
     
     Time Complexity: **O(N²)**
     Space Complexity: **O(N²)** (Since we use an extra matrix)
