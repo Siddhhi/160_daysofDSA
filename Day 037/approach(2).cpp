@@ -1,16 +1,12 @@
 /*
     Title: Rotate an N × N Matrix 90 Degrees Clockwise (In-Place)
 
-
     Approach:
     - Process the matrix **layer by layer** (like peeling an onion).
     - Swap **four elements** at a time, moving them **clockwise**.
     - Repeat for all **layers** from outermost to innermost.
 
-    Time Complexity: **O(N²)**
-    Space Complexity: **O(1)** (In-Place)
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
