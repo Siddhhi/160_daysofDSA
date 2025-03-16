@@ -12,7 +12,7 @@
     Time Complexity: **O(N²)**
     Space Complexity: **O(1)** (In-place rotation)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
