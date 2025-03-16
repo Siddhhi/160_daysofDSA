@@ -9,9 +9,6 @@
         1. **Transpose the matrix** (swap arr[i][j] with arr[j][i]).
         2. **Reverse each row** to complete the rotation.
 
-    Time Complexity: **O(N²)**
-    Space Complexity: **O(1)** (In-place rotation)
-
     Author: Siddhi
 */
 
