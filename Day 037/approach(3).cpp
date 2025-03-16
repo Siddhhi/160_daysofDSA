@@ -5,10 +5,6 @@
         - Given an **N × N matrix**, rotate it **90 degrees clockwise** **in-place**.
         - Do this **without using extra space**.
 
-    Approach:
-        1. **Transpose the matrix** (swap arr[i][j] with arr[j][i]).
-        2. **Reverse each row** to complete the rotation.
-
     Author: Siddhi
 */
 
