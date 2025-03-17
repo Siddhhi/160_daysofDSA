@@ -5,8 +5,6 @@
         - Implement a function to search for an element in an M x N matrix 
           where each row and column is sorted in increasing order.
 
-   
-
     Author: Siddhi
 */
 
