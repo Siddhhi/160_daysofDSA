@@ -5,19 +5,7 @@
         - Implement a function to search for an element in an M x N matrix 
           where each row and column is sorted in increasing order.
 
-    Approach:
-        - Iterate through the entire matrix using a **brute-force** approach.
-        - Compare each element with the target value.
-        - If the target value is found, return `true`, else return `false`.
-
-    Returns:
-        - true if the element is found, false otherwise
-
-    Time Complexity:
-        - **O(M * N)** (where M = rows, N = columns)
-
-    Space Complexity:
-        - **O(1)** (constant extra space)
+   
 
     Author: Siddhi
 */
