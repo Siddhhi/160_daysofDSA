@@ -19,7 +19,7 @@
     Space Complexity:
         - **O(1)** (constant extra space)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
