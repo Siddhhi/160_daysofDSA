@@ -4,21 +4,7 @@
     Problem Statement:
         - Implement a function to search for an element in an M x N matrix 
           where each row and column is sorted in increasing order.
-
-    Approach:
-        - Start from the **top-right** corner.
-        - Move **left** if the target is smaller.
-        - Move **down** if the target is larger.
-        - This ensures that we eliminate either a row or a column in each step.
-
-    Returns:
-        - true if the element is found, false otherwise
-    Time Complexity:
-        - **O(M + N)** (where M = rows, N = columns)
-
-    Space Complexity:
-        - **O(1)** (constant extra space)
-
+          
     Author: Siddhi
 */
 
