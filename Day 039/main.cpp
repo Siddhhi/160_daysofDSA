@@ -5,15 +5,7 @@
         - Implement a function to search for an element in an M x N matrix 
           where each row is sorted in increasing order.
 
-    Approach:
-        - **Binary Search on Rows**:
-          1. Perform a binary search on each row individually.
-          2. If the element is found in any row, return `true`.
-          3. If no match is found after checking all rows, return `false`.
-
-    Returns:
-        - true if the element is found, false otherwise
-
+  
     Time Complexity:
         - **O(M * logN)** (where M = rows, N = columns)
         - Since each row is sorted, binary search runs in **O(logN)** for each of the **M** rows.
