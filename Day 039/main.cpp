@@ -5,14 +5,6 @@
         - Implement a function to search for an element in an M x N matrix 
           where each row is sorted in increasing order.
 
-  
-    Time Complexity:
-        - **O(M * logN)** (where M = rows, N = columns)
-        - Since each row is sorted, binary search runs in **O(logN)** for each of the **M** rows.
-
-    Space Complexity:
-        - **O(1)** (constant extra space)
-
     Author: Siddhi
 */
 
