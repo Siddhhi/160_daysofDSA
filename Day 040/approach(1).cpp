@@ -5,11 +5,7 @@
         - Implement a function to search for an element in an M x N matrix
           where each row is sorted in increasing order.
 
-    Approach:
-        - **Two-Step Binary Search**:
-          1. Perform **binary search on the first column** to determine the potential row.
-          2. Perform **binary search on the identified row** to find the element.
-
+   
     Returns:
         - true if the element is found, false otherwise
 
