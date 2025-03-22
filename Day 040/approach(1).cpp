@@ -4,16 +4,6 @@
     Problem Statement:
         - Implement a function to search for an element in an M x N matrix
           where each row is sorted in increasing order.
-
-   
-    Returns:
-        - true if the element is found, false otherwise
-
-    Time Complexity:
-        - **O(logM + logN)** (where M = rows, N = columns)
-        - First binary search takes **O(logM)** to find the row.
-        - Second binary search takes **O(logN)** to search within the row.
-
     Space Complexity:
         - **O(1)** (constant extra space)
 
