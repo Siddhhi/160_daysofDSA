@@ -6,12 +6,7 @@
           where each row is sorted in increasing order.
         - Treat the 2D matrix as a flattened 1D array and apply binary search.
 
-    Approach:
-        - Perform **binary search on the virtual 1D array**.
-        - Convert **1D index to 2D indices** using:
-          - **row = mid / columns**
-          - **col = mid % columns**
-
+   
     Returns:
         - true if the element is found, false otherwise
 
