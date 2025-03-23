@@ -6,16 +6,6 @@
           where each row is sorted in increasing order.
         - Treat the 2D matrix as a flattened 1D array and apply binary search.
 
-   
-    Returns:
-        - true if the element is found, false otherwise
-
-    Time Complexity:
-        - **O(log(M * N))** (binary search on M × N elements)
-
-    Space Complexity:
-        - **O(1)** (constant extra space)
-
     Author: Vishal Singhaniya
 */
 
