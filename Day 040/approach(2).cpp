@@ -6,7 +6,7 @@
           where each row is sorted in increasing order.
         - Treat the 2D matrix as a flattened 1D array and apply binary search.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
