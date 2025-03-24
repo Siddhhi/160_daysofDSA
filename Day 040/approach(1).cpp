@@ -1,6 +1,5 @@
 /*
     Title: Search an Element in a Sorted Matrix using Binary Search
-
     Problem Statement:
         - Implement a function to search for an element in an M x N matrix
           where each row is sorted in increasing order.
