@@ -5,13 +5,6 @@
         - Implement a function to modify an M × N matrix such that if an element 
           is 0, its entire row and column are set to 0.
 
-    Approach:
-        - Use two boolean vectors to track which rows and columns should be zeroed.
-        - Traverse the matrix once to mark the rows and columns that contain 0.
-        - Traverse the matrix again to update the marked rows and columns to 0.
-
-   )
-
     Author: Siddhi
 */
 
