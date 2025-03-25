@@ -19,7 +19,7 @@
     Space Complexity:
         - **O(M + N)** (extra space for row and column markers)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
