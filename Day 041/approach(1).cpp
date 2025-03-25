@@ -10,14 +10,7 @@
         - Traverse the matrix once to mark the rows and columns that contain 0.
         - Traverse the matrix again to update the marked rows and columns to 0.
 
-    Returns:
-        - The modified matrix with appropriate rows and columns set to zero.
-
-    Time Complexity:
-        - **O(M * N)** (traverse the matrix twice)
-
-    Space Complexity:
-        - **O(M + N)** (extra space for row and column markers)
+   )
 
     Author: Siddhi
 */
