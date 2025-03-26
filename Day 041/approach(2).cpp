@@ -5,14 +5,6 @@
         - Implement a function to modify an M × N matrix such that if an element 
           is 0, its entire row and column are set to 0.
         - Optimize space usage by utilizing the first row and first column as markers.
-    Returns:
-        - The modified matrix with appropriate rows and columns set to zero.
-
-    Time Complexity:
-        - **O(M * N)** (traverse the matrix twice)
-
-    Space Complexity:
-        - **O(1)** (no extra space used)
 
     Author: Siddhi
 */
