@@ -5,15 +5,6 @@
         - Implement a function to modify an M × N matrix such that if an element 
           is 0, its entire row and column are set to 0.
         - Optimize space usage by utilizing the first row and first column as markers.
-
-    Approach:
-        - Use the **first row and first column** to store markers indicating if 
-          a row or column should be zeroed.
-        - Use a separate variable (`c0`) to track whether the first column should be zeroed.
-        - Traverse the matrix in two passes:
-          1. **First pass:** Identify zeroes and mark the first row/column.
-          2. **Second pass:** Use markers to update the matrix.
-
     Returns:
         - The modified matrix with appropriate rows and columns set to zero.
 
