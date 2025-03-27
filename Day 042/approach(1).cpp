@@ -1,9 +1,5 @@
 /*
     Title: Check if a Pair Exists with a Given Sum in an Array (Brute Force Approach)
-    
-    Problem Statement:
-        - Implement a function that checks whether there exists a pair of numbers in an array 
-          that sums up to a given target.
 
     Approach:
         - Use a **brute force** approach with **nested loops** to check all possible pairs.
