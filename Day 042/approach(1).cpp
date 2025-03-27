@@ -4,7 +4,7 @@
     Approach:
         - Use a **brute force** approach with **nested loops** to check all possible pairs.
         - If a pair with the given sum is found, return `true`, otherwise return `false`.
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
