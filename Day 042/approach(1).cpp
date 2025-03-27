@@ -4,16 +4,6 @@
     Approach:
         - Use a **brute force** approach with **nested loops** to check all possible pairs.
         - If a pair with the given sum is found, return `true`, otherwise return `false`.
-
-    Returns:
-        - `true` if a pair exists with the target sum, otherwise `false`.
-
-    Time Complexity:
-        - **O(n²)** (nested loops checking all pairs)
-
-    Space Complexity:
-        - **O(1)** (no extra space used)
-
     Author: Vishal Singhaniya
 */
 
