@@ -9,10 +9,6 @@
         - **Sort the array** first.
         - Iterate through the array and for each element, compute the **required complement**.
         - Use **binary search** to check if the complement exists in the remaining part of the array.
-
-    Space Complexity:
-        - **O(1)** (no extra space used)
-
     Author: Siddhi
 */
 
