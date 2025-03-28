@@ -10,12 +10,6 @@
         - Iterate through the array and for each element, compute the **required complement**.
         - Use **binary search** to check if the complement exists in the remaining part of the array.
 
-    Returns:
-        - `true` if a pair exists with the target sum, otherwise `false`.
-
-    Time Complexity:
-        - **O(n log n)** (sorting: O(n log n), binary search for each element: O(log n))
-
     Space Complexity:
         - **O(1)** (no extra space used)
 
