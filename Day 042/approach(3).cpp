@@ -5,16 +5,7 @@
         - Given an array of integers, determine if there exist two numbers 
           that add up to a given target sum.
 
-    Approach:
-        - **Sort the array** first.
-        - Use **two pointers** (`left` at the beginning, `right` at the end).
-        - Calculate the sum:
-            - If sum equals `target`, return `true`.
-            - If sum is smaller, move `left` forward to increase sum.
-            - If sum is larger, move `right` backward to decrease sum.
-
-    Returns:
-        - `true` if a pair exists with the target sum, otherwise `false`.
+   
 
     Time Complexity:
         - **O(n log n)** (sorting: O(n log n), two-pointer scan: O(n), overall: O(n log n))
