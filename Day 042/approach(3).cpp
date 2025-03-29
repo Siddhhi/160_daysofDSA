@@ -5,14 +5,6 @@
         - Given an array of integers, determine if there exist two numbers 
           that add up to a given target sum.
 
-   
-
-    Time Complexity:
-        - **O(n log n)** (sorting: O(n log n), two-pointer scan: O(n), overall: O(n log n))
-
-    Space Complexity:
-        - **O(1)** (no extra space used)
-
     Author: Vishal Singhaniya
 */
 
