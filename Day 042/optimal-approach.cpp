@@ -8,7 +8,7 @@
     Returns:
         - `true` if a pair exists with the target sum, otherwise `false`.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
