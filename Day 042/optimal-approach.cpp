@@ -8,12 +8,6 @@
     Returns:
         - `true` if a pair exists with the target sum, otherwise `false`.
 
-    Time Complexity:
-        - **O(n)** (Single pass with `O(1)` insert & lookup in hash set)
-
-    Space Complexity:
-        - **O(n)** (Storing elements in the hash set)
-
     Author: Vishal Singhaniya
 */
 
