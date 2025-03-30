@@ -5,14 +5,6 @@
         - Given an array of integers, determine if there exist two numbers 
           that add up to a given target sum.
 
-    Approach:
-        - Use an **unordered_set** (hash set) to track seen elements.
-        - Iterate through the array:
-            - Compute the complement (`target - arr[i]`).
-            - If the complement exists in the set → Return `true`.
-            - Otherwise, insert `arr[i]` into the set.
-        - If no pair is found → Return `false`.
-
     Returns:
         - `true` if a pair exists with the target sum, otherwise `false`.
 
