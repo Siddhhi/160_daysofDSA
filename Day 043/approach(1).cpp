@@ -4,11 +4,6 @@
     Problem Statement:
         - Given an array of integers, count the number of pairs (i, j) where arr[i] + arr[j] equals a target sum.
 
-    Approach:
-        - Use two nested loops to check all possible pairs.
-        - If the sum of a pair equals the target, increment the counter.
-        - Return the total count of such pairs.
-
     Returns:
         - The number of pairs that satisfy the condition.
 
