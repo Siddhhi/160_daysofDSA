@@ -7,12 +7,6 @@
     Returns:
         - The number of pairs that satisfy the condition.
 
-    Time Complexity:
-        - **O(n²)** (Since we use two nested loops)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Siddhi
 */
 
