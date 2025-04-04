@@ -5,7 +5,6 @@
         - Given an array of integers, count the number of pairs (i, j) where arr[i] + arr[j] equals a target sum.
     Returns:
         - The number of pairs that satisfy the condition.
-
     Author: Siddhi
 */
 
