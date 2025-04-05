@@ -4,17 +4,7 @@
     Problem Statement:
         - Given an array of integers, count the number of unique pairs (i, j) such that arr[i] + arr[j] equals a target sum.
 
-    Approach:
-        - **Sort the array** to enable two-pointer traversal.
-        - Initialize two pointers: `left` (start) and `right` (end).
-        - Traverse the array:
-            - If `arr[left] + arr[right] == target`:
-                - Count duplicate occurrences of `arr[left]` and `arr[right]` for multiple pairs.
-                - Add `c1 * c2` to the total count.
-            - If sum is greater than target → Move `right` pointer left.
-            - If sum is smaller than target → Move `left` pointer right.
-        - Continue until `left < right`.
-
+    
     Returns:
         - The number of unique pairs that satisfy the condition.
 
