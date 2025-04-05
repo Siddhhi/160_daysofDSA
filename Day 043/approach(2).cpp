@@ -4,15 +4,8 @@
     Problem Statement:
         - Given an array of integers, count the number of unique pairs (i, j) such that arr[i] + arr[j] equals a target sum.
 
-    
     Returns:
         - The number of unique pairs that satisfy the condition.
-
-    Time Complexity:
-        - **O(n log n) + O(n) = O(n log n)** (Sorting + Two-pointer traversal)
-
-    Space Complexity:
-        - **O(1)** (In-place sorting and two-pointer traversal)
 
     Author: Vishal Singhaniya
 */
