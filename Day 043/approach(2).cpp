@@ -7,7 +7,7 @@
     Returns:
         - The number of unique pairs that satisfy the condition.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
