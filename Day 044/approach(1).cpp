@@ -4,21 +4,6 @@
     Problem Statement:
         - Given an array of integers, find all unique triplets whose sum equals zero.
 
-    Approach:
-        - Use a **brute force** method with three nested loops.
-        - Iterate through all possible triplets in the array.
-        - Check if the sum of any three numbers is zero.
-        - Print the valid triplets.
-
-    Returns:
-        - Prints all unique triplets that satisfy the condition.
-
-    Time Complexity:
-        - **O(n³)** (Three nested loops for checking all triplets)
-
-    Space Complexity:
-        - **O(1)** (Constant extra space usage)
-
     Author: Siddhi
 */
 
