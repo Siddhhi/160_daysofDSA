@@ -4,20 +4,6 @@
     Problem Statement:
         - Given an array of integers, find all unique triplets whose sum equals zero.
 
-    Approach:
-        - Use **hashing** to efficiently find pairs that sum to a required value.
-        - Iterate through the array and use an **unordered_set** to check complements.
-        - Store results in a **set of vectors** to ensure uniqueness.
-    
-    Returns:
-        - Prints all unique triplets that satisfy the condition.
-
-    Time Complexity:
-        - **O(n²)** (Using hashing to reduce unnecessary iterations)
-
-    Space Complexity:
-        - **O(n)** (For storing visited elements)
-
     Author: Vishal Singhaniya
 */
 
