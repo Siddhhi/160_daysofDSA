@@ -4,7 +4,7 @@
     Problem Statement:
         - Given an array of integers, find all unique triplets whose sum equals zero.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
