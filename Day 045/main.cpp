@@ -4,21 +4,7 @@
     Problem Statement:
         - Given two integer arrays, find their intersection (i.e., common elements without duplicates).
 
-    Approach:
-        - Use an **unordered_set** to store unique elements from the first array.
-        - Iterate through the second array and check if the element exists in the set.
-        - If found, add it to the result and remove it from the set to avoid duplicates.
-
-    Returns:
-        - A vector containing the unique intersection of the two arrays.
-
-    Time Complexity:
-        - **O(n + m)** (where n and m are the sizes of the two arrays, using set operations efficiently)
-
-    Space Complexity:
-        - **O(min(n, m))** (storing the smaller array in a set)
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
