@@ -4,7 +4,7 @@
     Problem Statement:
         - Given two integer arrays, find their union (all unique elements from both arrays).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
