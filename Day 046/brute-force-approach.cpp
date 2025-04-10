@@ -4,19 +4,6 @@
     Problem Statement:
         - Given two integer arrays, find their union (all unique elements from both arrays).
 
-    Approach:
-        - Use a result vector and manually check for duplicates before inserting elements.
-        - Traverse both arrays and add unique elements to the result vector.
-
-    Returns:
-        - A vector containing the unique union of the two arrays.
-
-    Time Complexity:
-        - **O(n * m)** in the worst case (for each element, checking if it already exists).
-
-    Space Complexity:
-        - **O(n + m)** (storing unique elements in a result vector).
-
     Author: Vishal Singhaniya
 */
 
