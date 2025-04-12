@@ -7,16 +7,6 @@
     Approach:
         - Use an **unordered_set** to store unique elements from both arrays.
         - Convert the set back to a **vector** and return it.
-
-    Returns:
-        - A vector containing the unique union of the two arrays.
-
-    Time Complexity:
-        - **O(n + m)** (where n and m are the sizes of the two arrays, using set operations efficiently)
-
-    Space Complexity:
-        - **O(n + m)** (since we store all unique elements)
-
     Author: Vishal Singhaniya
 */
 
