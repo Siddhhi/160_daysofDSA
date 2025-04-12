@@ -3,10 +3,7 @@
 
     Problem Statement:
         - Given two integer arrays, find their union (all unique elements from both arrays).
-
-    Approach:
-        - Use an **unordered_set** to store unique elements from both arrays.
-        - Convert the set back to a **vector** and return it.
+        
     Author: Vishal Singhaniya
 */
 
