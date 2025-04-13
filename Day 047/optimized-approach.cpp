@@ -4,14 +4,6 @@
     Problem Statement:
         - Given an array of integers, find the length of the longest consecutive subsequence.
 
-    Approach:
-        - Sort the array.
-        - Traverse through the sorted array and count the longest consecutive sequence.
-        - Skip duplicate elements and reset count when the sequence breaks.
-
-    Time Complexity:
-        - **O(n log n)** (due to sorting)
-
     Space Complexity:
         - **O(1)** (constant extra space used)
 
