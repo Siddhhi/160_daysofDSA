@@ -4,9 +4,6 @@
     Problem Statement:
         - Given an array of integers, find the length of the longest consecutive subsequence.
 
-    Space Complexity:
-        - **O(1)** (constant extra space used)
-
     Author: Vishal Singhaniya
 */
 
