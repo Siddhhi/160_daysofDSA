@@ -4,13 +4,7 @@
     Problem Statement:
         - Given an array of integers, find the length of the longest consecutive subsequence.
 
-    Time Complexity:
-        - **O(n)** (Each element is processed at most twice)
-
-    Space Complexity:
-        - **O(n)** (To store elements in the set)
-
-    Author: Vishal Singhaniya
+    Author: Siddhi 
 */
 
 #include <iostream>
