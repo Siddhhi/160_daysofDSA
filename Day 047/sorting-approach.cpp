@@ -4,13 +4,6 @@
     Problem Statement:
         - Given an array of integers, find the length of the longest consecutive subsequence.
 
-    Optimized Approach:
-        - Use an **unordered_set** to store all elements for quick lookups.
-        - Iterate through the array, and for each element:
-            - Check if it's the start of a new sequence (i.e., `num - 1` is not in the set).
-            - If it is, count the length of the consecutive sequence.
-            - Update the longest length accordingly.
-
     Time Complexity:
         - **O(n)** (Each element is processed at most twice)
 
