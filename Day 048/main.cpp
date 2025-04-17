@@ -17,7 +17,7 @@
     Space Complexity:
         - **O(n * m)** (For storing strings in the hash map)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
