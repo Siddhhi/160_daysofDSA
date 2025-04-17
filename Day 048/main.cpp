@@ -14,8 +14,6 @@
         - **O(n * m log m)** (where n = number of strings, m = average string length)
         - Sorting each string takes **O(m log m)**, and inserting into a map is **O(1)**.
 
-    Space Complexity:
-        - **O(n * m)** (For storing strings in the hash map)
 
     Author: Siddhi
 */
