@@ -4,17 +4,6 @@
     Problem Statement:
         - Given an array of strings, group the anagrams together.
 
-    Optimized Approach:
-        - Use an **unordered_map<string, vector<string>>**:
-            - Sort each string alphabetically to create a unique key.
-            - Store the original string in a vector mapped to this sorted key.
-        - Extract all grouped anagrams from the map into a result vector.
-
-    Time Complexity:
-        - **O(n * m log m)** (where n = number of strings, m = average string length)
-        - Sorting each string takes **O(m log m)**, and inserting into a map is **O(1)**.
-
-
     Author: Siddhi
 */
 
