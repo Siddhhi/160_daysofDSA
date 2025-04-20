@@ -9,12 +9,6 @@
         - Maintain a `sum` variable to store the current subarray sum.
         - If `sum` matches `k`, increment the count.
 
-    Time Complexity:
-        - **O(n²)** (Due to nested loops iterating over all subarrays)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Vishal Singhaniya
 */
 
