@@ -3,12 +3,6 @@
 
     Problem Statement:
         - Given an array of integers and a target sum `k`, find the number of subarrays whose sum equals `k`.
-
-    Approach:
-        - Use a **nested loop** to iterate over all possible subarrays.
-        - Maintain a `sum` variable to store the current subarray sum.
-        - If `sum` matches `k`, increment the count.
-
     Author: Vishal Singhaniya
 */
 
