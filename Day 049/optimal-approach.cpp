@@ -4,11 +4,6 @@
     Problem Statement:
         - Given an array of integers and a target sum `k`, find the number of subarrays whose sum equals `k`.
 
-        - **O(n)** (Each element is processed once)
-
-    Space Complexity:
-        - **O(n)** (For storing prefix sum frequencies)
-
     Author: Vishal Singhaniya
 */
 
