@@ -4,7 +4,7 @@
     Problem Statement:
         - Given an array of integers and a target sum `k`, find the number of subarrays whose sum equals `k`.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
