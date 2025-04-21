@@ -4,13 +4,6 @@
     Problem Statement:
         - Given an array of integers and a target sum `k`, find the number of subarrays whose sum equals `k`.
 
-    Optimized Approach:
-        - Use an **unordered_map** to store the prefix sum frequencies.
-        - Traverse the array while maintaining the cumulative sum (`currSum`).
-        - Check if `currSum - k` exists in the map, which indicates a valid subarray.
-        - Update the count and store the current sum in the map.
-
-    Time Complexity:
         - **O(n)** (Each element is processed once)
 
     Space Complexity:
