@@ -4,14 +4,7 @@
     Problem Statement:
         - Given an array of integers and a target XOR value `k`, find the number of subarrays whose XOR equals `k`.
 
-    Approach:
-        - Use a **nested loop** to iterate over all possible subarrays.
-        - Maintain a `preXOR` variable to store the current subarray XOR.
-        - If `preXOR` matches `k`, increment the count.
-
-    Time Complexity:
-        - **O(n²)** (Due to nested loops iterating over all subarrays)
-
+   
     Space Complexity:
         - **O(1)** (No extra space used)
 
