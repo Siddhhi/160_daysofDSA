@@ -11,7 +11,7 @@
     Space Complexity:
         - **O(n)** (To store prefix XOR frequencies)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
