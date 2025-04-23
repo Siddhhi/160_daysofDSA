@@ -4,13 +4,7 @@
     Problem Statement:
         - Given an array of integers and a target XOR value `k`, find the number of subarrays whose XOR equals `k`.
 
-    Optimized Approach:
-        - Use an **unordered_map** to store prefix XOR frequencies.
-        - Traverse the array while maintaining the prefix XOR.
-        - If `preXOR == k`, increment the count.
-        - Check if `preXOR ^ k` exists in the hash map; if yes, add its frequency to count.
-        - Update the map with the current prefix XOR.
-
+  
     Time Complexity:
         - **O(n)** (Each element is processed once)
 
