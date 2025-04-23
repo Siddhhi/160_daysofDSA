@@ -4,13 +4,6 @@
     Problem Statement:
         - Given an array of integers and a target XOR value `k`, find the number of subarrays whose XOR equals `k`.
 
-  
-    Time Complexity:
-        - **O(n)** (Each element is processed once)
-
-    Space Complexity:
-        - **O(n)** (To store prefix XOR frequencies)
-
     Author: Siddhi
 */
 
