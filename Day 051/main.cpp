@@ -8,11 +8,6 @@
         - Use a **two-pointer approach** to find pairs that sum to (target - arr[i]).
         - If a valid pair is found, count occurrences efficiently.
 
-    Time Complexity:
-        - **O(n²)** (For each element, we use a two-pointer technique)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
 
     Author: Vishal Singhaniya
 */
