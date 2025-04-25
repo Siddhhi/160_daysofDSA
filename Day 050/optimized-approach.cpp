@@ -4,8 +4,7 @@
     Problem Statement:
         - Given an array of integers and a target XOR value `k`, find the number of subarrays whose XOR equals `k`.
 
-    Author: Siddhi Goyal
-    
+    Author: Siddhi Goyal 
 */
 
 #include <iostream>
