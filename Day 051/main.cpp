@@ -4,7 +4,7 @@
     Problem Statement:
         - Given a sorted array of integers, find the number of unique triplets (i, j, k) such that arr[i] + arr[j] + arr[k] == target.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
