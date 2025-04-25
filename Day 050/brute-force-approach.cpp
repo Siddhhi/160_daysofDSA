@@ -1,7 +1,6 @@
 /*
     Title: Count Subarrays with a Given XOR (Brute Force Approach)
 
-]
     Problem Statement:
         - Given an array of integers and a target XOR value `k`, find the number of subarrays whose XOR equals `k`.
 
