@@ -4,11 +4,6 @@
     Problem Statement:
         - Given a sorted array of integers, find the number of unique triplets (i, j, k) such that arr[i] + arr[j] + arr[k] == target.
 
-    Optimized Approach:
-        - Use a **two-pointer approach** to find pairs that sum to (target - arr[i]).
-        - If a valid pair is found, count occurrences efficiently.
-
-
     Author: Vishal Singhaniya
 */
 
