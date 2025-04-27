@@ -6,16 +6,6 @@
           find the number of pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] < target  (where i < j)
 
-    Approach:
-        - Use **nested loops** to check each pair in the array.
-        - If the sum of `arr[i] + arr[j]` is less than `target`, increment the count.
-
-    Time Complexity:
-        - **O(n²)** (Due to the nested loop iterating over all pairs)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Vishal Singhaniya
 */
 
