@@ -5,7 +5,6 @@
         - Given a **sorted** array of integers and a target sum `target`, 
           find the number of pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] < target  (where i < j)
-
     Author: Siddhi
 */
 
