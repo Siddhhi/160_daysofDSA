@@ -6,12 +6,6 @@
           find the number of pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] < target  (where i < j)
 
-    Time Complexity:
-        - **O(n)** (Linear time due to the two-pointer traversal)
-
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
     Author: Siddhi
 */
 
