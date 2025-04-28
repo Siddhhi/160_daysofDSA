@@ -6,15 +6,6 @@
           find the number of pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] < target  (where i < j)
 
-    Approach:
-        - Use the **two-pointer technique**:
-            1. Initialize `left` at the beginning and `right` at the end of the array.
-            2. If `arr[left] + arr[right] < target`, all pairs from `left` to `right` are valid.
-               - Increment `count` by `(right - left)`.
-               - Move `left` forward to check more pairs.
-            3. Otherwise, move `right` backward.
-        - This ensures **O(n) time complexity**, which is more efficient than brute force.
-
     Time Complexity:
         - **O(n)** (Linear time due to the two-pointer traversal)
 
