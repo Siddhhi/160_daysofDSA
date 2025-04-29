@@ -7,12 +7,6 @@
               |arr[i] + arr[j] - target| is minimized.
         - If multiple pairs have the same difference, return the pair with the **largest difference** between numbers.
 
-    Time Complexity:
-        - **O(n log n)** (Sorting takes O(n log n) if array is unsorted, otherwise O(n) with two pointers)
-
-    Space Complexity:
-        - **O(1)** (Only a few extra variables used)
-
     Author: Vishal Singhaniya
 */
 
