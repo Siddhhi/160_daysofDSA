@@ -7,7 +7,7 @@
               |arr[i] + arr[j] - target| is minimized.
         - If multiple pairs have the same difference, return the pair with the **largest difference** between numbers.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
