@@ -7,18 +7,6 @@
               |arr[i] + arr[j] - target| is minimized.
         - If multiple pairs have the same difference, return the pair with the **largest difference** between numbers.
 
-    Approach:
-        - Use the **two-pointer technique**:
-            1. Initialize `left` at the beginning and `right` at the end of the array.
-            2. Calculate `sum = arr[left] + arr[right]`.
-            3. Compare the absolute difference `|sum - target|`:
-               - If it is smaller than `minDiff`, update the result pair.
-               - If it is equal, prioritize the pair with a **larger difference** (`arr[right] - arr[left]`).
-            4. Move pointers based on sum comparison:
-               - If `sum > target`, decrement `right` to reduce the sum.
-               - If `sum < target`, increment `left` to increase the sum.
-               - If `sum == target`, break early.
-
     Time Complexity:
         - **O(n log n)** (Sorting takes O(n log n) if array is unsorted, otherwise O(n) with two pointers)
 
