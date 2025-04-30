@@ -6,16 +6,6 @@
           count the number of unique pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] == target  (where i < j)
 
-    Approach:
-        - Use **nested loops** to check each possible pair in the array.
-        - For every pair `(i, j)` where `i < j`, check if the sum is equal to the target.
-        - Increment the `count` for every valid pair.
-
-    Time Complexity:
-        - **O(n²)** (Due to the nested loop iterating over all possible pairs)
-
-   
-
     Author: Vishal Singhaniya
 */
 
