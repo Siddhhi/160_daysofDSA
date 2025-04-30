@@ -14,12 +14,7 @@
     Time Complexity:
         - **O(n²)** (Due to the nested loop iterating over all possible pairs)
 
-    Space Complexity:
-        - **O(1)** (No extra space used)
-
-    Assumption:
-        - The array is not necessarily sorted.
-        - Duplicate elements are allowed, and each valid `(i, j)` pair is counted only once.
+   
 
     Author: Vishal Singhaniya
 */
