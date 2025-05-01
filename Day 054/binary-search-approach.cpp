@@ -6,15 +6,7 @@
           count the number of unique pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] == target  (where i < j)
 
-    Approach:
-        - First, sort the array.
-        - For each element `arr[i]`, use binary search to find how many times 
-          `target - arr[i]` appears in the subarray `arr[i+1...n-1]`.
-        - Accumulate the count accordingly.
-
-    Time Complexity:
-        - **O(n log n)** for sorting + **O(n log n)** for binary search → **O(n log n)** total.
-
+   
     Space Complexity:
         - **O(1)** (in-place sorting and a few variables)
 
