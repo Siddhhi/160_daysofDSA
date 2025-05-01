@@ -6,7 +6,7 @@
           count the number of unique pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] == target  (where i < j)
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
