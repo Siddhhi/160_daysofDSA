@@ -6,14 +6,6 @@
           count the number of unique pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] == target  (where i < j)
 
-    Approach:
-        - First, sort the array.
-        - Use two pointers: one at the start and one at the end.
-        - Move them inward based on the sum, and count pairs using frequency if duplicates are found.
-
-    Time Complexity:
-        - **O(n log n)** for sorting + **O(n)** for two-pointer traversal → **O(n log n)** total.
-
     Space Complexity:
         - **O(1)** (in-place sorting and a few variables)
 
