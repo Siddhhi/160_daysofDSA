@@ -9,7 +9,7 @@
     Assumption:
         - Duplicates are allowed, and all valid `(i, j)` pairs (including duplicates) are counted.
 
-    Author: Vishal Singhaniya
+    Author:Siddhi
 */
 
 #include <iostream>
