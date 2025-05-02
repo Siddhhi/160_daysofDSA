@@ -6,9 +6,6 @@
           count the number of unique pairs `(arr[i], arr[j])` such that:
               arr[i] + arr[j] == target  (where i < j)
 
-    Space Complexity:
-        - **O(1)** (in-place sorting and a few variables)
-
     Assumption:
         - Duplicates are allowed, and all valid `(i, j)` pairs (including duplicates) are counted.
 
