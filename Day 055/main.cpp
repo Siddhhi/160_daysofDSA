@@ -7,14 +7,6 @@
               arr[i] + arr[j] > arr[k]  (triangle inequality)
               where i < j < k
 
-    Approach:
-        - First, sort the array.
-        - Fix the largest side (arr[i]) from the end and use two pointers
-          to find all valid pairs on its left.
-
-    Time Complexity:
-        - **O(n^2)** due to nested traversal and two-pointer search.
-
     Space Complexity:
         - **O(1)** extra space (in-place sorting and constant space).
 
