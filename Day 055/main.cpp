@@ -7,12 +7,6 @@
               arr[i] + arr[j] > arr[k]  (triangle inequality)
               where i < j < k
 
-    Space Complexity:
-        - **O(1)** extra space (in-place sorting and constant space).
-
-    Assumption:
-        - Only positive integers are considered valid side lengths.
-
     Author: Vishal Singhaniya
 */
 
