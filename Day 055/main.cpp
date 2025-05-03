@@ -7,7 +7,7 @@
               arr[i] + arr[j] > arr[k]  (triangle inequality)
               where i < j < k
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
