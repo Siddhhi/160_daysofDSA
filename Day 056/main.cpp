@@ -6,12 +6,7 @@
           return the start and end indices of a subarray that sums exactly to the target.
         - Use 1-based indexing for the output indices.
 
-    Approach:
-        - Use the sliding window technique to maintain a running sum.
-        - If the sum exceeds the target, shrink the window from the left.
-        - If the sum matches the target, return the start and end indices.
-
-    Time Complexity:
+   mplexity:
         - **O(n)** — Each element is added and removed at most once.
 
     Space Complexity:
