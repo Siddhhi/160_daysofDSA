@@ -6,15 +6,6 @@
           return the start and end indices of a subarray that sums exactly to the target.
         - Use 1-based indexing for the output indices.
 
-   mplexity:
-        - **O(n)** — Each element is added and removed at most once.
-
-    Space Complexity:
-        - **O(1)** extra space (just a few variables)
-
-    Assumption:
-        - Only positive integers are in the array.
-
     Author: Vishal Singhaniya
 */
 
