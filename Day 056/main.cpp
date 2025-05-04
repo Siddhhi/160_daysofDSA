@@ -6,7 +6,7 @@
           return the start and end indices of a subarray that sums exactly to the target.
         - Use 1-based indexing for the output indices.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
