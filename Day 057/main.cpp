@@ -5,13 +5,7 @@
         - Given an array of integers and a window size `target`,
           return the count of distinct elements in each subarray of size `target`.
 
-    Time Complexity:
-        - **O(n)** — Each element is added and removed at most once.
-
-    Space Complexity:
-        - **O(k)** where k is the size of the window (target).
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
