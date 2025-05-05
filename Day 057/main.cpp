@@ -5,11 +5,6 @@
         - Given an array of integers and a window size `target`,
           return the count of distinct elements in each subarray of size `target`.
 
-    Approach:
-        - Use the sliding window technique to traverse the array.
-        - Maintain a frequency map for elements within the current window.
-        - Update the map as the window slides, adding new elements and removing old ones.
-
     Time Complexity:
         - **O(n)** — Each element is added and removed at most once.
 
