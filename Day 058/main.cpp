@@ -1,20 +1,8 @@
 /*
     Title: Longest Substring Without Repeating Characters
-
     Problem Statement:
         - Given a string, return the length of the longest substring 
           without repeating characters.
-
-    Approach:
-        - Use the sliding window technique.
-        - Maintain a vector to store the last index of each character.
-        - Update the start of the window if a duplicate is found.
-
-    Time Complexity:
-        - **O(n)** — Each character is processed once.
-
-    Space Complexity:
-        - **O(1)** — Fixed size (26 for lowercase English letters)
 
     Author: Vishal Singhaniya
 */
