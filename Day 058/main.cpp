@@ -5,7 +5,7 @@
         - Given a string, return the length of the longest substring 
           without repeating characters.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
