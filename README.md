@@ -13,7 +13,9 @@ DATA STRUCTURES AND ALGORITHMS
 
 6. Hashing
 
-7. Two pointer approaches. 
+7. Two pointer approaches.
+
+8. Prefix Suffix Sum. 
  
 
     
