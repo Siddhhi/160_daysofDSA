@@ -13,4 +13,7 @@ DATA STRUCTURES AND ALGORITHMS
 
 6. Hashing
 
+7. Two pointer approaches. 
+ 
+
     
