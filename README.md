@@ -15,7 +15,9 @@ DATA STRUCTURES AND ALGORITHMS
 
 7. Two pointer approaches.
 
-8. Prefix Suffix Sum. 
+8. Prefix Suffix Sum.
+
+9. Linked List.  
  
 
     
