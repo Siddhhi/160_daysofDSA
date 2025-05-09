@@ -7,7 +7,7 @@
     Assumption:
         - Elevation map contains only non-negative integers.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
