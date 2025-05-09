@@ -5,15 +5,6 @@
         - Given an array representing the elevation map where the width of each bar is 1,
           compute how much water it can trap after raining.
 
-    Approach:
-        - Use two pointers starting from both ends of the array.
-        - Maintain the maximum heights seen so far from both left and right.
-        - At each step, move the pointer from the side with the smaller current max height,
-          and accumulate trapped water if the current height is less than the max.
-
-    Time Complexity:
-        - **O(n)** — Each element is visited at most once.
-
     Space Complexity:
         - **O(1)** — Constant space used.
 
