@@ -6,7 +6,7 @@
           to the left of it is equal to the sum of elements to the right.
         - Return the index if such a point exists, otherwise return -1.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
