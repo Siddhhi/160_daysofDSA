@@ -5,12 +5,6 @@
         - Given an array of integers, find an index such that the sum of elements 
           to the left of it is equal to the sum of elements to the right.
         - Return the index if such a point exists, otherwise return -1.
-        
-    Space Complexity:
-        - **O(1)** — No extra space used.
-
-    Assumption:
-        - The array can contain positive, negative, or zero elements.
 
     Author: Vishal Singhaniya
 */
