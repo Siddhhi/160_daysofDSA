@@ -5,13 +5,7 @@
         - Given an array of integers and an integer k,
           find the length of the longest subarray whose sum equals k.
 
-    Space Complexity:
-        - **O(1)** — No extra space used.
-
-    Assumption:
-        - The array can contain positive, negative, or zero elements.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
