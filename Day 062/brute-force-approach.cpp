@@ -5,10 +5,6 @@
         - Given an array of integers and an integer k,
           find the length of the longest subarray whose sum equals k.
 
- 
-    Time Complexity:
-        - **O(n²)** — Two nested loops.
-
     Space Complexity:
         - **O(1)** — No extra space used.
 
