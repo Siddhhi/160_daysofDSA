@@ -4,8 +4,6 @@
     Problem Statement:
         - Given an array of integers and an integer k,
           find the length of the longest subarray whose sum equals k.
-
-
     Author: Siddhi
 */
 
