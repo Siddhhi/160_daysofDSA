@@ -5,12 +5,6 @@
         - Given a binary array (containing only 0s and 1s),
           find the length of the longest subarray with equal number of 0s and 1s.
 
-    Optimized Approach:
-        - Convert 0s to -1s.
-        - Use prefix sum to track cumulative values.
-        - If a prefix sum repeats or becomes 0, the subarray in between has equal 0s and 1s.
-        - Use a hashmap to store the first occurrence of each prefix sum.
-
     Author: Vishal Singhaniya
 */
 
