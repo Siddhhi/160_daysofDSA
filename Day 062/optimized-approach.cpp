@@ -11,15 +11,6 @@
         - If a prefix sum repeats or becomes 0, the subarray in between has equal 0s and 1s.
         - Use a hashmap to store the first occurrence of each prefix sum.
 
-    Time Complexity:
-        - **O(n)** — Single traversal of array.
-
-    Space Complexity:
-        - **O(n)** — Hashmap to store prefix sums.
-
-    Assumption:
-        - The array contains only 0s and 1s.
-
     Author: Vishal Singhaniya
 */
 
