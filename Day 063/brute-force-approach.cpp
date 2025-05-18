@@ -5,9 +5,6 @@
         - Given a binary array (containing only 0s and 1s),
           find the length of the longest subarray with equal number of 0s and 1s.
 
-    Assumption:
-        - The array contains only 0s and 1s.
-
     Author: Vishal Singhaniya
 */
 
