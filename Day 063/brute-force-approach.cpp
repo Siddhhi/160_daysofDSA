@@ -5,18 +5,6 @@
         - Given a binary array (containing only 0s and 1s),
           find the length of the longest subarray with equal number of 0s and 1s.
 
-    Approach:
-        - Replace 0 with -1.
-        - For every possible subarray, calculate the sum.
-        - If the sum is 0, it means the number of 1s and 0s are equal.
-        - Track and update the maximum length.
-
-    Time Complexity:
-        - **O(n²)** — Two nested loops.
-
-    Space Complexity:
-        - **O(1)** — No extra space used.
-
     Assumption:
         - The array contains only 0s and 1s.
 
