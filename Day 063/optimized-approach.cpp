@@ -5,14 +5,6 @@
         - Given an array of integers and an integer k,
           find the length of the longest subarray whose sum equals k.
 
-        - **O(n)** — Single pass through the array.
-
-    Space Complexity:
-        - **O(n)** — Space used by the hashmap.
-
-    Assumption:
-        - The array can contain positive, negative, or zero elements.
-
     Author: Vishal Singhaniya
 */
 
