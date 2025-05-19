@@ -5,13 +5,6 @@
         - Given an array of integers and an integer k,
           find the length of the longest subarray whose sum equals k.
 
-    Approach:
-        - Use a prefix sum to keep track of cumulative sums.
-        - Use an unordered_map to store the first occurrence of each prefix sum.
-        - If the current prefix sum minus k is found in the map, a subarray with sum k exists.
-        - Update the maximum subarray length accordingly.
-
-    Time Complexity:
         - **O(n)** — Single pass through the array.
 
     Space Complexity:
