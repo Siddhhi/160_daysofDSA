@@ -7,7 +7,7 @@
         - Do not use division.
         - Assume all elements are integers and array size ≥ 2.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
