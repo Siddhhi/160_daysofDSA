@@ -6,7 +6,7 @@
         - Implement functionality to reverse the list iteratively.
         - Print the list before and after reversal.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
