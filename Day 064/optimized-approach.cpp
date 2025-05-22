@@ -8,10 +8,6 @@
         - Handle cases with zero(s).
         - Assume all elements are integers and array size ≥ 2.
 
-
-        - Time Complexity: O(n)
-        - Space Complexity: O(n)
-
     Author: Vishal Singhaniya
 */
 
