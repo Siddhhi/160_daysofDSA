@@ -6,17 +6,6 @@
         - Implement functionality to reverse the list iteratively.
         - Print the list before and after reversal.
 
-    Approach:
-        - Use three pointers: `prev`, `curr`, and `next`.
-        - Traverse the list and reverse links as you go.
-        - Update head to point to the last node (which becomes the new head).
-
-    Time Complexity:
-        - O(n), where n is the number of nodes.
-
-    Space Complexity:
-        - O(1), as no extra space is used except pointers.
-
     Author: Vishal Singhaniya
 */
 
