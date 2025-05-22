@@ -8,11 +8,7 @@
         - Handle cases with zero(s).
         - Assume all elements are integers and array size ≥ 2.
 
-    Approach:
-        - Count number of zeros.
-        - If no zeros: use total product / arr[i].
-        - If one zero: only the index with zero gets product; others are 0.
-        - If more than one zero: all elements are 0.
+
         - Time Complexity: O(n)
         - Space Complexity: O(n)
 
