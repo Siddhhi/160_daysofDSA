@@ -6,12 +6,7 @@
         - Implement functionality to rotate the list to the right by k places.
         - Print the list before and after rotation.
 
-    Approach:
-        - Count the number of nodes.
-        - Use modular arithmetic to avoid full rotations.
-        - Find new tail, update links accordingly.
-
-    Time Complexity:
+    mplexity:
         - O(n), where n is the number of nodes.
 
     Space Complexity:
