@@ -6,7 +6,7 @@
         - Implement functionality to rotate the list to the right by k places.
         - Print the list before and after rotation.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
