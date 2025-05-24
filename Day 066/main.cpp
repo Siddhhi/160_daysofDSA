@@ -1,5 +1,5 @@
 /*
-    Title: Rotate a Singly Linked List by k Position.
+    Title: Rotate a Singly Linked List by k Positions
     
     Problem Statement:
         - Create a singly linked list.
