@@ -6,12 +6,6 @@
         - Implement functionality to rotate the list to the right by k places.
         - Print the list before and after rotation.
 
-    mplexity:
-        - O(n), where n is the number of nodes.
-
-    Space Complexity:
-        - O(1), no extra space used.
-
     Author: Vishal Singhaniya
 */
 
