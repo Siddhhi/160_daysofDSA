@@ -6,12 +6,6 @@
         - Implement functionality to merge them into one sorted list.
         - Print the final merged list.
 
-    Approach:
-        - Use a dummy node to simplify the merge process.
-        - Traverse both lists using two pointers.
-        - Compare node values and append the smaller one to the new list.
-        - Attach the remaining elements after one list ends.
-
     Time Complexity:
         - O(n + m), where n and m are the lengths of the two lists.
 
