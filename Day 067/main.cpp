@@ -6,12 +6,6 @@
         - Implement functionality to merge them into one sorted list.
         - Print the final merged list.
 
-    Time Complexity:
-        - O(n + m), where n and m are the lengths of the two lists.
-
-    Space Complexity:
-        - O(1), no extra space used apart from pointers.
-
     Author: Vishal Singhaniya
 */
 
