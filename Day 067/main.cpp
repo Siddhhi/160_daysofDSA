@@ -6,7 +6,7 @@
         - Implement functionality to merge them into one sorted list.
         - Print the final merged list.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
