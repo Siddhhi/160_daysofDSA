@@ -6,12 +6,6 @@
         - Detect whether there is a cycle in the list.
         - Return true if a cycle exists, otherwise false.
 
-    Time Complexity:
-        - O(n), where n is the number of nodes.
-
-    Space Complexity:
-        - O(n), for storing visited nodes.
-
     Author: Vishal Singhaniya
 */
 
