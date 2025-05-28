@@ -6,11 +6,6 @@
         - Detect whether there is a cycle in the list.
         - Return true if a cycle exists, otherwise false.
 
-    Approach:
-        - Use Floyd’s Cycle Detection Algorithm (Tortoise and Hare).
-        - Move two pointers (slow and fast) at different speeds.
-        - If they meet at any point, a cycle exists.
-
     Time Complexity:
         - O(n), where n is the number of nodes.
 
