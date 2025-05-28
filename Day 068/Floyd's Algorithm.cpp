@@ -6,7 +6,7 @@
         - Detect whether there is a cycle in the list.
         - Return true if a cycle exists, otherwise false.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
