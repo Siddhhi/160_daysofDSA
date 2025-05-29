@@ -6,9 +6,6 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-    Space Complexity:
-        - O(n/k) due to recursive stack calls.
-
     Author: Vishal Singhaniya
 */
 
