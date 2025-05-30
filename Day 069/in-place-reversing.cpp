@@ -6,7 +6,7 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
