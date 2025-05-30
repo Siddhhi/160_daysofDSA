@@ -6,13 +6,6 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-   
-    Time Complexity:
-        - O(n), where n is the number of nodes.
-
-    Space Complexity:
-        - O(1), as reversal is done in-place.
-
     Author: Vishal Singhaniya
 */
 
