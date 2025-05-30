@@ -6,11 +6,7 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-    Approach:
-        - Reverse k nodes at a time using in-place pointer manipulation.
-        - Keep track of the current head and tail of each segment.
-        - Connect each reversed group to the previously reversed list.
-
+   
     Time Complexity:
         - O(n), where n is the number of nodes.
 
