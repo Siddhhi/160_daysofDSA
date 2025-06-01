@@ -6,11 +6,6 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-  s.
-
-    Space Complexity:
-        - O(k), for storing elements in the stack for each group.
-
     Author: Vishal Singhaniya
 */
 
