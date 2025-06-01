@@ -6,13 +6,7 @@
         - Reverse the list in groups of size k.
         - Return the new head of the modified list.
 
-    Approach:
-        - Use a stack to reverse k nodes at a time.
-        - For each group, push the node data into the stack.
-        - Pop from the stack to form the reversed segment and append to the result list.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes.
+  s.
 
     Space Complexity:
         - O(k), for storing elements in the stack for each group.
