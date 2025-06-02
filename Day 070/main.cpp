@@ -7,20 +7,7 @@
         - Each node contains a single digit.
         - Add the two numbers and return the sum as a linked list in the same format.
 
-    Constraints:
-        - The input lists may have different lengths.
-        - Leading zeros should be removed before computation.
-        - The result should also be returned in forward order.
-
-    Approach:
-        - Remove leading zeros from both lists.
-        - Reverse both lists to make addition easier (least significant digit first).
-        - Traverse both lists, adding digits and managing carry.
-        - Reverse the result list to restore forward order.
-
-    Time Complexity:
-        - O(n + m), where n and m are the lengths of the two input lists.
-
+    
     Space Complexity:
         - O(1), no extra space except for result list.
 
