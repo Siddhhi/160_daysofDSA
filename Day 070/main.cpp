@@ -7,7 +7,7 @@
         - Each node contains a single digit.
         - Add the two numbers and return the sum as a linked list in the same format.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi.
 */
 
 #include <iostream>
