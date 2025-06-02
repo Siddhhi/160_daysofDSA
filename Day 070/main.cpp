@@ -7,10 +7,6 @@
         - Each node contains a single digit.
         - Add the two numbers and return the sum as a linked list in the same format.
 
-    
-    Space Complexity:
-        - O(1), no extra space except for result list.
-
     Author: Vishal Singhaniya
 */
 
