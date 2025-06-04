@@ -7,7 +7,7 @@
         - Detect whether a cycle exists.
         - If a cycle exists, find the first node where the cycle begins.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
