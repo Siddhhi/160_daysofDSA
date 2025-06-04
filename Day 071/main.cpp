@@ -5,10 +5,6 @@
         - Given a linked list where each node has a `next` pointer and a `random` pointer
           (which could point to any node or NULL), create a deep copy of the list.
 
-  
-    Space Complexity:
-        - O(1), no extra space used (in-place cloning without a hash map).
-
     Author: Vishal Singhaniya
 */
 
