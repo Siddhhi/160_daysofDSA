@@ -5,11 +5,6 @@
         - Given a linked list where each node has a `next` pointer and a `random` pointer
           (which could point to any node or NULL), create a deep copy of the list.
 
-    Approach:
-        1. Insert a cloned node between each original node.
-        2. Set the random pointers for each cloned node.
-        3. Detach the cloned list from the original list.
-
     Time Complexity:
         - O(n), where n is the number of nodes in the list.
 
