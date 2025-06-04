@@ -3,9 +3,9 @@
 
     Problem Statement:
         - Given a linked list where each node has a `next` pointer and a `random` pointer
-          (which could point to any node or NULL), create a deep copy of the list.
+          , create a deep copy of the list.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
