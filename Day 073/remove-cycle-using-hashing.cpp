@@ -7,14 +7,6 @@
         - Detect whether a cycle exists.
         - If a cycle exists, remove the cycle.
 
-    Approach:
-        - Currently using hashing to detect and remove the cycle.
-        - Traverse the linked list while storing visited nodes in a hash map.
-        - If a node is visited again, it is the start of the cycle.
-        - Set the previous node's next to NULL to break the cycle.
-
-        (Note: This will later be updated to use Floyd’s Cycle Detection Algorithm.)
-
     Time Complexity:
         - O(n), where n is the number of nodes.
 
