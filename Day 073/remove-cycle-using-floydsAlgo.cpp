@@ -7,7 +7,7 @@
         - Detect whether a cycle exists.
         - If a cycle exists, remove the cycle.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
