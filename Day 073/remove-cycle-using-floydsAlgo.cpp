@@ -7,12 +7,7 @@
         - Detect whether a cycle exists.
         - If a cycle exists, remove the cycle.
 
-    Approach:
-        - Use Floyd’s Cycle Detection Algorithm (Tortoise and Hare).
-        - Move two pointers at different speeds to detect the cycle.
-        - Once detected, move one pointer to head and find the meeting point.
-        - Traverse to the node before the cycle starts and set its next to NULL.
-
+  
     Time Complexity:
         - O(n), where n is the number of nodes.
 
