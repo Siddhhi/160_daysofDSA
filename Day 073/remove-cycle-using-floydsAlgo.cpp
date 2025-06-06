@@ -7,13 +7,6 @@
         - Detect whether a cycle exists.
         - If a cycle exists, remove the cycle.
 
-  
-    Time Complexity:
-        - O(n), where n is the number of nodes.
-
-    Space Complexity:
-        - O(1), constant space used.
-
     Author: Vishal Singhaniya
 */
 
