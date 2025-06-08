@@ -1,7 +1,7 @@
 /*
     Title: LRU Cache Implementation
     
-    Problem Statement: 
+    Problem Statement:
         Implement an LRU (Least Recently Used) Cache with get and put operations in O(1) time.
 
     Author: Siddhi
