@@ -4,7 +4,7 @@
     Problem Statement: 
         Implement an LRU (Least Recently Used) Cache with get and put operations in O(1) time.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
