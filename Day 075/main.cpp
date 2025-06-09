@@ -7,13 +7,7 @@
             - e is an integer (exponent)
         - Handle negative exponents correctly.
 
-    Approach:
-        - Use recursion with exponentiation by squaring:
-            - If e is 0, return 1.
-            - If e is negative, return 1 / power(b, -e).
-            - Recur with power(b, e/2), then square the result.
-            - Multiply by b if e is odd.
-
+    
     Time Complexity:
         - O(log e)
 
