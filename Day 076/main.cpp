@@ -4,16 +4,6 @@
     Problem Statement:
         - Given an array of integers, print all possible permutations.
 
-    Approach:
-        - Use backtracking with swapping.
-        - Fix one element at each position and recursively permute the rest.
-
-    Time Complexity:
-        - O(n!), for n elements.
-
-    Space Complexity:
-        - O(n) recursion stack
-
     Author: Vishal Singhaniya
 */
 
