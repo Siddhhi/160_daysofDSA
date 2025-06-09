@@ -6,14 +6,8 @@
             - b is a floating point number (base)
             - e is an integer (exponent)
         - Handle negative exponents correctly.
-    
-    Time Complexity:
-        - O(log e)
 
-    Space Complexity:
-        - O(log e) due to recursion stack
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
