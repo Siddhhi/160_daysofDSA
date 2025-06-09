@@ -3,7 +3,6 @@
 
     Problem Statement:
         - Given an array of integers, print all possible permutations.
-
     Author: Siddhi
 */
 
