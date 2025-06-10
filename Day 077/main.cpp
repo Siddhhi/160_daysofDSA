@@ -6,12 +6,6 @@
         - A queen can move any number of squares vertically, horizontally, or diagonally.
         - Print all possible arrangements where N queens can be safely placed.
 
-
-        - O(N!), exponential, since we try all possibilities.
-
-    Space Complexity:
-        - O(N^2), for storing all valid board configurations.
-
     Author: Vishal Singhaniya
 */
 
