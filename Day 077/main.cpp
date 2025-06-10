@@ -6,7 +6,7 @@
         - A queen can move any number of squares vertically, horizontally, or diagonally.
         - Print all possible arrangements where N queens can be safely placed.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
