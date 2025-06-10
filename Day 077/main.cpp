@@ -1,6 +1,5 @@
 /*
     Title: N-Queens Problem using Backtracking.
-
     Problem Statement:
         - Place N queens on an N x N chessboard such that no two queens threaten each other.
         - A queen can move any number of squares vertically, horizontally, or diagonally.
