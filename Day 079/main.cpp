@@ -1,19 +1,9 @@
 /*
     Title: Word Search in a 2D Grid
+    
     Problem Statement:
         - Given a 2D board of characters and a word,
         - Check whether the word exists in the grid by moving horizontally or vertically.
-
-    Approach:
-        - Use DFS to explore all paths starting from each cell that matches the first letter.
-        - Use a visited marker (`#`) to avoid revisiting the same cell in one path.
-        - Try all 4 directions (up, down, left, right) for each character match.
-
-    Time Complexity:
-        - O(m*n*4^L) where L = length of the word, and m*n = matrix size
-
-    Space Complexity:
-        - O(L) recursion stack, where L = length of the word
 
     Author: Vishal Singhaniya
 */
