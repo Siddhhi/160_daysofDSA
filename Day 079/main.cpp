@@ -5,7 +5,7 @@
         - Given a 2D board of characters and a word,
         - Check whether the word exists in the grid by moving horizontally or vertically.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
