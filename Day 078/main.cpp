@@ -5,12 +5,6 @@
         - Given a 9x9 Sudoku board with some cells filled and others empty (denoted by 0),
         - Fill the board such that each row, column, and 3x3 subgrid contains digits 1 to 9 exactly once.
 
-   
-        - Worst-case O(9^(n^2)) due to recursion, but bitmasking and pruning reduce unnecessary calls.
-
-    Space Complexity:
-        - O(1) extra space (only arrays of size 9 used for rows, columns, and squares).
-
     Author: Vishal Singhaniya
 */
 
