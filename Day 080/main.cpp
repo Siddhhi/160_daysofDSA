@@ -5,12 +5,6 @@
         - Given a binary tree, print its nodes level by level (top to bottom, left to right).
         - Each level's nodes should be grouped together in a separate list.
 
-    Time Complexity:
-        - O(n), where n is the total number of nodes in the tree.
-
-    Space Complexity:
-        - O(n), for the queue used in BFS and the result storage.
-
     Author: Vishal Singhaniya
 */
 
