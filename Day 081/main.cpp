@@ -6,7 +6,7 @@
         - Height is defined as the number of edges in the longest path from the root node to a leaf node.
         - For an empty tree, height is considered -1.
 
-    Author: 
+    Author: Siddhi
 */
 
 
