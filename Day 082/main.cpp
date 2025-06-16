@@ -6,13 +6,6 @@
         - The diameter is the number of edges in the longest path between any two nodes in the tree.
         - This path may or may not pass through the root.
 
-    Approach:
-        - Use a recursive function to compute the height of left and right subtrees.
-        - At each node, update the diameter as the sum of left and right subtree heights.
-        - Return 1 + max(leftHeight, rightHeight) for height calculation during recursion.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the binary tree.
 
     Space Complexity:
         - O(h), where h is the height of the binary tree (for recursion stack).
