@@ -6,7 +6,6 @@
         - The diameter is the number of edges in the longest path between any two nodes in the tree.
         - This path may or may not pass through the root.
 
-
     Author: Vishal Singhaniya
 */
 
