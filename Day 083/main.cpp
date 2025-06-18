@@ -6,7 +6,8 @@
         - Inversion means swapping the left and right children of all nodes in the tree.
         - For example, left and right subtrees should be recursively mirrored.
         
-    Author: Vishal Singhaniya
+    Author: Siddhi
+    
 */
 
 #include<iostream>
