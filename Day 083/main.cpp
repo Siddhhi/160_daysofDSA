@@ -5,18 +5,7 @@
         - Given the root of a binary tree, invert the tree.
         - Inversion means swapping the left and right children of all nodes in the tree.
         - For example, left and right subtrees should be recursively mirrored.
-
-    Approach:
-        - Use recursion to traverse the tree.
-        - At each node, first recursively invert the left and right subtrees.
-        - Then, swap the left and right child pointers.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the binary tree (each node is visited once).
-
-    Space Complexity:
-        - O(h), where h is the height of the binary tree (due to the recursion stack).
-
+        
     Author: Vishal Singhaniya
 */
 
