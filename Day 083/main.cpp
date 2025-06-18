@@ -7,7 +7,6 @@
         - For example, left and right subtrees should be recursively mirrored.
         
     Author: Siddhi
-    
 */
 
 #include<iostream>
