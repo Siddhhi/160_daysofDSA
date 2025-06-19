@@ -19,7 +19,9 @@ DATA STRUCTURES AND ALGORITHMS
 
 9. Linked List.
 
-10. Recursion  and Backtracking
+10. Recursion  and Backtracking.
+
+11. Trees 
  
 
     
