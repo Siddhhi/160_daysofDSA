@@ -8,7 +8,7 @@
             - left subtree contains nodes with values less than the node's value.
             - right subtree contains nodes with values greater than the node's value.
 
-    Author: Sid
+    Author: Siddhi
 */
 
 #include<iostream>
