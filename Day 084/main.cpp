@@ -8,18 +8,7 @@
             - left subtree contains nodes with values less than the node's value.
             - right subtree contains nodes with values greater than the node's value.
 
-    Approach:
-        - Perform an inorder traversal (which gives sorted order in BST).
-        - Keep a counter while traversing.
-        - Return the value of the k-th visited node.
-
-    Time Complexity:
-        - O(n) in worst case, where n is number of nodes (if unbalanced).
-
-    Space Complexity:
-        - O(h), where h is the height of the tree (recursive stack).
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<iostream>
