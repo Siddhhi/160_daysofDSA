@@ -6,12 +6,7 @@
         - A path is defined as any sequence of nodes from some starting node to any node 
           in the tree along the parent-child connections.
         - The path must contain at least one node and does not need to go through the root.
-
-    Approach:
-        - Use post-order DFS recursion.
-        - For each node, calculate the maximum gain from left and right subtrees.
-        - Update the global maximum if the path through current node is greater than the current max.
-
+        
     Time Complexity:
         - O(n), where n is the number of nodes in the tree.
 
