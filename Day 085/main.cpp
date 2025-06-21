@@ -7,7 +7,7 @@
           in the tree along the parent-child connections.
         - The path must contain at least one node and does not need to go through the root.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
