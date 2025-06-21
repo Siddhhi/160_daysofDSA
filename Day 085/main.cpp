@@ -6,12 +6,6 @@
         - A path is defined as any sequence of nodes from some starting node to any node 
           in the tree along the parent-child connections.
         - The path must contain at least one node and does not need to go through the root.
-        
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
-        - O(h), where h is the height of the tree (due to recursion stack).
 
     Author: Vishal Singhaniya
 */
