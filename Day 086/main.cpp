@@ -5,10 +5,6 @@
         - Given two arrays representing the preorder and inorder traversal of a binary tree,
           build the binary tree and print its postorder traversal.
 
-    Approach:
-        - Use recursion to build the tree.
-        - The first element in preorder is the root.
-        - Use a map to quickly locate the root in inorder traversal and split it into left and right subtrees.
 
     Time Complexity:
         - O(n), where n is the number of nodes in the tree.
