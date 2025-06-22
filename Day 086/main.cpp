@@ -5,13 +5,6 @@
         - Given two arrays representing the preorder and inorder traversal of a binary tree,
           build the binary tree and print its postorder traversal.
 
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
-        - O(h), where h is the height of the tree (due to recursion stack).
-
     Author: Vishal Singhaniya
 */
 
