@@ -4,16 +4,7 @@
     Problem Statement:
         - Traverse a binary tree in inorder without using recursion or stack.
 
-    Approach:
-        - Use Morris Traversal:
-            1. If the current node has no left child → print it and move to right.
-            2. Else:
-                a. Find the inorder predecessor (rightmost node in left subtree).
-                b. If predecessor's right is NULL → make it point to current (thread), move left.
-                c. If predecessor’s right is current → break the thread, print current, move right.
-
-    Time Complexity:
-        - O(n), where n is number of nodes.
+   
 
     Space Complexity:
         - O(1), no extra space used (excluding result vector).
