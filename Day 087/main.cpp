@@ -5,10 +5,6 @@
         - Traverse a binary tree in inorder without using recursion or stack.
 
    
-
-    Space Complexity:
-        - O(1), no extra space used (excluding result vector).
-
     Author: Vishal Singhaniya
 */
 
