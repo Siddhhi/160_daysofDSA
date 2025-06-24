@@ -5,7 +5,7 @@
         - Traverse a binary tree in inorder without using recursion or stack.
 
    
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
