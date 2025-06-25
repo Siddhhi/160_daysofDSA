@@ -1,5 +1,5 @@
 /*
-    Title: Morris Inorder Traversal of Binary Tree
+    Title: Morris Inorder Traversal of Binary Tree.
 
     Problem Statement:
         - Traverse a binary tree in inorder without using recursion or stack.
