@@ -1,19 +1,10 @@
 /*
-    Title: Lowest Common Ancestor (LCA) in a Binary Search Tree
+    Title: Lowest Common Ancestor (LCA) in a Binary Search Tree.
 
     Problem Statement:
         - Given the root of a Binary Search Tree (BST) and two nodes n1 and n2,
           find their Lowest Common Ancestor (LCA).
         - The LCA of two nodes is the deepest node that has both n1 and n2 as descendants.
-
-    Approach:
-        - Start from the root and traverse the tree:
-            - If both nodes are smaller than current node, move to the left.
-            - If both nodes are greater than current node, move to the right.
-            - Else, current node is the LCA.
-
-    Time Complexity:
-        - O(h), where h is the height of the BST.
 
     Space Complexity:
         - O(1) iterative approach (no recursion stack).
