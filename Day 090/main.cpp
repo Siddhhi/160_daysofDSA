@@ -5,15 +5,6 @@
         - Given a Binary Search Tree and a target value,
           check whether there exists a pair of nodes whose sum equals the target.
 
-    Approach:
-        - Perform inorder traversal to get a sorted array of node values.
-        - Use two-pointer technique on the sorted array to check for the target sum.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the BST (due to traversal + 2-pointer scan).
-
-    Space Complexity:
-        - O(n), for storing the inorder traversal result.
 
     Author: Vishal Singhaniya
 */
