@@ -5,8 +5,7 @@
         - Given a Binary Search Tree and a target value,
           check whether there exists a pair of nodes whose sum equals the target.
 
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
