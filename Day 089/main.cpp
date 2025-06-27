@@ -6,7 +6,7 @@
           find their Lowest Common Ancestor (LCA).
         - The LCA of two nodes is the deepest node that has both n1 and n2 as descendants.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
