@@ -7,7 +7,7 @@
         - The path does not need to start or end at the root or a leaf,
           but it must go **downward** (parent to child).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
