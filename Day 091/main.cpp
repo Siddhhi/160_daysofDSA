@@ -7,9 +7,6 @@
         - The path does not need to start or end at the root or a leaf,
           but it must go **downward** (parent to child).
 
-    Space Complexity:
-        - O(h) for recursion stack + O(n) for hash map.
-
     Author: Vishal Singhaniya
 */
 
