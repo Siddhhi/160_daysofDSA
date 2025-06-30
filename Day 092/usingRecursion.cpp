@@ -8,7 +8,7 @@
             - The right subtree of a node contains only nodes with values greater than the node's value.
             - Both the left and right subtrees must also be BSTs.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
