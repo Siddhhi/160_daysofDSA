@@ -8,17 +8,6 @@
             - The right subtree of a node contains only nodes with values greater than the node's value.
             - Both the left and right subtrees must also be BSTs.
 
-    Approach:
-        - Perform an inorder traversal of the tree and store values in a vector.
-        - In a valid BST, the inorder traversal should produce a strictly increasing sequence.
-        - Check if the vector is sorted in strictly increasing order.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
-        - O(h) for recursion stack + O(n) for storing inorder traversal.
-
     Author: Vishal Singhaniya
 */
 
