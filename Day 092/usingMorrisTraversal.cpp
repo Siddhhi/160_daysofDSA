@@ -8,14 +8,7 @@
             - The right subtree of a node contains only nodes with values greater than the node's value.
             - Both the left and right subtrees must also be BSTs.
 
-    Approach:
-        - Use Morris Inorder Traversal (O(1) space).
-        - During traversal, check if current node's value is greater than the previous visited node's value.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
+    
         - O(1), Morris traversal uses constant space (no recursion, no stack).
 
     Author: Vishal Singhaniya
