@@ -8,9 +8,6 @@
             - The right subtree of a node contains only nodes with values greater than the node's value.
             - Both the left and right subtrees must also be BSTs.
 
-    
-        - O(1), Morris traversal uses constant space (no recursion, no stack).
-
     Author: Vishal Singhaniya
 */
 
