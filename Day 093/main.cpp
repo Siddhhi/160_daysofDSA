@@ -5,18 +5,8 @@
         - Serialize a binary tree into a linear format using preorder traversal.
         - Deserialize the linear format back into the original binary tree.
         - Use `-1` to represent NULL nodes in the serialization.
-
-    Approach:
-        - Serialize using recursive preorder traversal.
-        - Deserialize recursively by tracking index using a reference.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
-        - O(n) for storing the serialized array (and recursion stack during deserialization).
-
-    Author: Vishal Singhaniya
+        
+    Author: Siddhi
 */
 
 #include <iostream>
