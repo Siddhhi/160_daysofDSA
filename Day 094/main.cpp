@@ -6,24 +6,8 @@
           fix the tree by swapping them back.
         - Do not change the structure of the tree.
 
-    Approach:
-        - Perform inorder traversal of the BST (should give a sorted sequence).
-        - Detect where the order is violated.
-        - There are two cases:
-            1. Non-adjacent nodes are swapped (e.g., 1-4-3-2-5 → 1-[4-3]-[2]-5).
-            2. Adjacent nodes are swapped (e.g., 1-2-5-4-6 → 1-2-[5-4]-6).
-        - Track:
-            - First node where violation occurs
-            - Middle node (next to first)
-            - Last node (if violation occurs again)
-        - Swap the first and last OR first and middle depending on the case.
-
-    Time Complexity:
-        - O(n), where n is the number of nodes in the tree.
-
-    Space Complexity:
-        - O(h), where h is the height of the tree (due to recursion stack).
-
+    
+   
     Author: Vishal Singhaniya
 */
 
