@@ -6,8 +6,6 @@
           fix the tree by swapping them back.
         - Do not change the structure of the tree.
 
-    
-   
     Author: Vishal Singhaniya
 */
 
