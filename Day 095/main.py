@@ -5,16 +5,6 @@ Problem Statement:
     - Given an array of integers and a number k,
       return the k largest elements from the array in descending order.
 
-Approach:
-    - Use a min-heap (priority queue) to keep track of the k largest elements.
-    - Initialize the heap with the first k elements.
-    - For each remaining element, if it is larger than the root of the heap,
-      replace the root with this element.
-    - Finally, pop all elements from the heap and reverse the list to get descending order.
-
-Time Complexity:
-    - O(n log k), where n is the number of elements in the array.
-      (Each insertion/removal from the heap takes O(log k))
 
 Space Complexity:
     - O(k), for storing the k largest elements in the heap.
