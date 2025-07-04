@@ -5,10 +5,6 @@ Problem Statement:
     - Given an array of integers and a number k,
       return the k largest elements from the array in descending order.
 
-
-Space Complexity:
-    - O(k), for storing the k largest elements in the heap.
-
 Author: Vishal Singhaniya
 """
 
