@@ -5,7 +5,7 @@ Problem Statement:
     - Given an array of integers and a number k,
       return the k largest elements from the array in descending order.
 
-Author: Vishal Singhaniya
+Author: Siddhi
 """
 
 import heapq
