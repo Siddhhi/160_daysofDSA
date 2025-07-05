@@ -5,15 +5,7 @@
         - Given the heads of two sorted singly linked lists, merge them into one sorted linked list.
         - The merged linked list should be made by splicing together the nodes of the given lists.
 
-    Approach:
-        - Use a dummy node to ease the merging process.
-        - Compare the data of the current nodes in both lists.
-        - Append the smaller node to the merged list and advance the corresponding pointer.
-        - Continue until one list is exhausted, then attach the remaining nodes of the other list.
-
-    Time Complexity:
-        - O(n + m), where n and m are the lengths of the two input linked lists.
-
+   
     Space Complexity:
         - O(1), since the merge is done in-place without using extra memory (besides the dummy node).
 
