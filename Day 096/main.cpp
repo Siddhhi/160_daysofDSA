@@ -5,10 +5,6 @@
         - Given the heads of two sorted singly linked lists, merge them into one sorted linked list.
         - The merged linked list should be made by splicing together the nodes of the given lists.
 
-   
-    Space Complexity:
-        - O(1), since the merge is done in-place without using extra memory (besides the dummy node).
-
     Author: Vishal Singhaniya
 */
 
