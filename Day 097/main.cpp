@@ -5,16 +5,7 @@
         - Given a list of points on a 2D plane, return the k closest points to the origin (0, 0).
         - Distance is measured using Euclidean distance (squared to avoid computing square roots).
 
-    Approach:
-        - Calculate the squared Euclidean distance of each point.
-        - Store each point with its distance in a pair.
-        - Sort the list of pairs by distance.
-        - Return the first k points from the sorted list.
-
-    Time Complexity:
-        - O(n log n), where n is the number of points (due to sorting).
-
-    Space Complexity:
+  
         - O(n), for storing distance pairs and result.
 
     Author: Vishal Singhaniya
