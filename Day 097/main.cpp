@@ -5,7 +5,7 @@
         - Given a list of points on a 2D plane, return the k closest points to the origin (0, 0).
         - Distance is measured using Euclidean distance (squared to avoid computing square roots).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
