@@ -7,7 +7,7 @@
             - Middle element when the number of elements is odd.
             - Average of two middle elements when the number of elements is even.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
