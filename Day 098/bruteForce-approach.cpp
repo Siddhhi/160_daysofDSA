@@ -7,10 +7,6 @@
             - Middle element when the number of elements is odd.
             - Average of two middle elements when the number of elements is even.
 
-
-    Space Complexity:
-        - O(n): For storing the current list of elements and result.
-
     Author: Vishal Singhaniya
 */
 
