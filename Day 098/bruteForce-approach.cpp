@@ -7,14 +7,6 @@
             - Middle element when the number of elements is odd.
             - Average of two middle elements when the number of elements is even.
 
-    Approach:
-        - Maintain a temporary array and insert each new element.
-        - Sort the array after each insertion to maintain order.
-        - Pick median depending on the size (even or odd).
-
-    Time Complexity:
-        - O(n² log n): For n elements, each insertion takes O(n log n) due to sorting.
-          So total complexity becomes O(n² log n).
 
     Space Complexity:
         - O(n): For storing the current list of elements and result.
