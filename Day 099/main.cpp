@@ -8,7 +8,7 @@
             - Open brackets are closed by the same type of brackets.
             - Open brackets are closed in the correct order.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
