@@ -5,14 +5,7 @@
         - Given a string containing just the characters '(' and ')',
           find the length of the longest valid (well-formed) parentheses substring.
 
-    Approach:
-        - Use a stack to store indices.
-        - Push -1 initially to handle base cases.
-        - For every '(', push its index.
-        - For every ')', pop from the stack.
-          - If the stack becomes empty, push current index.
-          - Else, update the maximum length as difference between current index and top of stack.
-
+    
     Time Complexity:
         - O(n), where n is the length of the string.
 
