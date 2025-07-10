@@ -5,13 +5,6 @@
         - Given a string containing just the characters '(' and ')',
           find the length of the longest valid (well-formed) parentheses substring.
 
-    
-    Time Complexity:
-        - O(n), where n is the length of the string.
-
-    Space Complexity:
-        - O(n), for the stack used.
-
     Author: Vishal Singhaniya
 */
 
