@@ -7,16 +7,6 @@
         - Valid operators are "+", "-", "*", and "/".
         - Each operand may be an integer, and division between two integers should truncate toward zero.
 
-    Approach:
-        - Use a stack to process the tokens.
-        - If the token is a number, push it to the stack.
-        - If the token is an operator, pop two numbers from the stack,
-          apply the operation, and push the result back onto the stack.
-        - The final result will be the only value left in the stack.
-
-    Time Complexity:
-        - O(n), where n is the number of tokens.
-
     Space Complexity:
         - O(n), for the stack.
 
