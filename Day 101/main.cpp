@@ -7,7 +7,7 @@
         - Valid operators are "+", "-", "*", and "/".
         - Each operand may be an integer, and division between two integers should truncate toward zero.
 
-    Author: Sidd
+    Author: Siddhi
 */
 
 #include <iostream>
