@@ -7,9 +7,6 @@
         - Valid operators are "+", "-", "*", and "/".
         - Each operand may be an integer, and division between two integers should truncate toward zero.
 
-    Space Complexity:
-        - O(n), for the stack.
-
     Author: Vishal Singhaniya
 */
 
