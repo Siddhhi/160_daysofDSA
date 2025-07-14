@@ -6,9 +6,6 @@
         - The next greater element for an element x is the first greater element on the right side of x in the array.
         - If no such element exists, store -1 for that position.
 
-    Space Complexity:
-        - O(n), for the result array and the stack.
-
     Author: Vishal Singhaniya
 */
 
