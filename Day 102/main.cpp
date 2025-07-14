@@ -6,16 +6,6 @@
         - The next greater element for an element x is the first greater element on the right side of x in the array.
         - If no such element exists, store -1 for that position.
 
-    Approach:
-        - Traverse the array from right to left.
-        - Use a stack to keep track of elements whose next greater is not yet found.
-        - Pop elements from the stack while they are less than or equal to the current element.
-        - If the stack is not empty, the top of the stack is the next greater element.
-        - Push the current element onto the stack for the next iterations.
-
-    Time Complexity:
-        - O(n), where n is the number of elements in the array.
-
     Space Complexity:
         - O(n), for the result array and the stack.
 
