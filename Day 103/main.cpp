@@ -6,12 +6,6 @@
         - The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is repeated exactly k times.
         - You may assume that the input string is always valid and contains only digits, letters, and square brackets.
 
-    Time Complexity:
-        - O(n), where n is the length of the input string.
-
-    Space Complexity:
-        - O(n), for using stacks to store intermediate strings and numbers.
-
     Author: Vishal Singhaniya
 */
 
