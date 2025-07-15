@@ -6,15 +6,6 @@
         - The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is repeated exactly k times.
         - You may assume that the input string is always valid and contains only digits, letters, and square brackets.
 
-    Approach:
-        - Use two stacks: one for numbers and one for strings.
-        - Traverse the string character by character:
-            - If it's a digit, build the number (handle multi-digit).
-            - If it's '[', push current number and string to stacks.
-            - If it's ']', pop number and string, repeat the string and append.
-            - If it's a character, append it to the current string.
-        - At the end, return the fully decoded string.
-
     Time Complexity:
         - O(n), where n is the length of the input string.
 
