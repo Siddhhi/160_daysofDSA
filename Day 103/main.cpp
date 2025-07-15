@@ -6,7 +6,7 @@
         - The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is repeated exactly k times.
         - You may assume that the input string is always valid and contains only digits, letters, and square brackets.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
