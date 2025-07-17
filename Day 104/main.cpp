@@ -6,13 +6,6 @@
         - The span of the stock’s price on a given day is defined as the maximum number of consecutive days 
           just before the current day for which the price of the stock was less than or equal to its price on the current day.
 
-
-    Time Complexity:
-        - O(n), where n is the number of days.
-
-    Space Complexity:
-        - O(n), for using a stack to store indices.
-
     Author: Vishal Singhaniya
 */
 
