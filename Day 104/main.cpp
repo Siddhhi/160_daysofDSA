@@ -1,5 +1,5 @@
 /*
-    Title: Stock Span Problem
+    Title: Stock Span Problem.
 
     Problem Statement:
         - Given a list of daily stock prices, calculate the span of stock’s price for all days.
