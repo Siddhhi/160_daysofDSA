@@ -6,7 +6,7 @@
           and an additional operation getMin() which returns the minimum element in the stack.
         - All operations must be done in constant time O(1) and with O(1) extra space (excluding the stack itself).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
