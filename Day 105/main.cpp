@@ -6,14 +6,7 @@
           and an additional operation getMin() which returns the minimum element in the stack.
         - All operations must be done in constant time O(1) and with O(1) extra space (excluding the stack itself).
 
-    Approach:
-        - Use an encoding technique during push:
-            - If the pushed element is smaller than current min, encode it using: encoded = 2*x - minEle
-            - Update minEle to the new element.
-        - During pop:
-            - If the popped value is less than minEle, decode the previous min using: minEle = 2*minEle - encoded
-        - For peek, if top is less than minEle, return minEle (because it's encoded).
-
+  
     Time Complexity:
         - O(1) for push, pop, peek, and getMin operations.
 
