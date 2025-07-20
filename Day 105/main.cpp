@@ -7,9 +7,6 @@
         - All operations must be done in constant time O(1) and with O(1) extra space (excluding the stack itself).
 
   
-    Time Complexity:
-        - O(1) for push, pop, peek, and getMin operations.
-
     Space Complexity:
         - O(1) extra space used for tracking minEle.
 
