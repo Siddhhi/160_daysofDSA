@@ -6,10 +6,6 @@
           and an additional operation getMin() which returns the minimum element in the stack.
         - All operations must be done in constant time O(1) and with O(1) extra space (excluding the stack itself).
 
-  
-    Space Complexity:
-        - O(1) extra space used for tracking minEle.
-
     Author: Vishal Singhaniya
 */
 
