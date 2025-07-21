@@ -9,13 +9,7 @@
         Input:  [4, 5, 2, 10, 8]
         Output: 16  (rectangle with height 4 and width 4 from indices 0 to 3)
 
-    
-    Time Complexity:
-        - O(n), where n is the number of bars (single pass for each stack computation).
-
-    Space Complexity:
-        - O(n), for storing left and right smaller indices.
-
+   
     Author: Vishal Singhaniya
 */
 
