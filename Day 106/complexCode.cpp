@@ -9,15 +9,7 @@
         Input:  [4, 5, 2, 10, 8]
         Output: 16  (rectangle with height 4 and width 4 from indices 0 to 3)
 
-    Approach:
-        - For each bar, we need to find the nearest smaller bar to the left and the nearest smaller bar to the right.
-        - This gives the range over which the current bar can extend as the smallest bar.
-        - Use two passes with a stack to compute:
-            - `res1[i]`: Index of the next smaller element to the right for bar i.
-            - `res2[i]`: Index of the next smaller element to the left for bar i.
-        - Area for each bar = height[i] * (res1[i] - res2[i] - 1).
-        - Return the maximum area among all bars.
-
+    
     Time Complexity:
         - O(n), where n is the number of bars (single pass for each stack computation).
 
