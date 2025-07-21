@@ -10,7 +10,7 @@
         Output: 16  (rectangle with height 4 and width 4 from indices 0 to 3)
 
    
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
