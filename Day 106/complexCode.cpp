@@ -5,11 +5,6 @@
         - Given an array of integers representing the heights of bars in a histogram, 
           find the area of the largest rectangle that can be formed within the histogram.
 
-    Example:
-        Input:  [4, 5, 2, 10, 8]
-        Output: 16  (rectangle with height 4 and width 4 from indices 0 to 3)
-
-   
     Author: Siddhi
 */
 
