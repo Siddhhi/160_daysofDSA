@@ -21,7 +21,7 @@ DATA STRUCTURES AND ALGORITHMS
 
 10. Recursion  and Backtracking.
 
-11. Trees
+11. Trees.
 
 12. Heaps.
 
