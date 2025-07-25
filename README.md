@@ -25,6 +25,8 @@ DATA STRUCTURES AND ALGORITHMS
 
 12. Heaps.
 
+13. Stacks 
+
  
 
     
