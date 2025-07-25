@@ -23,7 +23,7 @@ DATA STRUCTURES AND ALGORITHMS
 
 11. Trees.
 
-12. 
+12. Heaps.
 
  
 
