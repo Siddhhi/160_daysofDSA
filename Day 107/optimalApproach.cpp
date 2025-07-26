@@ -5,7 +5,7 @@
         - Given an array `arr[]` of size `n`, for every window size `k` (1 ≤ k ≤ n),
           find the maximum of the minimum elements of all subarrays of size k.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <iostream>
