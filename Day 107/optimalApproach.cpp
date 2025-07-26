@@ -5,20 +5,7 @@
         - Given an array `arr[]` of size `n`, for every window size `k` (1 ≤ k ≤ n),
           find the maximum of the minimum elements of all subarrays of size k.
 
-    Example:
-        Input:  [10, 20, 25, 15, 90, 50, 70, 60]
-        Output: [90, 50, 50, 20, 20, 10, 10, 10]
-        Explanation:
-            - For window size 1: max of minimums = max(10,20,25,15,90,50,70,60) = 90
-            - For window size 2: max of minimums of all pairs = 50
-            - and so on.
-
-    Approach:
-        - Use stack to find Previous Smaller Element (PSE) and Next Smaller Element (NSE) for every element.
-        - The "length" of the window in which an element is minimum is: (NSE[i] - PSE[i] - 1).
-        - Fill results for each possible length.
-        - Traverse results from right to left to fill gaps with the maximum value.
-
+    
     Time Complexity:
         - O(n), as each element is pushed/popped once from the stack.
 
