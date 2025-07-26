@@ -5,13 +5,6 @@
         - Given an array `arr[]` of size `n`, for every window size `k` (1 ≤ k ≤ n),
           find the maximum of the minimum elements of all subarrays of size k.
 
-    
-    Time Complexity:
-        - O(n), as each element is pushed/popped once from the stack.
-
-    Space Complexity:
-        - O(n) for PSE, NSE, and result arrays.
-
     Author: Vishal Singhaniya
 */
 
