@@ -5,7 +5,7 @@
         - Given an array of integers and an integer K, find the maximum element 
           for every contiguous subarray of size K.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <iostream>
