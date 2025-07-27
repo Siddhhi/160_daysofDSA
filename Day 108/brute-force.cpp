@@ -5,17 +5,7 @@
         - Given an array of integers and an integer K, find the maximum element 
           for every contiguous subarray of size K.
 
-    Example:
-        Input:  arr = [1, 3, 1, 2, 0, 5], K = 3
-        Output: [3, 3, 2, 5]
-        Explanation:
-            - Subarrays of size 3 are [1,3,1], [3,1,2], [1,2,0], [2,0,5].
-            - Maximum elements are 3, 3, 2, 5 respectively.
-
-    Approach:
-        - Iterate over each window of size K in the array.
-        - For each window, find the maximum element by checking all elements in the window.
-
+   
     Time Complexity:
         - O(n * k), where n is the size of the array.
           (For each of the n-k+1 windows, we scan k elements.)
