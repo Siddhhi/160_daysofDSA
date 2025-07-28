@@ -5,18 +5,6 @@
         - Given an array of integers and an integer K, find the maximum element 
           for every contiguous subarray of size K.
 
-    Example:
-        Input:  arr = [1, 3, 1, 2, 0, 5], K = 3
-        Output: [3, 3, 2, 5]
-
-    Approach:
-        - Use a deque to store indices of array elements.
-        - The deque will maintain elements in decreasing order of values.
-        - For each window:
-            - Remove indices that are out of this window.
-            - Remove elements smaller than the current element from the deque's back.
-            - The element at the front of the deque is the largest for the current window.
-
     Time Complexity:
         - O(n), where n is the size of the array.
 
