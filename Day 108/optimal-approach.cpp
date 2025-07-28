@@ -5,12 +5,6 @@
         - Given an array of integers and an integer K, find the maximum element 
           for every contiguous subarray of size K.
 
-    Time Complexity:
-        - O(n), where n is the size of the array.
-
-    Space Complexity:
-        - O(k), for storing indices in the deque.
-
     Author: Vishal Singhaniya
 */
 
