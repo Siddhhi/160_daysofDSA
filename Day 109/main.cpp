@@ -7,17 +7,7 @@
           is at most `x`.
         - Return the elements of the longest subarray.
 
-    Example:
-        Input:  arr = [8, 2, 4, 7], x = 4
-        Output: [2, 4]
-
-    Approach:
-        - Use two deques:
-            - `maxDq` to maintain indices of elements in decreasing order (track max).
-            - `minDq` to maintain indices of elements in increasing order (track min).
-        - Expand the window by moving `end`.
-        - If the difference (arr[maxDq.front()] - arr[minDq.front()]) > x, shrink the window by moving `start`.
-        - Keep track of the best (longest) window found so far.
+    (longest) window found so far.
 
     Time Complexity:
         - O(n), as each element is pushed and popped from deque at most once.
