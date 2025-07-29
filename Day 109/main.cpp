@@ -7,13 +7,7 @@
           is at most `x`.
         - Return the elements of the longest subarray.
 
-    (longest) window found so far.
-
-    Time Complexity:
-        - O(n), as each element is pushed and popped from deque at most once.
-
-    Space Complexity:
-        - O(n), for storing the deques and result.
+    
 
     Author: Vishal Singhaniya
 */
