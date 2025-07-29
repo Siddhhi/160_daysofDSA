@@ -7,7 +7,7 @@
           is at most `x`.
         - Return the elements of the longest subarray.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
