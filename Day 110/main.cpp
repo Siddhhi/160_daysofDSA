@@ -5,14 +5,7 @@
         - Given an array of integers `arr` of size `n`, find the length of the 
           longest increasing subsequence (LIS).
 
-
-    Time Complexity:
-        - O(n log n), due to binary search for each element.
-
-    Space Complexity:
-        - O(n), for storing the subsequence tails.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
