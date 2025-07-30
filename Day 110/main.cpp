@@ -5,12 +5,7 @@
         - Given an array of integers `arr` of size `n`, find the length of the 
           longest increasing subsequence (LIS).
 
-    Example:
-        Input:  arr = [10, 9, 2, 5, 3, 7, 101, 18]
-        Output: 4  (The LIS is [2, 3, 7, 101])
-
-    Approach:
-        - Use a dynamic array `ans` that stores the smallest possible tail of all 
+    mic array `ans` that stores the smallest possible tail of all 
           increasing subsequences of a given length.
         - For each element in `arr`:
             - Use binary search (lower_bound) to find its position in `ans`.
