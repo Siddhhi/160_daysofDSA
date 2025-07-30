@@ -5,12 +5,6 @@
         - Given an array of integers `arr` of size `n`, find the length of the 
           longest increasing subsequence (LIS).
 
-    mic array `ans` that stores the smallest possible tail of all 
-          increasing subsequences of a given length.
-        - For each element in `arr`:
-            - Use binary search (lower_bound) to find its position in `ans`.
-            - Replace the element if found or append it otherwise.
-        - The length of `ans` will be the LIS length.
 
     Time Complexity:
         - O(n log n), due to binary search for each element.
