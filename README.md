@@ -29,7 +29,7 @@ DATA STRUCTURES AND ALGORITHMS
 
 14. Queue.
 
-15. 
+15. Dynamic Programing
 
  
 
