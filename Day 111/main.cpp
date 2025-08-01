@@ -6,7 +6,7 @@
           greater than or equal to 2.
         - A substring is palindromic if it reads the same forward and backward.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <iostream>
