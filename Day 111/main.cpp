@@ -6,17 +6,6 @@
           greater than or equal to 2.
         - A substring is palindromic if it reads the same forward and backward.
 
-    Example:
-        Input:  s = "abba"
-        Output: 2  (The palindromic substrings are "bb" and "abba")
-
-    Approach:
-        - Use dynamic programming with a 2D DP table `dp[i][j]` where:
-            - dp[i][j] = true if the substring s[i..j] is a palindrome.
-        - Initialize substrings of length 2 separately.
-        - For substrings of length ≥ 3, check s[i] == s[j] and dp[i+1][j-1] == true.
-        - Count all dp[i][j] = true where (j - i + 1) ≥ 2.
-
     Time Complexity:
         - O(n^2), where n is the length of the string.
 
