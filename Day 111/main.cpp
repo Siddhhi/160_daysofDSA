@@ -6,7 +6,7 @@
           greater than or equal to 2.
         - A substring is palindromic if it reads the same forward and backward.
 
-    Author: Siddhi.
+    Author: Siddhi
 */
 
 #include <iostream>
@@ -50,6 +50,7 @@ int main() {
     cout << "Count of Palindromic Substrings (length ≥ 2): " << result << endl;
     return 0;
 }
+
 
 
 
