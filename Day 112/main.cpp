@@ -5,7 +5,7 @@
         - Given a string `s`, find the longest substring which is a palindrome.
         - A palindrome is a sequence that reads the same forward and backward.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
@@ -57,6 +57,7 @@ int main() {
     cout << "Longest Palindromic Substring: " << longestPalindrome(input) << endl;
     return 0;
 }
+
 
 
 
