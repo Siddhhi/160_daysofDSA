@@ -6,12 +6,6 @@
         - A palindrome is a sequence that reads the same forward and backward.
 
 
-    Time Complexity:
-        - O(n^2), where n is the length of the string.
-
-    Space Complexity:
-        - O(n^2), for the DP table.
-
     Author: Vishal Singhaniya
 */
 
@@ -64,4 +58,5 @@ int main() {
     cout << "Longest Palindromic Substring: " << longestPalindrome(input) << endl;
     return 0;
 }
+
 
