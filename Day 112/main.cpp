@@ -5,18 +5,6 @@
         - Given a string `s`, find the longest substring which is a palindrome.
         - A palindrome is a sequence that reads the same forward and backward.
 
-    Example:
-        Input:  s = "babad"
-        Output: "bab" (or "aba", both are valid)
-
-    Approach:
-        - Use Dynamic Programming.
-        - Create a 2D DP table `dp[i][j]` where dp[i][j] = true means substring s[i..j] is a palindrome.
-        - Initialize all substrings of length 1 as palindromes.
-        - Check substrings of length 2.
-        - For substrings of length ≥ 3, use the relation:
-            s[i] == s[j] && dp[i+1][j-1] → dp[i][j] = true
-        - Track the start index and maximum length of the longest palindromic substring.
 
     Time Complexity:
         - O(n^2), where n is the length of the string.
@@ -76,3 +64,4 @@ int main() {
     cout << "Longest Palindromic Substring: " << longestPalindrome(input) << endl;
     return 0;
 }
+
