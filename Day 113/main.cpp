@@ -6,7 +6,7 @@
         - A subsequence is derived from another string by deleting some or no elements 
           without changing the order of the remaining characters.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
@@ -47,6 +47,7 @@ int main() {
          << longestPalinSeq(s);
     return 0;
 }
+
 
 
 
