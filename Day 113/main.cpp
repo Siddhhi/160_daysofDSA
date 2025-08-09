@@ -6,14 +6,7 @@
         - A subsequence is derived from another string by deleting some or no elements 
           without changing the order of the remaining characters.
 
-    Example:
-        Input:  s = "ababccdba"
-        Output: 5  (The LPS is "abcba" or "abdba")
-
-    Approach:
-        - Use recursion with memoization (top-down dynamic programming).
-        - Define `lps(low, high)` as the length of the longest palindromic subsequence 
-          in the substring `s[low..high]`.
+   .
         - Base cases:
             - If low > high → length is 0.
             - If low == high → length is 1.
@@ -69,3 +62,4 @@ int main() {
          << longestPalinSeq(s);
     return 0;
 }
+
