@@ -6,10 +6,6 @@
         - A subsequence is derived from another string by deleting some or no elements 
           without changing the order of the remaining characters.
 
-
-    Space Complexity:
-        - O(n^2), for memoization storage.
-
     Author: Vishal Singhaniya
 */
 
@@ -51,5 +47,6 @@ int main() {
          << longestPalinSeq(s);
     return 0;
 }
+
 
 
