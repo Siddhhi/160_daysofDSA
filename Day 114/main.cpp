@@ -9,16 +9,7 @@
             2. Delete a character
             3. Replace a character
 
-    Example:
-        Input:  s1 = "abcde", s2 = "bcfeg"
-        Output: 3  (One possible sequence: abcde → bcde → bcfe → bcfeg)
-
-    Approach:
-        - Use bottom-up dynamic programming.
-        - Define `dp[i][j]` as the minimum edit distance between:
-              - first `i` characters of s1
-              - first `j` characters of s2
-        - Base cases:
+   
             - dp[i][0] = i  (delete all i characters)
             - dp[0][j] = j  (insert all j characters)
         - Recurrence:
@@ -82,3 +73,4 @@ int main() {
 
     return 0;
 }
+
