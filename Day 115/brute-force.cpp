@@ -5,13 +5,6 @@
         - Given `n` stairs, you can climb either 1 step or 2 steps at a time.
         - Find the total number of distinct ways to reach the top.
 
-   
-    Time Complexity:
-        - O(2^n) for the recursive approach (can be optimized using DP).
-
-    Space Complexity:
-        - O(n) due to function call stack in recursion.
-
     Author: Vishal Singhaniya
 */
 
@@ -29,5 +22,6 @@ int main() {
     cout << stairClimbing(stair);
     return 0;
 }
+
 
 
