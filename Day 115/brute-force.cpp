@@ -5,19 +5,7 @@
         - Given `n` stairs, you can climb either 1 step or 2 steps at a time.
         - Find the total number of distinct ways to reach the top.
 
-    Example:
-        Input:  n = 5
-        Output: 8
-        Explanation:
-            Possible ways:
-            1-1-1-1-1  
-            1-1-1-2  
-            1-1-2-1  
-            1-2-1-1  
-            2-1-1-1  
-            2-2-1  
-            2-1-2  
-            1-2-2
+   
 
     Approach:
         - Use recursion:
@@ -51,3 +39,4 @@ int main() {
     cout << stairClimbing(stair);
     return 0;
 }
+
