@@ -6,16 +6,6 @@
         - Find the total number of distinct ways to reach the top.
 
    
-
-    Approach:
-        - Use recursion:
-            - Base cases:
-                - If n == 1 → 1 way
-                - If n == 2 → 2 ways
-            - Recurrence:
-                ways(n) = ways(n-1) + ways(n-2)
-        - This is equivalent to the Fibonacci sequence.
-
     Time Complexity:
         - O(2^n) for the recursive approach (can be optimized using DP).
 
@@ -39,4 +29,5 @@ int main() {
     cout << stairClimbing(stair);
     return 0;
 }
+
 
