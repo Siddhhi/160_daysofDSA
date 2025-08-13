@@ -5,10 +5,7 @@
         - Given `n` stairs, you can climb either 1 step or 2 steps at a time.
         - Find the total number of distinct ways to reach the top.
 
-    Space Complexity:
-        - O(n), for the DP array (can be optimized to O(1)).
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
@@ -31,6 +28,7 @@ int main() {
     cout << countWays(stair);
     return 0;
 }
+
 
 
 
