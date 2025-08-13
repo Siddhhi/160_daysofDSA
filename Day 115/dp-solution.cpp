@@ -5,16 +5,6 @@
         - Given `n` stairs, you can climb either 1 step or 2 steps at a time.
         - Find the total number of distinct ways to reach the top.
 
-    Approach:
-        - Use bottom-up dynamic programming:
-            - Let `dp[i]` represent the number of ways to reach the (i+1)-th stair.
-            - Base cases:
-                - dp[0] = 1 (1 way to climb 1 stair)
-                - dp[1] = 2 (2 ways to climb 2 stairs)
-            - Transition:
-                dp[i] = dp[i-1] + dp[i-2]
-            - Answer is dp[n-1].
-
     Time Complexity:
         - O(n), since each state is computed once.
 
@@ -44,4 +34,5 @@ int main() {
     cout << countWays(stair);
     return 0;
 }
+
 
