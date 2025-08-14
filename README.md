@@ -29,7 +29,7 @@ DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
 
 14. Queue.
 
-15. Dynamic Programing
+15. Dynamic Programing.
 
  
 
