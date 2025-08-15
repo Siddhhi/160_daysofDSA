@@ -5,7 +5,7 @@
         - Given `n` stairs, you can climb either 1 step or 2 steps at a time.
         - Find the total number of distinct ways to reach the top.
 
-    Author: Siddhi
+    Author: Siddhi.
 */
 
 #include <iostream>
@@ -28,6 +28,7 @@ int main() {
     cout << countWays(stair);
     return 0;
 }
+
 
 
 
