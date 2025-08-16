@@ -7,15 +7,7 @@
         - You can start from stair 0 or stair 1.
         - Find the minimum cost to reach the top of the floor (beyond the last stair).
 
-  
-                dp[i] = cost[i] + min(dp[i-1], dp[i-2])
-            - Answer is min(dp[n-1], dp[n-2]), since you can reach the top
-              from either of the last two stairs.
 
-    Time Complexity:
-        - O(n), since each stair is processed once.
-
-    Space Complexity:
         - O(n), for the DP array (can be optimized to O(1)).
 
     Author: Vishal Singhaniya
@@ -43,4 +35,5 @@ int main() {
     cout << minWeight(stair);
     return 0;
 }
+
 
