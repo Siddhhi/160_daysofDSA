@@ -7,7 +7,7 @@
         - You can start from stair 0 or stair 1.
         - Find the minimum cost to reach the top of the floor (beyond the last stair).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
@@ -32,6 +32,7 @@ int main() {
     cout << minWeight(stair);
     return 0;
 }
+
 
 
 
