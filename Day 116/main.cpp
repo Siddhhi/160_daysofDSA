@@ -7,9 +7,6 @@
         - You can start from stair 0 or stair 1.
         - Find the minimum cost to reach the top of the floor (beyond the last stair).
 
-
-        - O(n), for the DP array (can be optimized to O(1)).
-
     Author: Vishal Singhaniya
 */
 
@@ -35,5 +32,6 @@ int main() {
     cout << minWeight(stair);
     return 0;
 }
+
 
 
