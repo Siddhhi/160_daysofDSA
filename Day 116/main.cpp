@@ -7,20 +7,7 @@
         - You can start from stair 0 or stair 1.
         - Find the minimum cost to reach the top of the floor (beyond the last stair).
 
-    Example:
-        Input:  cost = [10, 15, 20]
-        Output: 15
-        Explanation:
-            - Start at stair 1 (cost = 15), then directly climb 2 steps to the top.
-            - Total cost = 15 (minimum possible).
-
-    Approach:
-        - Use bottom-up dynamic programming:
-            - Let dp[i] represent the minimum cost to reach stair i.
-            - Base cases:
-                - dp[0] = cost[0]
-                - dp[1] = cost[1]
-            - Transition:
+  
                 dp[i] = cost[i] + min(dp[i-1], dp[i-2])
             - Answer is min(dp[n-1], dp[n-2]), since you can reach the top
               from either of the last two stairs.
@@ -56,3 +43,4 @@ int main() {
     cout << minWeight(stair);
     return 0;
 }
+
