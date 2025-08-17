@@ -1,5 +1,5 @@
 /* 
-    Title: 0/1 Knapsack Problem (Dynamic Programming - Memoization)
+    Title: 0/1 Knapsack Problem
 
     Problem Statement:
         - You are given:
@@ -8,9 +8,8 @@
             3. An integer `capacity` representing the maximum weight the knapsack can hold.
         - Each item can either be included **once** (0/1 property) or not at all.
         - Find the maximum total value that can be obtained without exceeding the knapsack capacity.
-* capacity), for the memo table (can be optimized).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <iostream>
@@ -55,6 +54,7 @@ int main() {
     cout << "Max value achievable: " << knapsack(capacity, value, weight) << endl;    
     return 0;
 }
+
 
 
 
