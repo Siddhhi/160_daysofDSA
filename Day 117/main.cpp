@@ -8,12 +8,7 @@
             3. An integer `capacity` representing the maximum weight the knapsack can hold.
         - Each item can either be included **once** (0/1 property) or not at all.
         - Find the maximum total value that can be obtained without exceeding the knapsack capacity.
-
-    Time Complexity:
-        - O(n * capacity), since each state is computed once.
-
-    Space Complexity:
-        - O(n * capacity), for the memo table (can be optimized).
+* capacity), for the memo table (can be optimized).
 
     Author: Vishal Singhaniya
 */
@@ -60,5 +55,6 @@ int main() {
     cout << "Max value achievable: " << knapsack(capacity, value, weight) << endl;    
     return 0;
 }
+
 
 
