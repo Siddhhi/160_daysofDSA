@@ -9,18 +9,6 @@
         - Each item can either be included **once** (0/1 property) or not at all.
         - Find the maximum total value that can be obtained without exceeding the knapsack capacity.
 
-    Approach:
-        - Use recursion + memoization (top-down dynamic programming):
-            - Define knapSolve(capacity, n):
-                - Returns max value using first `n` items with given capacity.
-            - Choices:
-                1. If weight[n-1] > capacity → cannot pick item → solve for (capacity, n-1).
-                2. Else:
-                    - Pick = value[n-1] + knapSolve(capacity - weight[n-1], n-1)
-                    - NotPick = knapSolve(capacity, n-1)
-                    - Take max(Pick, NotPick).
-            - Store results in memo table to avoid recomputation.
-
     Time Complexity:
         - O(n * capacity), since each state is computed once.
 
@@ -72,4 +60,5 @@ int main() {
     cout << "Max value achievable: " << knapsack(capacity, value, weight) << endl;    
     return 0;
 }
+
 
