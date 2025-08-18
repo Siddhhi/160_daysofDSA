@@ -9,14 +9,6 @@
           using the available coins.
         - Each coin can be used **infinite times**.
 
-  
-
-    Time Complexity:
-        - Exponential (O(2^n)) in worst case (due to recursion).
-
-    Space Complexity:
-        - O(n) recursion depth.
-
     Author: Vishal Singhaniya
 */
 
