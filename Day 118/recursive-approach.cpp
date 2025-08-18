@@ -9,19 +9,7 @@
           using the available coins.
         - Each coin can be used **infinite times**.
 
-    Example:
-        Input:
-            coin = [5, 2, 3, 6]
-            sum = 10
-        Output: 5
-        Explanation:
-            Ways are:
-                (2+2+2+2+2),
-                (2+2+3+3),
-                (2+2+6),
-                (2+3+5),
-                (5+5)
-
+   
     Approach:
         - Recursive solution:
             - Define countWays(coin[], sum, n):
