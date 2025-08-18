@@ -9,30 +9,6 @@
           using the available coins.
         - Each coin can be used **infinite times**.
 
-    Example:
-        Input:
-            coin = [5, 2, 3, 6]
-            sum = 10
-        Output: 5
-        Explanation:
-            Ways are:
-                (2+2+2+2+2),
-                (2+2+3+3),
-                (2+2+6),
-                (2+3+5),
-                (5+5)
-
-    Approach:
-        - Recursive solution:
-            - Define countWays(coin[], sum, n):
-                1. If sum == 0 → return 1 (valid way found).
-                2. If sum < 0 → return 0 (invalid way).
-                3. If no coins left (n == 0) → return 0.
-                4. Else:
-                    - Include current coin → countWays(sum - coin[n-1], n)
-                    - Exclude current coin → countWays(sum, n-1)
-                    - Add both results.
-
     Time Complexity:
         - Exponential (O(2^n)) in worst case (due to recursion).
 
