@@ -9,7 +9,7 @@
           using the available coins.
         - Each coin can be used **infinite times**.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
