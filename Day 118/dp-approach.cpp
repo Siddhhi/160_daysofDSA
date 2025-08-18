@@ -9,9 +9,6 @@
           using the available coins.
         - Each coin can be used **infinite times**.
 
-    Space Complexity:
-        - O(n) recursion depth.
-
     Author: Vishal Singhaniya
 */
 
