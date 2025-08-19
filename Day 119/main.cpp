@@ -8,17 +8,6 @@
         - Find the minimum number of coins required to make the target sum.
         - If the target sum cannot be formed using given coins, return -1.
         - Each coin can be used **infinite times**.
- 1. If sum < 0 → invalid → return INF.
-                2. If sum == 0 → return 0 (no coins needed).
-                3. If n == 0 → no coins left → return INF.
-                4. If result already in memo → return it.
-                5. Choices:
-                    - Take coin[n-1] → 1 + minCoin(coins, n, sum - coins[n-1]).
-                    - Skip coin[n-1] → minCoin(coins, n-1, sum).
-                6. Store and return the minimum of both choices.
-
-    Time Complexity:
-        - O(n * sum), since each state is computed once.
 
     Space Complexity:
         - O(n * sum) for memoization table.
