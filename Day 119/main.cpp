@@ -9,9 +9,6 @@
         - If the target sum cannot be formed using given coins, return -1.
         - Each coin can be used **infinite times**.
 
-    Space Complexity:
-        - O(n * sum) for memoization table.
-
     Author: Vishal Singhaniya
 */
 
