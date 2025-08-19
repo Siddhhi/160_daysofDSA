@@ -8,18 +8,7 @@
         - Find the minimum number of coins required to make the target sum.
         - If the target sum cannot be formed using given coins, return -1.
         - Each coin can be used **infinite times**.
-
-    Example:
-        Input:
-            coins = [1, 2, 5], sum = 11
-        Output: 3
-        Explanation:
-            11 = 5 + 5 + 1  (minimum 3 coins)
-
-    Approach:
-        - Use recursion + memoization (top-down DP):
-            - Define minCoin(coins, n, sum):
-                1. If sum < 0 → invalid → return INF.
+ 1. If sum < 0 → invalid → return INF.
                 2. If sum == 0 → return 0 (no coins needed).
                 3. If n == 0 → no coins left → return INF.
                 4. If result already in memo → return it.
