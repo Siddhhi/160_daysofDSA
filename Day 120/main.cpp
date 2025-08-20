@@ -8,8 +8,6 @@
         - Starting from index 0, find the **minimum number of jumps** 
           required to reach the last index.
         - If the last index cannot be reached, return -1.
-lexity:
-        - O(n), for the DP table.
 
     Author: Vishal Singhaniya
 */
