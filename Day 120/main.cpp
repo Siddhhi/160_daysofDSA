@@ -8,19 +8,7 @@
         - Starting from index 0, find the **minimum number of jumps** 
           required to reach the last index.
         - If the last index cannot be reached, return -1.
-
-    Example:
-        Input:
-            arr = [1, 3, 2, 1, 4]
-        Output: 2
-        Explanation:
-            - Start at index 0 → jump 1 step to index 1
-            - From index 1 (value = 3) → jump directly to index 4 (last index)
-            - Minimum jumps = 2
-
-    Approach:
-        - Use bottom-up DP (tabulation):
-            1. Initialize `dp[i]` as the minimum jumps required to reach index `i`.
+. Initialize `dp[i]` as the minimum jumps required to reach index `i`.
             2. Base case: `dp[0] = 0` (already at start).
             3. For each index `i`, check all previous indices `j < i`.
                 - If `arr[j] + j >= i` (i.e., `i` is reachable from `j`),
