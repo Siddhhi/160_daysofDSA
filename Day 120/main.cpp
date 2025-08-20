@@ -8,18 +8,7 @@
         - Starting from index 0, find the **minimum number of jumps** 
           required to reach the last index.
         - If the last index cannot be reached, return -1.
-. Initialize `dp[i]` as the minimum jumps required to reach index `i`.
-            2. Base case: `dp[0] = 0` (already at start).
-            3. For each index `i`, check all previous indices `j < i`.
-                - If `arr[j] + j >= i` (i.e., `i` is reachable from `j`),
-                  update `dp[i] = min(dp[i], dp[j] + 1)`.
-            4. Final answer = `dp[n-1]` (min jumps to reach last index).
-            5. If `dp[n-1]` is still infinity → return -1.
-
-    Time Complexity:
-        - O(n²), due to nested loops.
-
-    Space Complexity:
+lexity:
         - O(n), for the DP table.
 
     Author: Vishal Singhaniya
