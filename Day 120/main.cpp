@@ -9,7 +9,7 @@
           required to reach the last index.
         - If the last index cannot be reached, return -1.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
