@@ -5,7 +5,7 @@
         - You are given an array `arr[]` of size `n` and a target sum `S`.
         - Determine whether there exists a subset of `arr` whose sum is exactly `S`.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
