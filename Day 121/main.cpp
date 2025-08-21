@@ -5,23 +5,6 @@
         - You are given an array `arr[]` of size `n` and a target sum `S`.
         - Determine whether there exists a subset of `arr` whose sum is exactly `S`.
 
-  
-        - Use recursion with memoization:
-            1. Base cases:
-                - If `sum == 0` → return true (empty subset works).
-                - If `sum < 0` or `n == 0` → return false.
-            2. Use memoization table `memo[sum][n]` to store results and avoid recomputation.
-            3. At each step, either:
-                - Pick the current element → check subset with `sum - arr[n-1]`.
-                - Or skip the current element → check subset with same `sum`.
-            4. Return true if either choice works.
-
-    Time Complexity:
-        - O(n * sum), since each state `(n, sum)` is computed once.
-
-    Space Complexity:
-        - O(n * sum), due to the memoization table.
-
     Author: Vishal Singhaniya
 */
 
