@@ -5,16 +5,7 @@
         - You are given an array `arr[]` of size `n` and a target sum `S`.
         - Determine whether there exists a subset of `arr` whose sum is exactly `S`.
 
-    Example:
-        Input:
-            arr = [1, 5, 4, 7, 2, 3, 11, 36, 8]
-            sum = 45
-        Output:
-            The sum 45 is possible
-        Explanation:
-            A valid subset could be [36, 5, 4].
-
-    Approach:
+  
         - Use recursion with memoization:
             1. Base cases:
                 - If `sum == 0` → return true (empty subset works).
