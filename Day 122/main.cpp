@@ -6,20 +6,7 @@
         - Determine whether the array can be partitioned into two subsets such that 
           the sum of both subsets is equal.
 
-    Approach:
-        - Step 1: Compute total sum of array elements.
-        - Step 2: If total sum is odd → partition not possible.
-        - Step 3: Otherwise, check if there exists a subset with sum = total_sum / 2.
-                  This reduces the problem to a Subset Sum Problem.
-        - Step 4: Solve subset sum using recursion + memoization:
-            • Base cases:
-                - If sum == 0 → return true.
-                - If sum < 0 or n == 0 → return false.
-            • Recursive relation:
-                - Either include current element → check subset(sum - arr[n-1])
-                - Or exclude current element → check subset(sum)
-            • Use memoization table `memo[sum][n]` to avoid recomputation.
-
+    
     Time Complexity:
         - O(n * sum/2), since each state `(n, sum)` is computed once.
 
