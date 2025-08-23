@@ -6,13 +6,6 @@
         - Determine whether the array can be partitioned into two subsets such that 
           the sum of both subsets is equal.
 
-    
-    Time Complexity:
-        - O(n * sum/2), since each state `(n, sum)` is computed once.
-
-    Space Complexity:
-        - O(n * sum/2), due to memoization table.
-
     Author: Vishal Singhaniya
 */
 
