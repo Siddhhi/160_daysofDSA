@@ -6,14 +6,6 @@
         - Determine whether the array can be partitioned into two subsets such that 
           the sum of both subsets is equal.
 
-    Example:
-        Input:
-            arr = [1, 5, 2, 3, 5, 4]
-        Output:
-            The partition is possible
-        Explanation:
-            Subset1 = [5, 5], Subset2 = [1, 2, 3, 4]
-
     Approach:
         - Step 1: Compute total sum of array elements.
         - Step 2: If total sum is odd → partition not possible.
