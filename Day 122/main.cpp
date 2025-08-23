@@ -1,12 +1,12 @@
 /* 
-    Title: Partition Problem (Using Subset Sum with Recursion + Memoization)
+    Title: Partition Problem 
 
     Problem Statement:
         - You are given an array `arr[]` of size `n`.
         - Determine whether the array can be partitioned into two subsets such that 
           the sum of both subsets is equal.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
