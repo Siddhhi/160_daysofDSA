@@ -1,5 +1,5 @@
 /* 
-    Title: Partition Problem
+    Title: Partition Problem.
 
     Problem Statement:
         - You are given an array `arr[]` of size `n`.
