@@ -7,16 +7,6 @@
         - A transaction is defined as one buy and one sell.
         - Find the maximum profit you can achieve under these constraints.
 
-    Example:
-        Input:
-            prices = [10, 50, 5, 800], k = 2
-        Output:
-            Maximum profit which can be acheived : 835
-        Explanation:
-            Buy on day 0 at price 10, sell on day 1 at price 50 → profit = 40
-            Buy on day 2 at price 5, sell on day 3 at price 800 → profit = 795
-            Total profit = 835
-
     Approach:
         - Use recursion with memoization:
             • State: (i, k, buy)
