@@ -1,5 +1,5 @@
 /* 
-    Title: Best Time to Buy and Sell Stock IV (Recursion + Memoization)
+    Title: Buy and Sell Stock (Recursion + Memoization)
 
     Problem Statement:
         - You are given an array `prices[]` where `prices[i]` is the price of a stock on day `i`.
@@ -7,10 +7,8 @@
         - A transaction is defined as one buy and one sell.
         - Find the maximum profit you can achieve under these constraints.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
-
-
 
 
 #include<iostream>
