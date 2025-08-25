@@ -6,7 +6,7 @@
         - Determine whether the array can be partitioned into two subsets such that 
           the sum of both subsets is equal.
 
-    Author: Siddhi
+    Author: Siddhi.
 */
 
 
