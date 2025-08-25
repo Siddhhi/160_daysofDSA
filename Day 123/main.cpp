@@ -56,7 +56,7 @@ int recFunction(int i,int n , int k, int buy, vector<int> &prices,vector<vector<
 
 int main(){
     
-    vector<int> arr = {10,50,5,800};
+    vector<int> arr = {10,6,24,35,60};
     int k = 2;
     cout<<"Maximum profit which can be acheived is : "<<maxProfit(arr,k);
     
