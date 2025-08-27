@@ -8,7 +8,7 @@
         - Each transaction consists of exactly one buy and one sell.
         - Find the maximum profit possible.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
@@ -57,5 +57,6 @@ int main(){
     return 0;
 
 }
+
 
 
