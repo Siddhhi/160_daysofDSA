@@ -8,19 +8,6 @@
         - You cannot rob two adjacent houses (to avoid alerting the police).
         - Find the maximum amount of money you can loot.
 
-    Example:
-        Input:
-            arr = [10, 15, 20, 5, 60, 10, 80]
-        Output:
-            165
-        Explanation:
-            - Rob house 0 (10) + house 2 (20) + house 4 (60) + house 6 (80) 
-              = 170 
-            - Another option: house 1 (15) + house 4 (60) + house 6 (80) 
-              = 155
-            - Optimal = 170 (but depending on array it varies).
-              (Your code’s logic will compute this optimal solution.)
-
     Approach:
         - Use recursion with memoization:
             • State: maxLootRec(i) = maximum money looted from first `i` houses.
@@ -80,4 +67,5 @@ int main(){
     vector<int> prices= {10,15,20,5,60,10,80};
     cout<<"Maximum loot can be achieve is "<<maxLoot(prices);
     return 0;
+
 }
