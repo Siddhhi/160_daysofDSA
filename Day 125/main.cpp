@@ -1,6 +1,5 @@
 /* 
-    Title: Maximum Loot from Non-Adjacent Houses (House Robber Problem)
-           (Recursion + Memoization)
+    Title: Maximum Loot 
 
     Problem Statement:
         - You are given an array `arr[]` where each element represents the 
@@ -8,7 +7,7 @@
         - You cannot rob two adjacent houses (to avoid alerting the police).
         - Find the maximum amount of money you can loot.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -50,5 +49,6 @@ int main(){
     return 0;
 
 }
+
 
 
