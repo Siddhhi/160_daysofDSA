@@ -8,9 +8,6 @@
         - Each transaction consists of exactly one buy and one sell.
         - Find the maximum profit possible.
 
-    Space Complexity:
-        - O(n * 2 * 2), due to memoization table.
-
     Author: Vishal Singhaniya
 */
 
@@ -60,4 +57,5 @@ int main(){
     return 0;
 
 }
+
 
