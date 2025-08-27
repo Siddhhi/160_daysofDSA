@@ -8,19 +8,6 @@
         - You cannot rob two adjacent houses (to avoid alerting the police).
         - Find the maximum amount of money you can loot.
 
-    Approach:
-        - Use recursion with memoization:
-            • State: maxLootRec(i) = maximum money looted from first `i` houses.
-            • Choices:
-                - Rob current house → arr[i] + maxLootRec(i-2)
-                - Skip current house → maxLootRec(i-1)
-                - Take the maximum of both.
-        - Use a memo array to store already computed results.
-
-    Base Cases:
-        - If n == 0 → loot = arr[0]
-        - If n == 1 → loot = max(arr[0], arr[1])
-
     Time Complexity:
         - O(n), since each house is computed once.
 
@@ -69,3 +56,4 @@ int main(){
     return 0;
 
 }
+
