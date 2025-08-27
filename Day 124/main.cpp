@@ -8,16 +8,6 @@
         - Each transaction consists of exactly one buy and one sell.
         - Find the maximum profit possible.
 
-    Example:
-        Input:
-            prices = [10, 50, 5, 800]
-        Output:
-            835
-        Explanation:
-            - Buy on day 0 at price 10, sell on day 1 at price 50 → profit = 40
-            - Buy on day 2 at price 5, sell on day 3 at price 800 → profit = 795
-            - Total profit = 835
-
     Approach:
         - Use recursion with memoization:
             • State: (i, k, buy)
@@ -89,4 +79,5 @@ int main(){
     vector<int> prices= {10,15,20,5,60,10,80};
     cout<<"Maximum profit you can achieve in 2 transactions "<<maxProfit(prices);
     return 0;
+
 }
