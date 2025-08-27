@@ -8,12 +8,6 @@
         - You cannot rob two adjacent houses (to avoid alerting the police).
         - Find the maximum amount of money you can loot.
 
-    Time Complexity:
-        - O(n), since each house is computed once.
-
-    Space Complexity:
-        - O(n) for memoization.
-
     Author: Vishal Singhaniya
 */
 
@@ -56,4 +50,5 @@ int main(){
     return 0;
 
 }
+
 
