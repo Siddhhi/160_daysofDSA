@@ -8,27 +8,6 @@
         - Each transaction consists of exactly one buy and one sell.
         - Find the maximum profit possible.
 
-    Approach:
-        - Use recursion with memoization:
-            • State: (i, k, buy)
-                - `i` → current day
-                - `k` → remaining transactions (max = 2 here)
-                - `buy` → 1 if we can buy, 0 if we need to sell
-            • Base cases:
-                - If i == n → return 0 (no days left)
-                - If k == 0 → return 0 (no transactions left)
-            • Choices:
-                - If buy = 1 → 
-                    1. Buy today → subtract prices[i], switch to sell state
-                    2. Skip today → move to next day
-                - If buy = 0 → 
-                    1. Sell today → add prices[i], decrement k, switch to buy state
-                    2. Skip today → move to next day
-        - Use memo[i][k][buy] to store computed states.
-
-    Time Complexity:
-        - O(n * 2 * 2) = O(4n) → linear with memoization.
-
     Space Complexity:
         - O(n * 2 * 2), due to memoization table.
 
@@ -81,3 +60,4 @@ int main(){
     return 0;
 
 }
+
