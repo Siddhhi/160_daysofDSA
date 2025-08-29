@@ -10,26 +10,6 @@
           both cannot be robbed together.
         - Find the maximum amount of money you can loot.
 
-    Approach:
-        - Break the circular problem into two linear problems:
-            1. Exclude last house → Rob from arr[0] to arr[n-2]
-            2. Exclude first house → Rob from arr[1] to arr[n-1]
-        - Apply standard House Robber (linear DP with memoization) on both.
-        - Return the maximum of the two cases.
-
-    Recurrence:
-        maxLoot(i) = max(arr[i] + maxLoot(i-2), maxLoot(i-1))
-
-    Base Cases:
-        - If n == 1 → return arr[0]
-        - If n == 2 → return max(arr[0], arr[1])
-
-    Time Complexity:
-        - O(n), since each house is processed once.
-
-    Space Complexity:
-        - O(n), for memoization arrays.
-
     Author: Vishal Singhaniya
 */
 
