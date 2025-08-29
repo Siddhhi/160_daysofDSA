@@ -11,19 +11,6 @@
           both cannot be robbed together.
         - Find the maximum amount of money you can loot.
 
-    Example:
-        Input:
-            arr = [100, 20, 3, 50, 30, 70]
-        Output:
-            190
-        Explanation:
-            - Rob house 0 (100) + house 3 (50) + house 5 (70) → 220 (valid, 
-              but circular constraint excludes first and last together).
-            - Instead:
-                Option 1 → Exclude last house: [100, 20, 3, 50, 30] → 180
-                Option 2 → Exclude first house: [20, 3, 50, 30, 70] → 190
-            - Answer = max(180, 190) = 190
-
     Approach:
         - Break the circular problem into two linear problems:
             1. Exclude last house → Rob from arr[0] to arr[n-2]
