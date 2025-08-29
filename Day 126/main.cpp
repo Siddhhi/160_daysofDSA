@@ -1,6 +1,5 @@
 /* 
     Title: Maximum Loot from Houses in a Circular Arrangement 
-           (House Robber II - Recursion + Memoization)
 
     Problem Statement:
         - You are given an array `arr[]` where each element represents the 
