@@ -10,7 +10,7 @@
           both cannot be robbed together.
         - Find the maximum amount of money you can loot.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
