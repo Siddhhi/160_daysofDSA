@@ -8,26 +8,6 @@
         - The task is to count the total number of ways 
           the string can be decoded into letters.
 
-    Example:
-        Input:  "123"
-        Output: 3
-        Explanation:
-            Possible decodings include:
-                "ABC" , "LC" , "AW" 
-
-    Approach:
-        - Use recursion with memoization (Top-down DP).
-        - At each index i:
-            1. Decode one digit (if it's not '0').
-            2. Decode two digits (if valid between "10" and "26").
-        - Store results in memo[i] to avoid recomputation.
-    
-    Time Complexity:
-        - O(n), since each index is solved once.
-    
-    Space Complexity:
-        - O(n), for memoization array.
-
     Author: Vishal Singhaniya
 */
 
