@@ -10,7 +10,7 @@
         - Input is given as an array 'arr' of dimensions, where the 
           ith matrix has dimensions arr[i-1] x arr[i].
 
-    Author: 
+    Author: Siddhi
 */
 
 
