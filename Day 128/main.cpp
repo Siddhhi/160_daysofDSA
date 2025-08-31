@@ -1,5 +1,5 @@
 /* 
-    Title: Matrix Chain Multiplication.
+    Title: Matrix Chain Multiplication
 
     Problem Statement:
         - Given a sequence of matrices, we want to multiply them together
