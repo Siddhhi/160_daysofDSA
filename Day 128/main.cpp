@@ -10,38 +10,7 @@
         - Input is given as an array 'arr' of dimensions, where the 
           ith matrix has dimensions arr[i-1] x arr[i].
 
-    Example:
-        Input:  arr = {10, 30, 5, 60}
-        Matrices: A1 (10x30), A2 (30x5), A3 (5x60)
-        Output:  4500
-        Explanation:
-            - (A1 x (A2 x A3)) → cost = (30*5*60) + (10*30*60) = 9000 + 18000 = 27000
-            - ((A1 x A2) x A3) → cost = (10*30*5) + (10*5*60) = 1500 + 3000 = 4500 (minimum)
-
-    Approach:
-        - Use recursion with memoization (Top-down DP).
-        - Define a function recFunction(i, j):
-            → Minimum cost of multiplying matrices from index i to j.
-        - Try placing a partition at every possible k between (i, j),
-          compute cost of left & right multiplications, and add 
-          multiplication cost of merging them.
-        - Store the result in memo[i][j] to avoid recomputation.
-
-    Recurrence Relation:
-        recFunction(i, j) = min( recFunction(i, k) + recFunction(k, j) 
-                                  + arr[i] * arr[k] * arr[j] )
-                            for all i < k < j
-
-    Base Case:
-        - If i+1 == j → cost = 0 (no multiplication needed).
-
-    Time Complexity:
-        - O(n^3), because we try all partitions k for every (i, j).
-    
-    Space Complexity:
-        - O(n^2) for the memoization table.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
