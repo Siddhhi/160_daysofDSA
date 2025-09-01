@@ -7,40 +7,6 @@
         - The task is to count the number of ways to parenthesize the 
           expression such that the final result evaluates to True.
 
-    Example:
-        Input:  s = "T|F&T"
-        Output: 2
-        Explanation:
-            - (T | (F & T)) = (T | F) & T = T → Valid
-            - ((T | F) & T) = (T | F) & T = T → Valid
-            Total = 2 ways.
-
-    Approach:
-        - Use recursion with memoization (Top-down DP).
-        - Define recFunction(i, j, req):
-            → Number of ways to evaluate the subexpression s[i..j] 
-              such that the result equals `req` (0 = False, 1 = True).
-        - Partition expression at every operator (odd index k).
-        - Compute left (i..k-1) and right (k+1..j) evaluations 
-          for both True and False cases.
-        - Combine them based on operator at s[k] using evaluate() function.
-
-    Recurrence Relation:
-        recFunction(i, j, req) = Σ (ways from left × ways from right) 
-                                 where operator evaluation == req
-
-    Base Case:
-        - If i == j:
-            → If s[i] == 'T' and req == 1 → return 1
-            → If s[i] == 'F' and req == 0 → return 1
-            → Else return 0
-
-    Time Complexity:
-        - O(n^3), since we try all partitions (k) for each subproblem.
-    
-    Space Complexity:
-        - O(n^2 * 2), for memoization of [i][j][req].
-
     Author: Vishal Singhaniya
 */
 
@@ -128,3 +94,4 @@ int main(){
     
 
 }
+
