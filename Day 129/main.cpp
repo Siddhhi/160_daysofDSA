@@ -2,11 +2,9 @@
     Title: Boolean Parenthesization Problem
     
     Problem Statement:
-        - You are given a boolean expression consisting of operands {T, F} 
-          and operators {&, |, ^}.
-        - The task is to count the number of ways to parenthesize the 
-          expression such that the final result evaluates to True.
-
+        - You are given a boolean expression consisting of operands {T, F} and operators {&, |, ^}.
+        - The task is to count the number of ways to parenthesize the expression such that the final result evaluates to True.
+        
     Author: Siddhi
 */
 
@@ -94,6 +92,7 @@ int main(){
     
 
 }
+
 
 
 
