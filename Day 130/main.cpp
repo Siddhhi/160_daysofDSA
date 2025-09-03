@@ -7,41 +7,6 @@
           of one or more dictionary words.
         - You may reuse dictionary words any number of times.
 
-    Example:
-        Input:
-            s = "catsanddog"
-            dict = {"cats", "dog", "sand", "and", "cat"}
-        Output:
-            true
-        Explanation:
-            - "cats and dog" → valid segmentation
-            - "cat sand dog" → valid segmentation
-
-        Input:
-            s = "catsanddogz"
-            dict = {"cats","dog","sand","and","cat"}
-        Output:
-            false
-        Explanation:
-            - No valid segmentation exists (extra 'z').
-
-    Approach:
-        - Use Dynamic Programming with a boolean DP array.
-        - dp[i] = true if substring(0..i-1) can be segmented using words from dict.
-        - Transition:
-            For each i → check all j < i:
-                - If dp[j] is true AND s[j..i-1] is in dict → set dp[i] = true.
-        - Finally, return dp[n] where n = length of string.
-
-    Data Structure:
-        - Use unordered_set for dictionary lookup (O(1) average).
-
-    Time Complexity:
-        - O(n^2), since for each index we check all possible partitions.
-
-    Space Complexity:
-        - O(n), for the DP array.
-
     Author: Vishal Singhaniya
 */
 
