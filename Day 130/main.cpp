@@ -1,5 +1,5 @@
 /* 
-    Title: Word Break Problem (Dynamic Programming)
+    Title: Word Break Problem
 
     Problem Statement:
         - You are given a string `s` and a dictionary of words `dict[]`.
