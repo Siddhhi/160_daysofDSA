@@ -7,15 +7,6 @@
         - A subsequence does not require contiguous characters, 
           but must maintain relative order.
 
-    Example:
-        Input:
-            s1 = "ABCEFGHJKL"
-            s2 = "CDEFGHJKLMNO"
-        Output:
-            8
-        Explanation:
-            - Longest Common Subsequence = "CEFGHJKL"
-            - Length = 8
 
     Approach:
         - Use Bottom-Up DP (Tabulation):
