@@ -7,12 +7,6 @@
         - A subsequence does not require contiguous characters, 
           but must maintain relative order.
 
-    Time Complexity:
-        - O(m * n), since we fill a 2D table.
-
-    Space Complexity:
-        - O(m * n), for the DP table.
-
     Author: Vishal Singhaniya
 */
 
