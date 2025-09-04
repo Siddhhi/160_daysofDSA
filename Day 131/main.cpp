@@ -7,18 +7,6 @@
         - A subsequence does not require contiguous characters, 
           but must maintain relative order.
 
-
-    Approach:
-        - Use Bottom-Up DP (Tabulation):
-            • Create a 2D DP table of size (m+1) x (n+1).
-            • dp[i][j] = length of LCS of s1[0..i-1] and s2[0..j-1].
-            • Recurrence:
-                - If s1[i-1] == s2[j-1]:
-                    dp[i][j] = 1 + dp[i-1][j-1]
-                - Else:
-                    dp[i][j] = max(dp[i-1][j], dp[i][j-1])
-        - Final Answer = dp[m][n].
-
     Time Complexity:
         - O(m * n), since we fill a 2D table.
 
