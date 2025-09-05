@@ -9,15 +9,6 @@
         - A string chain is formed by words where each word is a predecessor of the next.
         - Task: Find the length of the longest possible word chain.
 
-    Example:
-        Input:
-            words = {"a", "b", "ab", "abc", "adbc"}
-        Output:
-            4
-        Explanation:
-            - One possible chain: "a" → "ab" → "abc" → "adbc"
-            - Length = 4
-
     Approach:
         - Step 1: Sort words by length (shorter words must come before longer ones).
         - Step 2: Use DP to compute the longest chain:
