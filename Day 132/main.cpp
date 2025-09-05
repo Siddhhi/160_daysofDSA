@@ -1,5 +1,5 @@
 /* 
-    Title: Longest String Chain (Dynamic Programming + Sorting)
+    Title: Longest String Chain
 
     Problem Statement:
         - You are given a list of words.
@@ -9,7 +9,7 @@
         - A string chain is formed by words where each word is a predecessor of the next.
         - Task: Find the length of the longest possible word chain.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
