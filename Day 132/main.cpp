@@ -9,14 +9,6 @@
         - A string chain is formed by words where each word is a predecessor of the next.
         - Task: Find the length of the longest possible word chain.
 
-    
-        - O(n^2 * L), where:
-            • n = number of words,
-            • L = average word length (for predecessor check).
-
-    Space Complexity:
-        - O(n), for the DP array.
-
     Author: Vishal Singhaniya
 */
 
