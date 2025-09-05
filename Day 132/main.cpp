@@ -9,7 +9,7 @@
         - A string chain is formed by words where each word is a predecessor of the next.
         - Task: Find the length of the longest possible word chain.
 
-    Author: 
+    Author: Siddhi
 */
 
 
