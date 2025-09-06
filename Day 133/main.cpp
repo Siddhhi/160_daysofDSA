@@ -9,12 +9,6 @@
           no train has to wait.
 
    
-    Time Complexity:
-        - O(n log n), due to sorting.
-    
-    Space Complexity:
-        - O(1), constant extra space.
-
     Author: Vishal Singhaniya
 */
 
