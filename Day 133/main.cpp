@@ -8,14 +8,7 @@
         - Task: Find the minimum number of railway platforms required so that 
           no train has to wait.
 
-    Example:
-        Input:
-            arr = {900, 910, 1100, 1135, 1210, 500}
-            dep = {930, 1200, 1400, 1330, 1650, 1800}
-        Output:
-            4
-
-    Approach:
+   
         - Step 1: Sort arrival and departure arrays.
         - Step 2: Use two pointers (i for arrival, j for departure).
         - Step 3: Traverse both arrays:
