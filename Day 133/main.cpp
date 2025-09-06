@@ -1,5 +1,5 @@
 /* 
-    Title: Minimum Number of Platforms (Greedy + Sorting)
+    Title: Minimum Number of Platforms
 
     Problem Statement:
         - You are given two arrays:
@@ -7,9 +7,8 @@
             • dep[] → departure times of trains
         - Task: Find the minimum number of railway platforms required so that 
           no train has to wait.
-
    
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
