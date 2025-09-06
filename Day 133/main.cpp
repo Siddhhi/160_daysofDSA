@@ -9,13 +9,6 @@
           no train has to wait.
 
    
-        - Step 1: Sort arrival and departure arrays.
-        - Step 2: Use two pointers (i for arrival, j for departure).
-        - Step 3: Traverse both arrays:
-            • If arrival[i] <= departure[j] → new train arrives → increase count.
-            • Else departure happens → free a platform → decrease count.
-        - Step 4: Keep track of the maximum count at any time → result.
-
     Time Complexity:
         - O(n log n), due to sorting.
     
