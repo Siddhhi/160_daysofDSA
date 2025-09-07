@@ -8,7 +8,7 @@
         - Task: Select the maximum number of activities that can be performed 
           by a single person such that no two activities overlap.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
