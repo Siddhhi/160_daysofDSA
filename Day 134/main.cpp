@@ -1,6 +1,5 @@
 /* 
-    Title: Activity Selection Problem (Greedy Approach)
-
+    Title: Activity Selection Problem 
     Problem Statement:
         - You are given two arrays:
             • start[] → starting times of activities
