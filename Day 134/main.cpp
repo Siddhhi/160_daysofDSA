@@ -1,17 +1,12 @@
 /* 
     Title: Activity Selection Problem 
+    
     Problem Statement:
         - You are given two arrays:
             • start[] → starting times of activities
             • finish[] → finishing times of activities
         - Task: Select the maximum number of activities that can be performed 
           by a single person such that no two activities overlap.
-
-    Time Complexity:
-        - O(n log n), due to sorting.
-    
-    Space Complexity:
-        - O(n), for storing activity pairs.
 
     Author: Vishal Singhaniya
 */
