@@ -7,24 +7,6 @@
         - Task: Select the maximum number of activities that can be performed 
           by a single person such that no two activities overlap.
 
-    Example:
-        Input:
-            start  = {1, 3, 0, 5, 8, 5}
-            finish = {2, 4, 6, 7, 9, 9}
-        Output:
-            4
-        Explanation:
-            One possible set of non-overlapping activities: 
-            {(1,2), (3,4), (5,7), (8,9)}
-
-    Approach:
-        - Step 1: Pair each activity as (finish, start) for easier sorting.
-        - Step 2: Sort activities by finish time (earliest finish first).
-        - Step 3: Traverse sorted activities:
-            • Select an activity if its start time is greater than the finish 
-              time of the last selected activity.
-        - Step 4: Count all such selections → maximum number of activities.
-
     Time Complexity:
         - O(n log n), due to sorting.
     
