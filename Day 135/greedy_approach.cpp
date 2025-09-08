@@ -10,16 +10,7 @@
             1. The number of jobs completed
             2. The total profit earned
 
-    (profit, deadline).
-        - Step 2: Sort jobs in descending order of profit.
-        - Step 3: Create a slot array of size = max(deadline), initialized with -1 (empty).
-        - Step 4: For each job:
-            • Find the latest available slot ≤ job's deadline.
-            • If found, schedule the job in that slot and add its profit.
-        - Step 5: Return total jobs scheduled and total profit.
-
-    Time Complexity:
-        - Sorting jobs: O(n log n)
+    
         - Scheduling jobs: O(n * maxDeadline)
         - Overall worst case: O(n * maxDeadline)
 
