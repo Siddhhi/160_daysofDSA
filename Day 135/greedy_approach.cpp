@@ -10,7 +10,7 @@
             1. The number of jobs completed
             2. The total profit earned
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <stdio.h>
