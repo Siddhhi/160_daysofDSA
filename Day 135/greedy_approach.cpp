@@ -10,18 +10,6 @@
             1. The number of jobs completed
             2. The total profit earned
 
-    
-        - Scheduling jobs: O(n * maxDeadline)
-        - Overall worst case: O(n * maxDeadline)
-
-    Space Complexity:
-        - O(maxDeadline), for slot allocation.
-
-    Output:
-        Returns a vector<int> of size 2:
-            • ans[0] → number of jobs completed
-            • ans[1] → maximum profit earned
-
     Author: Vishal Singhaniya
 */
 
