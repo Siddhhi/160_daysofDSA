@@ -10,17 +10,7 @@
             1. The number of jobs completed
             2. The total profit earned
 
-    Example:
-        Input:
-            deadline = {2, 1, 2, 1, 3}
-            profit   = {100, 19, 27, 25, 15}
-        Output:
-            Jobs Done = 2, Maximum Profit = 127
-        Explanation:
-            Possible schedule: Job1 (profit 100, deadline 2), Job3 (profit 27, deadline 2)
-
-    Approach:
-        - Step 1: Pair each job as (profit, deadline).
+    (profit, deadline).
         - Step 2: Sort jobs in descending order of profit.
         - Step 3: Create a slot array of size = max(deadline), initialized with -1 (empty).
         - Step 4: For each job:
