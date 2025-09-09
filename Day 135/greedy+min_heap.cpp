@@ -8,7 +8,7 @@
         - Task: Find the maximum number of jobs that can be done and the maximum 
           profit achievable, assuming each job takes exactly 1 unit of time.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
