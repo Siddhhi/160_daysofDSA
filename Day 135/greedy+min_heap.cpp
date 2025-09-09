@@ -8,12 +8,6 @@
         - Task: Find the maximum number of jobs that can be done and the maximum 
           profit achievable, assuming each job takes exactly 1 unit of time.
 
-    Time Complexity:
-        - O(n log n), due to sorting and heap operations.
-    
-    Space Complexity:
-        - O(n), for storing jobs in heap.
-
     Output:
         Returns a vector<int> of size 2:
             • ans[0] → number of jobs completed
