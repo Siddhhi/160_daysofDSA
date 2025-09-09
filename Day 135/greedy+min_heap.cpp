@@ -8,25 +8,6 @@
         - Task: Find the maximum number of jobs that can be done and the maximum 
           profit achievable, assuming each job takes exactly 1 unit of time.
 
-    Example:
-        Input:
-            deadline = {2, 2, 1, 3, 3}
-            profit   = {100, 19, 27, 25, 15}
-        Output:
-            Jobs Done = 3, Maximum Profit = 152
-        Explanation:
-            Possible schedule: Job1 (profit 100), Job3 (profit 27), Job4 (profit 25)
-
-    Approach:
-        - Step 1: Pair jobs as (deadline, profit) and sort them by deadline.
-        - Step 2: Use a min-heap (priority_queue with greater<>) to keep track 
-                  of selected job profits.
-        - Step 3: For each job:
-            • If the number of jobs in heap < deadline, push profit.
-            • Else if the smallest profit in heap is less than current job profit, 
-              replace it with the current job (better profit optimization).
-        - Step 4: Count jobs in heap and sum their profits → final result.
-
     Time Complexity:
         - O(n log n), due to sorting and heap operations.
     
