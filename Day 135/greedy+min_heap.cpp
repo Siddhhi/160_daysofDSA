@@ -8,11 +8,6 @@
         - Task: Find the maximum number of jobs that can be done and the maximum 
           profit achievable, assuming each job takes exactly 1 unit of time.
 
-    Output:
-        Returns a vector<int> of size 2:
-            • ans[0] → number of jobs completed
-            • ans[1] → maximum profit earned
-
     Author: Vishal Singhaniya
 */
 
