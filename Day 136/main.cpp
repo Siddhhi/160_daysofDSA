@@ -10,9 +10,6 @@
         - Task: Find the index of the starting gas station from which you can complete
           a full circular tour of all stations. If no such station exists, return -1.
 
-        - Returns the starting station index (0-based).
-        - If no complete tour is possible, returns -1.
-
     Author: Vishal Singhaniya
 */
 
