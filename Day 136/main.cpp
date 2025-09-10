@@ -1,5 +1,5 @@
 /*
-    Title: Gas Station Problem (Circular Tour)
+    Title: Gas Station Problem
 
     Problem Statement:
         - There are N gas stations arranged in a circular route.
@@ -10,7 +10,7 @@
         - Task: Find the index of the starting gas station from which you can complete
           a full circular tour of all stations. If no such station exists, return -1.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <iostream>
