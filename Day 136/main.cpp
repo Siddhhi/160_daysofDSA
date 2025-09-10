@@ -10,7 +10,7 @@
         - Task: Find the index of the starting gas station from which you can complete
           a full circular tour of all stations. If no such station exists, return -1.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <iostream>
