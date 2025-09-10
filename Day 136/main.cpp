@@ -10,17 +10,7 @@
         - Task: Find the index of the starting gas station from which you can complete
           a full circular tour of all stations. If no such station exists, return -1.
 
-    Example:
-        Input:
-            gas  =  {1, 2, 3, 4, 5}
-            cost =  {3, 4, 5, 1, 2}
-        Output:
-            Start Station = 3  (0-based indexing)
-        Explanation:
-            - Start at index 3 → gas = 4, cost = 1 → leftGas = 3
-            - Next, station 4 → gas = 5, cost = 2 → leftGas = 6
-            - Continue, total tour possible.
-
+   
     Approach:
         - Traverse all stations while maintaining `leftGas = gas[i] - cost[i]`.
         - If at any point `leftGas` becomes negative:
