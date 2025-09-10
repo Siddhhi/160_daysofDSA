@@ -10,23 +10,6 @@
         - Task: Find the index of the starting gas station from which you can complete
           a full circular tour of all stations. If no such station exists, return -1.
 
-   
-    Approach:
-        - Traverse all stations while maintaining `leftGas = gas[i] - cost[i]`.
-        - If at any point `leftGas` becomes negative:
-            • Reset `leftGas = 0`
-            • Move starting index to `i + 1`
-        - After one full pass:
-            • If no valid start index exists, return -1
-            • Otherwise, verify by simulating the trip starting from that index.
-
-    Time Complexity:
-        - O(n): One pass to find candidate start, one pass to verify.
-    
-    Space Complexity:
-        - O(1): Only extra variables used.
-
-    Output:
         - Returns the starting station index (0-based).
         - If no complete tour is possible, returns -1.
 
