@@ -5,11 +5,6 @@
         - Given a string s, partition it into as many parts as possible 
           so that each letter appears in at most one part.
         - Return the maximum number of such partitions.
-st occurrence of every character.
-        2. Iterate again, and for each index:
-             • Track the farthest last occurrence (`last`).
-             • If current index equals `last`, we can "cut" the partition here.
-        3. Count the number of partitions.
 
     Time Complexity:
         - O(n), where n = length of string.
@@ -65,3 +60,4 @@ int main(){
     return 0;
 
 }
+
