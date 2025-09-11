@@ -5,11 +5,7 @@
         - Given a string s, partition it into as many parts as possible 
           so that each letter appears in at most one part.
         - Return the maximum number of such partitions.
-
- 
-    Output:
-        - Returns the maximum number of partitions possible.
-
+        
     Author: Vishal Singhaniya
 */
 
@@ -53,5 +49,6 @@ int main(){
     return 0;
 
 }
+
 
 
