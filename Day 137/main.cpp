@@ -5,18 +5,7 @@
         - Given a string s, partition it into as many parts as possible 
           so that each letter appears in at most one part.
         - Return the maximum number of such partitions.
-
-    Example:
-        Input:
-            s = "ababcbacadefegdehijhklij"
-        Output:
-            3
-        Explanation:
-            - The string can be partitioned as "ababcbaca", "defegde", "hijhklij".
-            - Each character appears in only one partition.
-
-    Approach:
-        1. Traverse the string and record the last occurrence of every character.
+st occurrence of every character.
         2. Iterate again, and for each index:
              • Track the farthest last occurrence (`last`).
              • If current index equals `last`, we can "cut" the partition here.
@@ -74,4 +63,5 @@ int main(){
     
     cout<<"Maximum partition of this string : "<<maxPartitions(s);
     return 0;
+
 }
