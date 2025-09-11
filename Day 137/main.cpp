@@ -6,7 +6,7 @@
           so that each letter appears in at most one part.
         - Return the maximum number of such partitions.
         
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<iostream>
@@ -49,6 +49,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
