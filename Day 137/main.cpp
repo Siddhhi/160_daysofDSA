@@ -6,14 +6,7 @@
           so that each letter appears in at most one part.
         - Return the maximum number of such partitions.
 
-    Time Complexity:
-        - O(n), where n = length of string.
-          (One pass to store last occurrences, one pass to compute partitions)
-
-    Space Complexity:
-        - O(1), as at most 26 characters (for lowercase English letters) 
-          are stored in the map.
-
+ 
     Output:
         - Returns the maximum number of partitions possible.
 
@@ -60,4 +53,5 @@ int main(){
     return 0;
 
 }
+
 
