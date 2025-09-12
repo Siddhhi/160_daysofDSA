@@ -6,19 +6,6 @@
           represented as an adjacency list.
         - Perform DFS starting from node 0 and print the traversal order.
 
-   
-    Approach:
-        1. Use a recursive helper function `dfsRec`:
-             - Mark current node as visited.
-             - Store it in the result.
-             - Recursively call DFS for all unvisited neighbors.
-        2. Start DFS from node 0.
-        3. Collect nodes in the traversal order.
-
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-          (Each node and edge is visited once)
-
     Space Complexity:
         - O(V), for visited array and recursion stack.
 
@@ -68,3 +55,4 @@ int main(){
     return 0;
 
 }
+
