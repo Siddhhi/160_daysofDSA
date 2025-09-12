@@ -6,11 +6,6 @@
           represented as an adjacency list.
         - Perform DFS starting from node 0 and print the traversal order.
 
-    Space Complexity:
-        - O(V), for visited array and recursion stack.
-
-    Output:
-        - Returns a vector of nodes in DFS traversal order.
 
     Author: Vishal Singhaniya
 */
@@ -55,4 +50,5 @@ int main(){
     return 0;
 
 }
+
 
