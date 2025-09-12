@@ -6,18 +6,7 @@
           represented as an adjacency list.
         - Perform DFS starting from node 0 and print the traversal order.
 
-    Example:
-        Input:
-            adj = {
-                {2, 3, 1},   // Neighbors of node 0
-                {0},         // Neighbors of node 1
-                {0, 4},      // Neighbors of node 2
-                {0},         // Neighbors of node 3
-                {2}          // Neighbors of node 4
-            }
-        Output:
-            The DFS traversal will be : 0 2 4 3 1
-
+   
     Approach:
         1. Use a recursive helper function `dfsRec`:
              - Mark current node as visited.
@@ -77,4 +66,5 @@ int main(){
     }
     cout<<"\n";
     return 0;
+
 }
