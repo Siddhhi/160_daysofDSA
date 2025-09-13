@@ -6,17 +6,6 @@
           represented as an adjacency list.
         - Perform BFS starting from node 0 and print the traversal order.
 
-   
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-          (Each node and edge is visited once)
-
-    Space Complexity:
-        - O(V), for visited array and queue.
-
-    Output:
-        - Returns a vector of nodes in BFS traversal order.
-
     Author: Vishal Singhaniya
 */
 
