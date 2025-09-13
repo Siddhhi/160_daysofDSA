@@ -6,7 +6,7 @@
           represented as an adjacency list.
         - Perform BFS starting from node 0 and print the traversal order.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
