@@ -6,18 +6,7 @@
           represented as an adjacency list.
         - Perform BFS starting from node 0 and print the traversal order.
 
-    Example:
-        Input:
-            adj = {
-                {2, 3, 1},   // Neighbors of node 0
-                {0},         // Neighbors of node 1
-                {0, 4},      // Neighbors of node 2
-                {0},         // Neighbors of node 3
-                {2}          // Neighbors of node 4
-            }
-        Output:
-            BFS traversal for the given adjacency matrix : 0 2 3 1 4
-
+   
     Approach:
         1. Use a queue to implement level-order traversal.
         2. Start BFS from node 0:
