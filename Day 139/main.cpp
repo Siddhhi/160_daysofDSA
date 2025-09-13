@@ -7,17 +7,6 @@
         - Perform BFS starting from node 0 and print the traversal order.
 
    
-    Approach:
-        1. Use a queue to implement level-order traversal.
-        2. Start BFS from node 0:
-            - Mark it as visited.
-            - Push it into the queue.
-        3. While the queue is not empty:
-            - Pop the front node.
-            - Visit all its unvisited neighbors.
-            - Mark neighbors as visited and push them into the queue.
-        4. Store nodes in the result order.
-
     Time Complexity:
         - O(V + E), where V = number of vertices, E = number of edges.
           (Each node and edge is visited once)
