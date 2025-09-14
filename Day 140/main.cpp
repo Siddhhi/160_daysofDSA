@@ -11,23 +11,6 @@
         - Return the minimum time required so that no fresh orange remains.
         - If it is impossible, return -1.
 
-    ion:
-        - At time 0: One rotten orange at (0,0).
-        - At time 1: Oranges at (0,1) and (1,0) rot.
-        - At time 2: Oranges at (0,2) and (1,1) rot.
-        - At time 3: Orange at (2,1) rots.
-        - At time 4: Orange at (2,2) rots → all oranges rotten.
-
-    Approach:
-        1. Use a queue (BFS) to simulate the rotting process.
-        2. Push all initially rotten oranges into the queue.
-        3. Perform BFS level by level:
-            - For each rotten orange, rot its 4 neighbors.
-            - Push newly rotten oranges into the queue.
-        4. Track elapsed time with each BFS level.
-        5. After BFS, check if any fresh orange is left:
-            - If yes, return -1.
-            - Otherwise, return elapsedTime - 1.
 
     Time Complexity:
         - O(n * m), where n = rows, m = columns
