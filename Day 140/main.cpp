@@ -11,17 +11,7 @@
         - Return the minimum time required so that no fresh orange remains.
         - If it is impossible, return -1.
 
-    Example:
-        Input:
-            mat = {
-                {2,1,1},
-                {1,1,0},
-                {0,1,1}
-            }
-        Output:
-            4
-
-    Explanation:
+    ion:
         - At time 0: One rotten orange at (0,0).
         - At time 1: Oranges at (0,1) and (1,0) rot.
         - At time 2: Oranges at (0,2) and (1,1) rot.
