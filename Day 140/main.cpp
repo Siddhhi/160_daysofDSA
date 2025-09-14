@@ -11,9 +11,6 @@
         - Return the minimum time required so that no fresh orange remains.
         - If it is impossible, return -1.
 
-    Output:
-        - Minimum time for all oranges to rot, or -1 if impossible.
-
     Author: Vishal Singhaniya
 */
 
