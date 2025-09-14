@@ -11,7 +11,7 @@
         - Return the minimum time required so that no fresh orange remains.
         - If it is impossible, return -1.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
