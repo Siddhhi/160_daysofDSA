@@ -11,14 +11,6 @@
         - Return the minimum time required so that no fresh orange remains.
         - If it is impossible, return -1.
 
-
-    Time Complexity:
-        - O(n * m), where n = rows, m = columns
-          (each cell is visited at most once)
-
-    Space Complexity:
-        - O(n * m), for the queue and visited states.
-
     Output:
         - Minimum time for all oranges to rot, or -1 if impossible.
 
