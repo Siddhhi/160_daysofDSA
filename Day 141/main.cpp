@@ -8,13 +8,7 @@
             • true  → if there exists a cycle
             • false → otherwise
 
-    Example:
-        Input:
-            V = 5
-            edges = {{1,0}, {2,3}, {4,1}, {1,3}, {2,4}, {2,1}}
-
-        Output:
-            Cycle is detected
+   
 
     Approach:
         1. Convert the edge list into an adjacency list representation.
