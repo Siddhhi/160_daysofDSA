@@ -8,7 +8,7 @@
             • true  → if there exists a cycle
             • false → otherwise
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
