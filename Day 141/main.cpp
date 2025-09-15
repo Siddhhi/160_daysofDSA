@@ -8,12 +8,7 @@
             • true  → if there exists a cycle
             • false → otherwise
 
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-
-    Space Complexity:
-        - O(V + E), for adjacency list and visited array.
-
+   
     Output:
         - Prints "Cycle is detected" if a cycle exists,
           otherwise "No cycle detected".
