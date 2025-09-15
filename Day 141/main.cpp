@@ -8,17 +8,6 @@
             • true  → if there exists a cycle
             • false → otherwise
 
-   
-
-    Approach:
-        1. Convert the edge list into an adjacency list representation.
-        2. Use Depth-First Search (DFS) to traverse the graph.
-        3. During DFS:
-            - Mark each visited node.
-            - If a visited neighbor is not the parent of the current node,
-              then a cycle is detected.
-        4. Check all components (disconnected graph case).
-
     Time Complexity:
         - O(V + E), where V = number of vertices, E = number of edges.
 
