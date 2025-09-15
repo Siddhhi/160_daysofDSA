@@ -8,11 +8,6 @@
             • true  → if there exists a cycle
             • false → otherwise
 
-   
-    Output:
-        - Prints "Cycle is detected" if a cycle exists,
-          otherwise "No cycle detected".
-
     Author: Vishal Singhaniya
 */
 
