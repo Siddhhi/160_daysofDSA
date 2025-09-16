@@ -10,12 +10,6 @@
         - Task: Count the total number of islands.
 
 
-    Time Complexity:
-        - O(N * M), where N = number of rows, M = number of columns.
-
-    Space Complexity:
-        - O(N * M) for visited matrix + recursion stack.
-
     Output:
         - Prints the number of islands in the given grid.
 
