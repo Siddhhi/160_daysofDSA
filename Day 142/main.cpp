@@ -10,14 +10,6 @@
         - Task: Count the total number of islands.
 
 
-            
-    Approach:
-        1. Traverse each cell of the grid.
-        2. If a cell contains 'L' and is not visited:
-            • Perform DFS to mark all connected 'L' cells as visited.
-            • Increment the island counter.
-        3. DFS explores all 8 directions using relative coordinate arrays.
-
     Time Complexity:
         - O(N * M), where N = number of rows, M = number of columns.
 
