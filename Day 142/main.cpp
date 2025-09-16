@@ -9,11 +9,7 @@
         - Connectivity is allowed in **8 directions** (vertical, horizontal, and diagonal).
         - Task: Count the total number of islands.
 
-
-    Output:
-        - Prints the number of islands in the given grid.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
