@@ -9,19 +9,7 @@
         - Connectivity is allowed in **8 directions** (vertical, horizontal, and diagonal).
         - Task: Count the total number of islands.
 
-    Example:
-        Input:
-            grid = {
-                        {'W','L'},
-                        {'L','W'},
-                        {'L','L'},
-                        {'L','W'}
-                   }
-        Output:
-            No of island : 1
 
-        Explanation:
-            - Island 1: cells (0,1), (1,0), (2,0), (2,1), (3,0)
             
     Approach:
         1. Traverse each cell of the grid.
