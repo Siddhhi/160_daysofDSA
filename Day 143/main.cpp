@@ -8,17 +8,6 @@
           of its vertices such that for every directed edge (u → v), 
           vertex u comes before v in the ordering.
 
-   
-
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-
-    Space Complexity:
-        - O(V + E) for adjacency list, indegree array, and queue.
-
-    Output:
-        - Prints one possible topological order of the DAG.
-
     Author: Vishal Singhaniya
 */
 
