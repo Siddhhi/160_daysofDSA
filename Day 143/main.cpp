@@ -9,23 +9,6 @@
           vertex u comes before v in the ordering.
 
    
-     
-            - Indegree array is built for all vertices.
-            - Vertices with indegree 0 are pushed into the queue.
-            - Using BFS (Kahn's Algorithm), nodes are processed and 
-              indegree of their neighbors is reduced.
-            - When a node’s indegree becomes 0, it is added to the result.
-
-    Approach (Kahn’s Algorithm - BFS):
-        1. Build adjacency list from edges.
-        2. Compute indegree for each vertex.
-        3. Push all vertices with indegree = 0 into a queue.
-        4. While queue is not empty:
-            • Pop front node.
-            • Add it to the result.
-            • Decrease indegree of its neighbors.
-            • If indegree becomes 0, push into the queue.
-        5. Final result is the topological order.
 
     Time Complexity:
         - O(V + E), where V = number of vertices, E = number of edges.
