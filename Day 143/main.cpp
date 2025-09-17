@@ -8,23 +8,8 @@
           of its vertices such that for every directed edge (u → v), 
           vertex u comes before v in the ordering.
 
-    Example:
-        Input:
-            V = 6
-            edges = {
-                        {1,3},
-                        {4,1},
-                        {4,0},
-                        {2,3},
-                        {5,0},
-                        {5,2}
-                    }
-
-        Output:
-            The possible topological Order for this Directed Acyclic Graph :
-            4  5  1  2  0  3
-
-        Explanation:
+   
+     
             - Indegree array is built for all vertices.
             - Vertices with indegree 0 are pushed into the queue.
             - Using BFS (Kahn's Algorithm), nodes are processed and 
