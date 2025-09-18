@@ -5,18 +5,6 @@
         - Given a directed graph with V vertices and edges.
         - Detect whether the graph contains a cycle or not.
 
-   
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-
-    Space Complexity:
-        - O(V) for visited[] and recStack[] arrays.
-        - O(V) recursion depth in worst case.
-
-    Output:
-        - Prints "Cycle is present" if a cycle exists,
-          otherwise prints "Cycle is not present".
-
     Author: Vishal Singhaniya
 */
 
