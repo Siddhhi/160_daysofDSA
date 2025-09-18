@@ -5,7 +5,7 @@
         - Given a directed graph with V vertices and edges.
         - Detect whether the graph contains a cycle or not.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
