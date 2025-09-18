@@ -6,20 +6,6 @@
         - Detect whether the graph contains a cycle or not.
 
    
-
-    Approach (DFS + Recursion Stack):
-        1. Build adjacency list from edges.
-        2. Maintain two arrays:
-            • visited[] → marks if a node has been fully explored.
-            • recStack[] → keeps track of nodes in the current DFS path.
-        3. Run DFS from each unvisited node:
-            • Mark node visited and add to recStack.
-            • For each neighbor:
-                - If not visited → DFS call.
-                - If visited and still in recStack → cycle detected.
-            • After DFS finishes for that node, remove it from recStack.
-        4. If any DFS call detects a cycle, return true.
-
     Time Complexity:
         - O(V + E), where V = number of vertices, E = number of edges.
 
