@@ -1,5 +1,5 @@
 /*
-    Title: Cycle Detection in a Directed Graph using DFS and Recursion Stack
+    Title: Cycle Detection in a Directed Graph
 
     Problem Statement:
         - Given a directed graph with V vertices and edges.
