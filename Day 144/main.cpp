@@ -5,28 +5,7 @@
         - Given a directed graph with V vertices and edges.
         - Detect whether the graph contains a cycle or not.
 
-    Example:
-        Input:
-            V = 5
-            edges = {
-                        {0,1},
-                        {0,2},
-                        {0,4},
-                        {1,2},
-                        {2,3},
-                        {2,4},
-                        {3,4},
-                        {1,4},
-                        {4,2}
-                    }
-
-        Output:
-            Cycle is present
-
-        Explanation:
-            - DFS traversal is used with an extra recursion stack.
-            - If a node is visited again while still in the recursion stack, 
-              it means a back edge exists → cycle detected.
+   
 
     Approach (DFS + Recursion Stack):
         1. Build adjacency list from edges.
