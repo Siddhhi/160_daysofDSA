@@ -14,24 +14,6 @@ vector<vector<int>> constructAdj(int V, vector<vector<int>>& edges) {
     return res;
 }
 
-void dfs(int start, vector<vector<int>> &adj, vector<bool> &visited) {
-    stack<int> st;
-    st.push(start);
-    visited[start] = true;
-    
-    while(!st.empty()) {
-        int current = st.top();
-        st.pop();
-        
-        for(auto neighbour : adj[current]) {
-            if(!visited[neighbour]) {
-                visited[neighbour] = true;
-                st.push(neighbour);
-            }
-        }
-    }
-}
-
 vector<int> articulationPoints(int V, vector<vector<int>>& edges) {
     vector<vector<int>> adj = constructAdj(V, edges);
     vector<int> res;
@@ -63,4 +45,5 @@ vector<int> articulationPoints(int V, vector<vector<int>>& edges) {
     
     sort(res.begin(), res.end());
     return res;
+
 }
