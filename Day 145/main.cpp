@@ -15,8 +15,4 @@ vector<vector<int>> constructAdj(int V, vector<vector<int>>& edges) {
 }
 
 
-in(), res.end());
-    return res;
-
-}
 
