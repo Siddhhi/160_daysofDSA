@@ -1,5 +1,5 @@
 /*
-    Title: Articulation Points in an Undirected Graph using DFS (Tarjan’s Algorithm)
+    Title: Articulation Points in an Undirected Graph using DFS 
 
     Problem Statement:
         - Given an undirected graph with V vertices and edges,
@@ -7,44 +7,7 @@
         - An articulation point (cut vertex) is a vertex whose removal increases
           the number of connected components in the graph.
 
-    Example:
-        Input:
-            V = 5
-            edges = {{0,1},{1,4},{4,3},{4,2},{2,3}}
-
-        Output:
-            {1 ,4}
-
-        Explanation:
-            - Removing node 1 or node 4 disconnects the graph,
-              hence they are articulation points.
-
-    Approach (Tarjan’s Algorithm):
-        1. Build adjacency list from edges.
-        2. Maintain arrays:
-            • disc[u]  → discovery time of node u during DFS.
-            • low[u]   → lowest discovery time reachable from u.
-            • parent[u] → parent of u in DFS tree.
-            • ap[u]    → boolean to mark if u is an articulation point.
-        3. Perform DFS traversal:
-            • For root node (parent = -1), if it has >1 children → articulation point.
-            • For non-root nodes, if low[v] >= disc[u] (where v is a child of u),
-              then u is an articulation point.
-            • Update low[u] for back edges.
-        4. Collect all articulation points.
-
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-
-    Space Complexity:
-        - O(V) for disc[], low[], parent[], ap[] arrays.
-        - O(V + E) for adjacency list.
-
-    Output:
-        - Prints all articulation points in sorted order.
-        - If no articulation point exists, returns -1.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -135,6 +98,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
