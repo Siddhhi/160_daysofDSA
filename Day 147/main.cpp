@@ -6,11 +6,7 @@
         - Each edge has form {u, v, w}, where u and v are vertices, and w is weight.
         - Find the shortest distance from a given source node to every other node.
 
-  
-    Output:
-        - Prints the shortest distance from source to all vertices.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
