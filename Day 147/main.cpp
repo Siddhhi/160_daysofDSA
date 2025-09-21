@@ -6,14 +6,7 @@
         - Each edge has form {u, v, w}, where u and v are vertices, and w is weight.
         - Find the shortest distance from a given source node to every other node.
 
-    Time Complexity:
-        - O((V + E) log V), where E = number of edges.
-        - Each heap operation costs log V, performed on all edges.
-
-    Space Complexity:
-        - O(V + E) for adjacency list.
-        - O(V) for distance array and priority queue.
-
+  
     Output:
         - Prints the shortest distance from source to all vertices.
 
