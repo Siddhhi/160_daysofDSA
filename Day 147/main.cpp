@@ -6,16 +6,6 @@
         - Each edge has form {u, v, w}, where u and v are vertices, and w is weight.
         - Find the shortest distance from a given source node to every other node.
 
-    Example:
-        Input:
-            V = 5, src = 0
-            edges = { {0,1,4}, {0,2,8}, {2,3,2}, {3,4,10}, {1,4,6} }
-
-        Output:
-            Shortest distance from src (0) → [0, 4, 8, 10, 10]
-
-        Explanation:
-            - Distance to node 1 = 4 (via edge 0–1)
             - Distance to node 2 = 8 (via edge 0–2)
             - Distance to node 3 = 10 (via path 0–2–3)
             - Distance to node 4 = 10 (via path 0–1–4)
