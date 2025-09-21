@@ -6,19 +6,6 @@
         - Each edge has form {u, v, w}, where u and v are vertices, and w is weight.
         - Find the shortest distance from a given source node to every other node.
 
-            - Distance to node 2 = 8 (via edge 0–2)
-            - Distance to node 3 = 10 (via path 0–2–3)
-            - Distance to node 4 = 10 (via path 0–1–4)
-
-    Approach (Dijkstra’s Algorithm with Min Heap):
-        1. Build adjacency list representation: adj[u] = { {v, weight}, ... }
-        2. Initialize distance array with infinity, dist[src] = 0.
-        3. Use a Min-Heap (priority_queue with min ordering) to always extract the node 
-           with the minimum current distance.
-        4. Relax edges: For each neighbor (v, wt), update dist[v] if dist[u] + wt < dist[v].
-        5. Push updated distances into the heap.
-        6. Continue until all nodes are processed.
-
     Time Complexity:
         - O((V + E) log V), where E = number of edges.
         - Each heap operation costs log V, performed on all edges.
