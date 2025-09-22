@@ -6,10 +6,6 @@
         - Starting from a given pixel (sr, sc), replace the entire connected region
           of the same color (4-directionally connected) with a new color.
 
-   
-    Applications:
-        - Paint-bucket tools in image editors, region filling, connected component labeling.
-
     Author: Vishal Singhaniya
 */
 
