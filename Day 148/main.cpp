@@ -6,45 +6,7 @@
         - Starting from a given pixel (sr, sc), replace the entire connected region
           of the same color (4-directionally connected) with a new color.
 
-    Example Input:
-        images = {
-            {1, 1, 0, 1},
-            {0, 1, 0, 0},
-            {1, 0, 1, 0},
-            {1, 1, 0, 0}
-        }
-        sr = 2, sc = 3, newColor = 2
-
-    Output (exact program printout):
-        Current image :
-        1  1  0  1
-        0  1  0  0
-        1  0  1  0
-        1  1  0  0
-
-
-        Updated image :
-        1  1  2  1
-        0  1  2  2
-        1  0  1  2
-        1  1  2  2
-
-        (Explanation: the connected region of zeros that includes position (2,3)
-         → {(2,3),(1,3),(1,2),(0,2),(3,3),(3,2)} gets recolored to 2.)
-
-    Approach (Depth First Search):
-        1. If the starting pixel already has newColor, return immediately.
-        2. Save oldColor = images[sr][sc].
-        3. DFS from (sr, sc), changing each visited pixel from oldColor to newColor.
-        4. DFS explores 4 neighbors: up, right, down, left. Stop at boundaries
-           or at pixels with a different color.
-
-    Time Complexity:
-        - O(N * M), where N = rows and M = columns (each pixel visited at most once).
-
-    Space Complexity:
-        - O(N * M) in worst-case recursion depth (when the whole grid is one region).
-
+   
     Applications:
         - Paint-bucket tools in image editors, region filling, connected component labeling.
 
