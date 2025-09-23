@@ -6,7 +6,7 @@
         - Starting from a given pixel (sr, sc), replace the entire connected region
           of the same color (4-directionally connected) with a new color.
 
-    Author: Siddhi
+    Author: Siddhi.
 */
 
 
