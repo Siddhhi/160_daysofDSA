@@ -5,66 +5,7 @@
         - You are given a reference to a node in a connected undirected graph.
         - Each node contains an integer value and a list of neighbors.
         - The task is to return a deep copy (clone) of the graph.
-
-    Node Definition:
-        struct Node {
-            int val;
-            vector<Node*> neighbors;
-            Node() {
-                val = 0;
-                neighbors = vector<Node*>();
-            }
-            Node(int _val) {
-                val = _val;
-                neighbors = vector<Node*>();
-            }
-            Node(int _val, vector<Node*> _neighbors) {
-                val = _val;
-                neighbors = _neighbors;
-            }
-        };
-
-    Approach (Depth First Search):
-        1. Use a hash map (unordered_map<Node*, Node*>) to store the mapping
-           between original node → cloned node.
-        2. If a node is already cloned (exists in map), return it to avoid cycles.
-        3. Otherwise, create a new node, store it in the map, and recursively
-           clone all its neighbors.
-        4. Finally, return the clone of the given start node.
-
-    Example Graph:
-        Suppose the graph is:
-            1 -- 2
-            |    |
-            4 -- 3
-
-        Input: node = reference to Node(1)
-        Output: A cloned graph with the same structure and values.
-
-    Dry Run:
-        - Start with Node(1):
-            create clone(1), map[1] = clone(1).
-            Clone its neighbors (2, 4).
-        - For Node(2):
-            create clone(2), map[2] = clone(2).
-            Clone its neighbors (1, 3). (1 already cloned → reuse).
-        - For Node(3):
-            create clone(3), map[3] = clone(3).
-            Clone neighbors (2, 4).
-        - For Node(4):
-            create clone(4), map[4] = clone(4).
-            Clone neighbors (1, 3). Both already cloned → reuse.
-
-    Time Complexity:
-        - O(V + E), where V = number of vertices and E = number of edges.
-          Each node and edge is visited once.
-    
-    Space Complexity:
-        - O(V), for hash map and recursion stack.
-
-    Applications:
-        - Cloning network structures, dependency graphs, or any object graphs.
-
+        
     Author: Vishal Singhaniya
 */
 
@@ -164,3 +105,4 @@ int main() {
 
     return 0;
 }
+
