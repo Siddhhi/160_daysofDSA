@@ -6,7 +6,7 @@
         - Each node contains an integer value and a list of neighbors.
         - The task is to return a deep copy (clone) of the graph.
         
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -105,4 +105,5 @@ int main() {
 
     return 0;
 }
+
 
