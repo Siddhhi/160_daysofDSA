@@ -1,5 +1,5 @@
 /*
-    Title: Alien Dictionary (Topological Sort Approach)
+    Title: Alien Dictionary
 
     Problem Statement:
         - You are given a list of words from an alien dictionary sorted 
@@ -7,7 +7,7 @@
         - The goal is to determine a valid order of characters in that language.
         - If no valid order exists, return an empty string.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
