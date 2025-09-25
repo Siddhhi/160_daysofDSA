@@ -7,12 +7,6 @@
         - The goal is to determine a valid order of characters in that language.
         - If no valid order exists, return an empty string.
 
-    Space Complexity:
-        - O(26 + E), where:
-            26 = fixed alphabet size,
-            E = number of edges in the graph.
-
-    Applications:
         - Deciphering alien or unknown language rules.
         - Ordering tasks with dependencies.
         - Compiler dependency resolution.
