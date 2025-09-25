@@ -7,31 +7,6 @@
         - The goal is to determine a valid order of characters in that language.
         - If no valid order exists, return an empty string.
 
-    Approach (Graph + Topological Sort):
-        1. Build a directed graph of character dependencies:
-           - Compare each pair of adjacent words.
-           - Find the first mismatching character → this defines an edge u → v.
-        2. Maintain an indegree array to count dependencies for each character.
-        3. Perform a BFS (Kahn’s Algorithm for topological sort):
-           - Start with characters having indegree 0.
-           - Remove edges one by one, reducing indegree of neighbors.
-           - If a neighbor’s indegree becomes 0, push it into the queue.
-        4. If all characters are processed, return the order.
-           Else, return "" (cycle or invalid ordering).
-
-    Example:
-        Input:
-            words = {"baa","abcd","abca","cab","cad"}
-        Output:
-            "bdac"  (One possible valid ordering)
-
-    Dry Run:
-        - Compare "baa" and "abcd" → b → a (edge b→a).
-        - Compare "abcd" and "abca" → d → a.
-        - Compare "abca" and "cab" → a → c.
-        - Compare "cab" and "cad" → b → d.
-        Graph edges: b→a, d→a, a→c, b→d.
-        Topological order possible: b d a c.
 
     Time Complexity:
         - O(N * L), where:
