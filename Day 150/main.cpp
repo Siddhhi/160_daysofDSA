@@ -7,14 +7,6 @@
         - The goal is to determine a valid order of characters in that language.
         - If no valid order exists, return an empty string.
 
-
-    Time Complexity:
-        - O(N * L), where:
-            N = number of words,
-            L = average length of each word.
-        - Each adjacent word comparison is at most O(L),
-          and topological sort is O(V + E).
-
     Space Complexity:
         - O(26 + E), where:
             26 = fixed alphabet size,
