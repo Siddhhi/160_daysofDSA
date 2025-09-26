@@ -9,12 +9,6 @@
           other vertices.
         - If there exists a negative weight cycle reachable from the source, return {-1}.
 
-    Time Complexity:
-        - O(V * E), where:
-            V = number of vertices,
-            E = number of edges.
-        - Each iteration scans all edges.
-
     Space Complexity:
         - O(V), for the distance array.
 
