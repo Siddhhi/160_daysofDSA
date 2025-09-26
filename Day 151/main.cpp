@@ -9,22 +9,6 @@
           other vertices.
         - If there exists a negative weight cycle reachable from the source, return {-1}.
 
-    Approach (Relaxation Method):
-        1. Initialize distance array with "infinity" (1e8 here), except src = 0.
-        2. Repeat (V - 1) times:
-            - For each edge (u, v, w), update:
-              if dist[u] + w < dist[v], then update dist[v].
-        3. Perform one more relaxation:
-            - If any distance can still be updated, a negative weight cycle exists → return {-1}.
-        4. Otherwise, return the distance array.
-
-    Example:
-        Input:
-            V = 5, src = 0
-            edges = { {1,3,2}, {4,3,-1}, {2,4,1}, {1,2,1}, {0,1,5} }
-        Output:
-            Shortest path from 0 vertex : 0  5  6  7  7
-
     Dry Run:
         - Initialize dist = [0, 1e8, 1e8, 1e8, 1e8].
         - Relax edges V-1 = 4 times:
