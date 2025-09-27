@@ -1,5 +1,5 @@
 /*
-    Title: Floyd-Warshall Algorithm (All Pairs Shortest Path)
+    Title: Floyd-Warshall Algorithm
 
     Problem Statement:
         - You are given a weighted directed graph represented by an adjacency matrix.
@@ -7,7 +7,7 @@
             - If no edge exists, dist[i][j] = 1e8 (infinity).
         - The task is to compute the shortest path between every pair of vertices.
 
-    Author: 
+    Author: Siddhi
 */
 
 
@@ -47,6 +47,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
