@@ -6,10 +6,6 @@
         - The task is to find the length of the smallest cycle present in the graph.
         - If no cycle exists, return an infinite/large value.
 
-    Applications:
-        - Detecting and analyzing cycles in road networks, communication networks.
-        - Useful in shortest cycle detection for routing algorithms.
-
     Author: Vishal Singhaniya
 */
 
@@ -104,4 +100,5 @@ int main(){
     return 0;
 
 }
+
 
