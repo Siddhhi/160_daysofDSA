@@ -6,16 +6,6 @@
         - The task is to find the length of the smallest cycle present in the graph.
         - If no cycle exists, return an infinite/large value.
 
-   
-     
-    Time Complexity:
-        - For each edge, we run Dijkstra → O(E * (V log V)).
-        - Worst case: O(V * E log V).
-
-    Space Complexity:
-        - O(V + E) for adjacency list.
-        - O(V) for distance array and priority queue.
-
     Applications:
         - Detecting and analyzing cycles in road networks, communication networks.
         - Useful in shortest cycle detection for routing algorithms.
@@ -114,3 +104,4 @@ int main(){
     return 0;
 
 }
+
