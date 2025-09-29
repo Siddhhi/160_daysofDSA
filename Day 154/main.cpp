@@ -7,15 +7,6 @@
         - A graph is bipartite if its vertices can be divided into two sets
           such that no two adjacent vertices belong to the same set.
 
-    Approach (Breadth First Search):
-        1. Build the adjacency list from the given edge list.
-        2. Maintain a color array (initialized with -1) to store colors of nodes.
-        3. For each unvisited node, assign a color and perform BFS:
-            - Assign alternate colors to adjacent nodes.
-            - If an adjacent node already has the same color, return false.
-        4. If BFS completes without conflict, the graph is bipartite.
-
-    Example:
         Input:
             V = 4
             edges = { {0,3}, {1,2}, {3,2}, {0,2} }
@@ -114,3 +105,4 @@ int main(){
         cout<<"This graph is not a Bipartite graph\n";
     }
 }
+
