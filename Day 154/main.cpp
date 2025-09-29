@@ -7,7 +7,7 @@
         - A graph is bipartite if its vertices can be divided into two sets
           such that no two adjacent vertices belong to the same set.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -81,6 +81,7 @@ int main(){
         cout<<"This graph is not a Bipartite graph\n";
     }
 }
+
 
 
 
