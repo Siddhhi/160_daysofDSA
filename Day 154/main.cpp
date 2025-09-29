@@ -7,12 +7,6 @@
         - A graph is bipartite if its vertices can be divided into two sets
           such that no two adjacent vertices belong to the same set.
 
-    Time Complexity:
-        - O(V + E), where V = number of vertices, E = number of edges.
-
-    Space Complexity:
-        - O(V + E) for adjacency list, O(V) for color array and queue.
-
     Author: Vishal Singhaniya
 */
 
@@ -87,5 +81,6 @@ int main(){
         cout<<"This graph is not a Bipartite graph\n";
     }
 }
+
 
 
