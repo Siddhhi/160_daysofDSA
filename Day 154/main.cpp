@@ -7,24 +7,6 @@
         - A graph is bipartite if its vertices can be divided into two sets
           such that no two adjacent vertices belong to the same set.
 
-        Input:
-            V = 4
-            edges = { {0,3}, {1,2}, {3,2}, {0,2} }
-
-        Adjacency List:
-            0 --> [3, 2]
-            1 --> [2]
-            2 --> [1, 3, 0]
-            3 --> [0, 2]
-
-        Output:
-            This graph is not a Bipartite graph
-
-    Dry Run:
-        - Start at node 0, color[0] = 0.
-        - Its neighbors (3,2) get color 1.
-        - From node 3, neighbor 2 already has color 1 → conflict found → Not Bipartite.
-
     Time Complexity:
         - O(V + E), where V = number of vertices, E = number of edges.
 
@@ -105,4 +87,5 @@ int main(){
         cout<<"This graph is not a Bipartite graph\n";
     }
 }
+
 
