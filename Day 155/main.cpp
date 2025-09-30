@@ -7,16 +7,6 @@
         - The task is to find the longest valid word. 
         - If there are multiple such words of the same length, return the lexicographically smallest one.
 
-  
-        Input:
-            words = {"a","banana","app","appl","ap","apply","apple"}
-    Dry Run:
-        - Insert all words into Trie.
-        - For "apple":
-            Check prefixes → "a","ap","app","appl" → all exist.
-        - Compare with "apply":
-            Both length 5, but "apple" < "apply" lexicographically → "apple" is chosen.
-
     Author: Vishal Singhaniya
 */
 
