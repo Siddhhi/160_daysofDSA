@@ -16,31 +16,12 @@
     Example:
         Input:
             words = {"a","banana","app","appl","ap","apply","apple"}
-        
-        Process:
-            - "a" → valid
-            - "app" → valid (prefixes: "a","ap")
-            - "appl" → valid (prefixes: "a","ap","app")
-            - "apple" → valid (prefixes: "a","ap","app","appl")
-            - "banana" → invalid (prefix "b" not present)
-
-        Output:
-            "apple"
-
     Dry Run:
         - Insert all words into Trie.
         - For "apple":
             Check prefixes → "a","ap","app","appl" → all exist.
         - Compare with "apply":
             Both length 5, but "apple" < "apply" lexicographically → "apple" is chosen.
-
-    Time Complexity:
-        - Insertion: O(N * L), where N = number of words, L = max word length.
-        - Checking prefixes: O(N * L).
-        - Overall: O(N * L).
-
-    Space Complexity:
-        - O(26 * N * L) for the Trie structure in the worst case.
 
     Author: Vishal Singhaniya
 */
