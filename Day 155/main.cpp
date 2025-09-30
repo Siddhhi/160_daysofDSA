@@ -7,7 +7,7 @@
         - The task is to find the longest valid word. 
         - If there are multiple such words of the same length, return the lexicographically smallest one.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
