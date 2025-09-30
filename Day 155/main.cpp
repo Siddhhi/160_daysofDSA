@@ -7,13 +7,7 @@
         - The task is to find the longest valid word. 
         - If there are multiple such words of the same length, return the lexicographically smallest one.
 
-    Approach (Trie Data Structure):
-        1. Build a Trie by inserting all words from the list.
-        2. For each word, check if all its prefixes exist in the Trie (marked as `isEnd`).
-        3. Keep track of the "longest valid word" during traversal.
-        4. If two words have the same length, choose the lexicographically smaller one.
-
-    Example:
+  
         Input:
             words = {"a","banana","app","appl","ap","apply","apple"}
     Dry Run:
