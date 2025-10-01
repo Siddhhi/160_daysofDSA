@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 class TrieNode {
 public:
     TrieNode* children[2];
@@ -80,6 +81,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
