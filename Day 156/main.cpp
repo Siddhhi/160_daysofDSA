@@ -1,3 +1,16 @@
+/*
+    Title: Maximum XOR
+
+    Problem Statement:
+        - You are given an array of non-negative integers (arr).
+        - You are also given a set of queries, where each query has two integers (x, m).
+        - For each query:
+            Find the maximum XOR value of 'x' with any element from 'arr' such that 
+            the chosen element <= m.
+        - If no such element exists, return -1 for that query.
+
+    Author: Siddhi
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -81,6 +94,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
