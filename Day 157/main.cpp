@@ -7,15 +7,6 @@
           at which the corresponding bits are different.
         - The task is to calculate the sum of Hamming Distances for all unique pairs of numbers in the array.
 
-    Approach (Bitwise Contribution):
-        1. Instead of comparing each pair directly (O(N^2)), 
-           count how many numbers have a '1' in each bit position (0–31).
-        2. For each bit position:
-            - Let countOne = number of elements with '1' at that bit.
-            - Then (n - countOne) elements have '0' at that bit.
-            - Each '1' can form a pair with each '0', contributing (countOne * (n - countOne)) to the result.
-        3. Sum contributions across all 32 bits.
-
     Example:
         Input:
             arr = {4, 14}
