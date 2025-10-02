@@ -7,17 +7,6 @@
           at which the corresponding bits are different.
         - The task is to calculate the sum of Hamming Distances for all unique pairs of numbers in the array.
 
-    Example:
-        Input:
-            arr = {4, 14}
-        
-        Process:
-            - Binary forms: 4 (0100), 14 (1110)
-            - Pair: (4,14) → differ in 2 positions → Hamming Distance = 2
-        
-        Output:
-            2
-
     Time Complexity:
         - O(N * 32) = O(32N), since we check 32 bits for each number.
         - Much better than O(N^2).
