@@ -7,13 +7,6 @@
           at which the corresponding bits are different.
         - The task is to calculate the sum of Hamming Distances for all unique pairs of numbers in the array.
 
-    Time Complexity:
-        - O(N * 32) = O(32N), since we check 32 bits for each number.
-        - Much better than O(N^2).
-
-    Space Complexity:
-        - O(1) extra (besides a fixed-size 32-bit counter array).
-
     Author: Vishal Singhaniya
 */
 
