@@ -7,7 +7,7 @@
           at which the corresponding bits are different.
         - The task is to calculate the sum of Hamming Distances for all unique pairs of numbers in the array.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
