@@ -6,9 +6,6 @@
         - The task is to generate all possible subsets (the power set).
         - Each element may either be included or excluded from a subset.
 
-    Space Complexity:
-        - O(2^n * n), to store all subsets.
-
     Author: Vishal Singhaniya
 */
 
