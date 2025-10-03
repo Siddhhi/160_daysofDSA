@@ -6,7 +6,7 @@
         - The task is to generate all possible subsets (the power set).
         - Each element may either be included or excluded from a subset.
 
-    Author:
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
