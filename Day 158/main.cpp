@@ -6,28 +6,6 @@
         - The task is to generate all possible subsets (the power set).
         - Each element may either be included or excluded from a subset.
 
-    Example:
-        Input:
-            arr = {2, 3, 5}
-
-        Process:
-            - Total subsets = 2^3 = 8
-            - i = 0 (000) → {}
-            - i = 1 (001) → {2}
-            - i = 2 (010) → {3}
-            - i = 3 (011) → {2,3}
-            - i = 4 (100) → {5}
-            - i = 5 (101) → {2,5}
-            - i = 6 (110) → {3,5}
-            - i = 7 (111) → {2,3,5}
-
-        Output:
-            { }, {2}, {3}, {2,3}, {5}, {2,5}, {3,5}, {2,3,5}
-
-    Time Complexity:
-        - O(2^n * n), since each subset generation takes O(n).
-        - For n elements, 2^n subsets are possible.
-
     Space Complexity:
         - O(2^n * n), to store all subsets.
 
