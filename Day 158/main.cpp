@@ -6,12 +6,6 @@
         - The task is to generate all possible subsets (the power set).
         - Each element may either be included or excluded from a subset.
 
-    Approach (Bitmask Enumeration):
-        1. For an array of size n, the total number of subsets = 2^n.
-        2. Use a bitmask (integer from 0 to (1<<n)-1).
-            - If the j-th bit is set, include arr[j] in the subset.
-        3. Collect all subsets in a result vector.
-
     Example:
         Input:
             arr = {2, 3, 5}
