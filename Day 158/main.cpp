@@ -1,12 +1,12 @@
 /*
-    Title: Generate All Subsets of a Set (Power Set)
+    Title: Generate All Subsets of a Set
 
     Problem Statement:
         - You are given an array of integers.
         - The task is to generate all possible subsets (the power set).
         - Each element may either be included or excluded from a subset.
 
-    Author: Vishal Singhaniya
+    Author:
 */
 
 #include<bits/stdc++.h>
