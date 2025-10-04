@@ -7,7 +7,7 @@
         - Example: If arr = {a, b}, subsets = {}, {a}, {b}, {a, b}
             XORs = 0, a, b, a^b → sum = 0 + a + b + (a^b).
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -20,18 +20,18 @@ int sumOfXor(vector<int> & arr){
     for(int i = 0; i < n; i++){
         bits = bits | arr[i];
     }
-    
-    // Formula: OR(arr) * 2^(n-1)
+
     int ans = bits * (pow(2, n-1));
     return ans;
 }
 
 int main(){
-    vector<int> arr = {2,6,9};
+    vector<int> arr = {1,2,3};
     int xorSum = sumOfXor(arr);
     cout << "Sum of all subset XOR is : " << xorSum;
     return 0;
 }
+
 
 
 
