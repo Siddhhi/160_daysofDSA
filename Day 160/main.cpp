@@ -5,7 +5,7 @@
         - You are given an array containing 'n-1' distinct numbers from 1 to n.
         - Find the missing number efficiently without using extra space.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
