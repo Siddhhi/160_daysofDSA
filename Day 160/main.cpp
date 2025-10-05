@@ -5,9 +5,6 @@
         - You are given an array containing 'n-1' distinct numbers from 1 to n.
         - Find the missing number efficiently without using extra space.
 
-    Space Complexity:
-        - O(1), no extra space used.
-
     Author: Vishal Singhaniya
 */
 
