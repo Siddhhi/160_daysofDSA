@@ -5,24 +5,6 @@
         - You are given an array containing 'n-1' distinct numbers from 1 to n.
         - Find the missing number efficiently without using extra space.
 
-    Example:
-        Input:  arr = {1, 3, 2, 5, 6, 9, 8, 4}
-        Expected Range: 1 to 9
-        Missing Number = 7
-
-    Approach (Using XOR):
-        - XOR has two key properties:
-            1. a ^ a = 0
-            2. a ^ 0 = a
-        - XOR of all numbers from 1 to n gives a combined pattern.
-        - XOR of all elements in the array cancels out all common numbers.
-        - The remaining value after XORing both results is the missing number.
-
-        Steps:
-        1. Compute xor1 = XOR of all numbers from 1 to n.
-        2. Compute xor2 = XOR of all elements in the array.
-        3. Missing number = xor1 ^ xor2.
-
     Time Complexity:
         - O(n), single traversal of array and one XOR loop.
 
