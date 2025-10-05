@@ -5,9 +5,6 @@
         - You are given an array containing 'n-1' distinct numbers from 1 to n.
         - Find the missing number efficiently without using extra space.
 
-    Time Complexity:
-        - O(n), single traversal of array and one XOR loop.
-
     Space Complexity:
         - O(1), no extra space used.
 
