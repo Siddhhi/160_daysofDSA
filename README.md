@@ -35,7 +35,9 @@ DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
 
 17. Graph
 
-18. Trie 
+18. Trie
+
+19. Bitwise Manipulation 
 
  
 
