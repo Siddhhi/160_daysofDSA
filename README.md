@@ -33,7 +33,7 @@ DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
 
 16. Greedy Approach
 
-17.  
+17. Graph
 
  
 
