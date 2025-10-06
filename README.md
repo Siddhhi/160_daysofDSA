@@ -35,6 +35,8 @@ DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
 
 17. Graph
 
+18. Trie 
+
  
 
     
