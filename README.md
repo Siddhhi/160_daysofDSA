@@ -13,25 +13,27 @@ DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
 
 6. Hashing
 
-7. Two pointer approaches.
+7. Two pointer approaches
 
-8. Prefix Suffix Sum.
+8. Prefix Suffix Sum
 
-9. Linked List.
+9. Linked List
 
-10. Recursion  and Backtracking.
+10. Recursion  and Backtracking
 
-11. Trees.
+11. Trees
 
-12. Heaps.
+12. Heaps
 
-13. Stacks .
+13. Stacks 
 
-14. Queue.
+14. Queue
 
-15. Dynamic Programing.
+15. Dynamic Programing
 
-16. Greedy Approach 
+16. Greedy Approach
+
+17.  
 
  
 
