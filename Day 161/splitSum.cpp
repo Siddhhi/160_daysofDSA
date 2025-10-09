@@ -8,30 +8,7 @@
         - If such a split is possible, return the two indices where the splits occur.
         - Otherwise, return an empty vector.
 
-    Example:
-        Input:
-            arr = {1, 2, 3, 0, 3}
-        Process:
-            Total Sum = 9 → Each part must have sum = 3
-            Possible Split: [1,2] | [3,0] | [3]
-            Indices of split = [1, 3]
-        Output:
-            [1, 3]
-
-    Approach:
-        1. Compute the total sum of the array.
-        2. If total sum is not divisible by 3, no equal split is possible.
-        3. Traverse the array and maintain a running sum.
-        4. Each time running sum equals (partSum * (count + 1)), store index as split point.
-        5. Stop after finding 2 split points (since 3 parts require 2 splits).
-
-    Dry Run:
-        arr = {1, 2, 3, 0, 3}
-        sum = 9, partSum = 3
-        runSum sequence → 1, 3, 6, 6, 9
-        At runSum = 3 (i=1) → 1st split
-        At runSum = 6 (i=3) → 2nd split
-        ✅ Output = [1, 3]
+   
 
     Time Complexity:
         - O(n), single traversal through the array.
@@ -120,4 +97,5 @@ int main() {
     }
     
     return 0;
+
 }
