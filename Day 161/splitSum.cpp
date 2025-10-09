@@ -8,14 +8,6 @@
         - If such a split is possible, return the two indices where the splits occur.
         - Otherwise, return an empty vector.
 
-   
-
-    Time Complexity:
-        - O(n), single traversal through the array.
-
-    Space Complexity:
-        - O(1), uses only constant extra space.
-
     Applications:
         - Useful in partition-based optimization problems.
         - Data segmentation in load balancing systems.
@@ -99,3 +91,4 @@ int main() {
     return 0;
 
 }
+
