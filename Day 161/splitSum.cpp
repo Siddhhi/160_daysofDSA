@@ -8,7 +8,7 @@
         - If such a split is possible, return the two indices where the splits occur.
         - Otherwise, return an empty vector.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -86,5 +86,6 @@ int main() {
     return 0;
 
 }
+
 
 
