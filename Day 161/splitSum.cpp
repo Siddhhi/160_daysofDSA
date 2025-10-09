@@ -8,11 +8,6 @@
         - If such a split is possible, return the two indices where the splits occur.
         - Otherwise, return an empty vector.
 
-    Applications:
-        - Useful in partition-based optimization problems.
-        - Data segmentation in load balancing systems.
-        - Splitting financial or statistical datasets into equal groups.
-
     Author: Vishal Singhaniya
 */
 #include<bits/stdc++.h>
@@ -91,4 +86,5 @@ int main() {
     return 0;
 
 }
+
 
