@@ -37,7 +37,7 @@ int maxLen(vector<int> &arr,int k){
 }
 
 int main(){
-    vector<int> arr = {1,1,0,1,0,0,1,0,1,1,1};
+    vector<int> arr = {1,0,1,0,0,1,1,1,0,1};
     int k =2;
     cout<<"Maximum of length of array containing 1 after flipping : "<<maxLen(arr,k);
     return 0;
