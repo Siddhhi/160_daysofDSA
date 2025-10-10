@@ -6,19 +6,6 @@
           you may flip at most k zeros to ones.
         - Find the maximum length of a contiguous subarray containing only 1s after at most k flips.
 
-    Approach (Sliding Window):
-        - Maintain a window [start, end].
-        - Count zeros in the window.
-        - Expand end; when zero count > k, move start forward until zero count ≤ k.
-        - Track maximum window length.
-
-    Example:
-        Input:
-            arr = {1,1,0,1,0,0,1,0,1,1,1}
-            k = 2
-            
-        Output:
-            6
 
     Time Complexity:
         - O(n), each element visited at most twice.
