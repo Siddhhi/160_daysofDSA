@@ -9,12 +9,6 @@
           which means the result is the same as if they keep walking independently.
         - Find the **last moment (time)** before all ants fall off the plank.
 
-    Example:
-        Input:
-            n = 4
-            left = [2]
-            right = [0, 1, 3]
-
         Process:
             - Ants moving left:
                 * From position 2 → falls in 2 seconds
