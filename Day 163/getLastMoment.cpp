@@ -9,14 +9,6 @@
           which means the result is the same as if they keep walking independently.
         - Find the **last moment (time)** before all ants fall off the plank.
 
-    Approach:
-        - For ants moving to the left:
-              Time to fall = distance to left edge = position of ant.
-        - For ants moving to the right:
-              Time to fall = distance to right edge = (n - position).
-        - The last moment when the final ant falls off = 
-              max(max(left positions), max(n - right positions)).
-
     Example:
         Input:
             n = 4
