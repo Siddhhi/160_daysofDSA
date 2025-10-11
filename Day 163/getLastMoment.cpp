@@ -9,25 +9,7 @@
           which means the result is the same as if they keep walking independently.
         - Find the **last moment (time)** before all ants fall off the plank.
 
-        Process:
-            - Ants moving left:
-                * From position 2 → falls in 2 seconds
-            - Ants moving right:
-                * From position 0 → falls in 4 seconds
-                * From position 1 → falls in 3 seconds
-                * From position 3 → falls in 1 second
-            - Maximum of all times = max(2, 4, 3, 1) = 4
-
-        Output:
-            Last moment until all ants fall from plank : 4
-
-    Time Complexity:
-        - O(L + R), where L = number of left-moving ants, R = number of right-moving ants.
-
-    Space Complexity:
-        - O(1), constant auxiliary space.
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
