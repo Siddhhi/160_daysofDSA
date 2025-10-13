@@ -6,7 +6,7 @@
         - You are also given a pattern string (e.g., "HAT").
         - The goal is to find all words whose uppercase letter sequence matches the given pattern.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
