@@ -6,20 +6,6 @@
         - Check whether the sentence is a palindrome or not.
         - Ignore non-alphanumeric characters (e.g., spaces, punctuation, symbols).
         - Comparison should be case-insensitive.
-        
-        Process:
-            - Filtered alphanumeric: "ABCdef01ASDF"
-            - Lowercase comparison → "abcdef01asdf" ≠ "fdsa10fedcba"
-            → Not a palindrome.
-
-        Output:
-            Sentence is not palindrome
-
-    Time Complexity:
-        - O(N), where N = length of the string.
-
-    Space Complexity:
-        - O(1), no extra space used.
 
     Author: Vishal Singhaniya
 */
