@@ -6,17 +6,6 @@
         - Check whether the sentence is a palindrome or not.
         - Ignore non-alphanumeric characters (e.g., spaces, punctuation, symbols).
         - Comparison should be case-insensitive.
-
-    Approach:
-        1. Use two pointers: `i` (start) and `j` (end).
-        2. Skip all characters that are not alphanumeric.
-        3. Compare lowercase versions of characters at `i` and `j`.
-        4. If all valid characters match, the sentence is a palindrome.
-        5. Otherwise, return false.
-
-    Example:
-        Input:
-            s = "ABC $. def01ASDF"
         
         Process:
             - Filtered alphanumeric: "ABCdef01ASDF"
