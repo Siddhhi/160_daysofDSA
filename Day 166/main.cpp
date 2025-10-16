@@ -6,22 +6,6 @@
         - The output should be properly spaced and formatted.
         - Handle numbers in the range of billions, millions, thousands, hundreds, tens, and units.
 
-    Approach:
-        1. Divide the number into groups of three digits (thousands, millions, billions).
-        2. For each 3-digit group:
-            - Handle hundreds, tens, and ones separately.
-            - Use predefined word arrays for units (1–19) and tens (20, 30, ... 90).
-        3. Append appropriate multipliers ("Thousand", "Million", "Billion") for each group.
-        4. Concatenate all groups and remove trailing spaces.
-
-    Example:
-        Input:
-            n = 25006326
-
-        Process:
-            - Split into groups: 25 | 006 | 326
-            - "Twenty Five Million Six Thousand Three Hundred Twenty Six"
-
         Output:
             Number name to the integer 25006326 is Twenty Five Million Six Thousand Three Hundred Twenty Six
 
