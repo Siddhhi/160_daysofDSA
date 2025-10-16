@@ -6,7 +6,7 @@
         - The output should be properly spaced and formatted.
         - Handle numbers in the range of billions, millions, thousands, hundreds, tens, and units.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
