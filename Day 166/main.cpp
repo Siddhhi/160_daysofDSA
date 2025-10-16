@@ -6,15 +6,6 @@
         - The output should be properly spaced and formatted.
         - Handle numbers in the range of billions, millions, thousands, hundreds, tens, and units.
 
-        Output:
-            Number name to the integer 25006326 is Twenty Five Million Six Thousand Three Hundred Twenty Six
-
-    Time Complexity:
-        - O(log₁₀N), as we process each 3-digit group once.
-
-    Space Complexity:
-        - O(1), using only small helper arrays for words and multipliers.
-
     Author: Vishal Singhaniya
 */
 
