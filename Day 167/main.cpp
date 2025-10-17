@@ -1,5 +1,5 @@
 /*
-    Title: Minimum Repetition to Make One String a Substring of Another
+    Title: Minimum Repetition
 
     Problem Statement:
         - Given two strings `s1` and `s2`, determine the minimum number of times `s1`
@@ -78,4 +78,5 @@ int main(){
          << minRepeat(s1, s2);
     return 0;
 }
+
 
