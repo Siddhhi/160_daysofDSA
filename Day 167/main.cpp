@@ -6,7 +6,7 @@
           must be repeated so that `s2` becomes a substring of the repeated string.
         - If it's not possible, return `-1`.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -78,5 +78,6 @@ int main(){
          << minRepeat(s1, s2);
     return 0;
 }
+
 
 
