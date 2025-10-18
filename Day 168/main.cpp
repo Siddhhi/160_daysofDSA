@@ -6,7 +6,7 @@
           which is also a suffix of the string.
         - Proper prefix means it cannot be equal to the entire string itself.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -43,5 +43,6 @@ int main(){
     cout << "Length of longest prefix which is also a suffix is : " << getLPSLength(s);
     return 0;
 }
+
 
 
