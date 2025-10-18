@@ -6,12 +6,6 @@
           which is also a suffix of the string.
         - Proper prefix means it cannot be equal to the entire string itself.
 
-    Time Complexity:
-        - O(N), where N = length of string `s`
-
-    Space Complexity:
-        - O(N), for storing the LPS array
-
     Author: Vishal Singhaniya
 */
 
@@ -49,4 +43,5 @@ int main(){
     cout << "Length of longest prefix which is also a suffix is : " << getLPSLength(s);
     return 0;
 }
+
 
