@@ -17,28 +17,6 @@
             - Removes leading zeros before returning the final result.
         4. Return the resulting sum as a string.
 
-    Example:
-        Input:
-            arr = [6, 3, 9, 2, 5, 7]
-
-        Process:
-            Sorted: [2, 3, 5, 6, 7, 9]
-            s1 = "357", s2 = "269"
-            Sum = 357 + 269 = 626
-
-        Output:
-            Minimum Sum from two integers that can be obtained from the array : 626
-
-    Time Complexity:
-        - O(N log N) for sorting + O(N) for addition → O(N log N)
-
-    Space Complexity:
-        - O(N) for storing digits and result strings
-
-    Applications:
-        - Used in optimization and greedy problems involving digit manipulation
-        - Financial and number rearrangement algorithms
-
     Author: Vishal Singhaniya
 */
 
