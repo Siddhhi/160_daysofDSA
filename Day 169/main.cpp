@@ -6,18 +6,7 @@
         - The digits of the array must all be used exactly once.
         - Return the minimum possible sum as a string (to handle very large values).
 
-    Approach:
-        1. Sort the array in ascending order.
-        2. Distribute digits alternately between two numbers `s1` and `s2`:
-            - Even indices → `s2`
-            - Odd indices → `s1`
-        3. Add both strings using a helper function `addString()`, which:
-            - Performs digit-by-digit addition from the end.
-            - Manages carry values.
-            - Removes leading zeros before returning the final result.
-        4. Return the resulting sum as a string.
-
-    Author: Vishal Singhaniya
+      Author: Vishal Singhaniya
 */
 
 #include<bits/stdc++.h>
