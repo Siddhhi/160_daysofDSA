@@ -6,7 +6,7 @@
         - Determine if a person can attend all meetings without any overlap.
         - If any two meetings overlap, return false; otherwise, return true.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -28,4 +28,5 @@ int main(){
     cout << "\nThe person " << (canAttend(arr) ? "can" : "can't") << " attend the meeting\n";
     return 0;
 }
+
 
