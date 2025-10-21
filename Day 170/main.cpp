@@ -1,5 +1,5 @@
 /*
-    Title: Meeting Room Scheduler – Check if All Meetings Can Be Attended
+    Title: Meeting Room Scheduler – 
 
     Problem Statement:
         - You are given an array of meeting time intervals where each interval is represented as [start, end].
@@ -28,6 +28,7 @@ int main(){
     cout << "\nThe person " << (canAttend(arr) ? "can" : "can't") << " attend the meeting\n";
     return 0;
 }
+
 
 
 
