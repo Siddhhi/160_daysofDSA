@@ -5,12 +5,8 @@
         - Given an integer array, make all elements unique by performing the minimum number of increment operations.
         - In one operation, you can increment any element by 1.
         - Find the minimum total increments required and the final modified array.
-
-    Applications:
-        - Useful in scheduling, ID assignment, and resource allocation problems
-          where uniqueness is required.
-
-    Author: Vishal Singhaniya
+        
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -46,4 +42,5 @@ int main() {
     
     return 0;
 }
+
 
