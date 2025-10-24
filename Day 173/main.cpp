@@ -6,7 +6,7 @@
           find the **smallest index** such that `arr[index] >= target`.
         - If no such index exists, return the size of the array.
         
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -39,6 +39,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
