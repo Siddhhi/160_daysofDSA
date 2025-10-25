@@ -5,7 +5,7 @@
         - A **bitonic array** first increases and then decreases.
         - The task is to find the **maximum element** (bitonic point) in such an array.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -48,6 +48,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
