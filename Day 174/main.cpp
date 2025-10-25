@@ -5,14 +5,7 @@
         - A **bitonic array** first increases and then decreases.
         - The task is to find the **maximum element** (bitonic point) in such an array.
 
-    Example:
-        Input:
-            arr = [1, 2, 3, 7, 9, 800, 11, 7, 3, 2]
-        
-        Process:
-            - The array increases till 800, then decreases.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -55,5 +48,6 @@ int main() {
 
     return 0;
 }
+
 
 
