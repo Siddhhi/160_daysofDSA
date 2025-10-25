@@ -22,16 +22,6 @@
         
         Process:
             - The array increases till 800, then decreases.
-            - 800 is the peak (bitonic point).
-        
-        Output:
-            ✅ The bitonic point of the array is 800
-
-    Time Complexity:
-        - O(log N): Binary search on the array.
-
-    Space Complexity:
-        - O(1): Constant extra space.
 
     Author: Vishal Singhaniya
 */
@@ -76,3 +66,4 @@ int main() {
 
     return 0;
 }
+
