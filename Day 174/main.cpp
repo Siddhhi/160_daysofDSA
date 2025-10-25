@@ -5,17 +5,6 @@
         - A **bitonic array** first increases and then decreases.
         - The task is to find the **maximum element** (bitonic point) in such an array.
 
-    Approach:
-        1. If the array has only one element, return it directly.
-        2. Check if the first or last element is the peak:
-            - If `arr[0] > arr[1]`, return `arr[0]`.
-            - If `arr[n-1] > arr[n-2]`, return `arr[n-1]`.
-        3. Use **binary search** between indices `1` and `n-2`:
-            - If `arr[mid] > arr[mid-1] && arr[mid] > arr[mid+1]`, return `arr[mid]`.
-            - If `arr[mid] > arr[mid+1]`, search left (`high = mid - 1`).
-            - Else, search right (`low = mid + 1`).
-        4. Return the bitonic point found.
-
     Example:
         Input:
             arr = [1, 2, 3, 7, 9, 800, 11, 7, 3, 2]
@@ -66,4 +55,5 @@ int main() {
 
     return 0;
 }
+
 
