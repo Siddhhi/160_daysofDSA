@@ -5,14 +5,6 @@
         - Given a non-negative integer `n`, find the **floor value** of its square root.
         - The floor square root of `n` is the largest integer `x` such that `x * x <= n`.
 
-    Approach:
-        1. Use **binary search** on the range `[1, n]`.
-        2. For each mid-point:
-            - If `mid * mid <= n`, it’s a potential answer. Move right (`low = mid + 1`).
-            - Else, move left (`high = mid - 1`).
-        3. Continue until all possible values are checked.
-        4. Return the stored result.
-
     Example:
         Input:
             n = 17
@@ -57,3 +49,4 @@ int main() {
     cout << "The floor square root of " << n << " is: " << floorSqrt(n) << "\n";
     return 0;
 }
+
