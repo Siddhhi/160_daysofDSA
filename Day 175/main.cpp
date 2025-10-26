@@ -5,12 +5,6 @@
         - Given a non-negative integer `n`, find the **floor value** of its square root.
         - The floor square root of `n` is the largest integer `x` such that `x * x <= n`.
 
-    Time Complexity:
-        - O(log N): Binary search reduces the search space by half each step.
-
-    Space Complexity:
-        - O(1): Constant extra space.
-
     Author: Vishal Singhaniya
 */
 
@@ -39,5 +33,6 @@ int main() {
     cout << "The floor square root of " << n << " is: " << floorSqrt(n) << "\n";
     return 0;
 }
+
 
 
