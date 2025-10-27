@@ -18,24 +18,6 @@
            Else → increase the speed (move right).
         4. The smallest valid speed is the answer.
 
-    Example:
-        Input:
-            arr = [4, 2, 8, 10, 5]
-            k = 6
-        Process:
-            - Try midSpeed = 5 → Total hours = 1+1+2+2+1 = 7 ❌
-            - Try midSpeed = 6 → Total hours = 1+1+2+2+1 = 7 ❌
-            - Try midSpeed = 7 → Total hours = 1+1+2+2+1 = 7 ❌
-            - Try midSpeed = 8 → Total hours = 1+1+1+2+1 = 6 ✅
-        Output:
-            ✅ Minimum eating speed = 8
-            
-    Time Complexity:
-        - O(N log M), where N = number of piles, M = max pile size.
-
-    Space Complexity:
-        - O(1), using constant extra space.
-
     Author: Vishal Singhaniya
 */
 
@@ -75,3 +57,4 @@ int main() {
          << k << " hours : " << kokoEatBanana(arr, k);
     return 0;
 }
+
