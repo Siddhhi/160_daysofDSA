@@ -9,15 +9,6 @@
         - If the pile has fewer bananas than `midSpeed`, she finishes it and moves to the next.
         - Given a total of `k` hours, find the **minimum eating speed** that allows Koko to eat all bananas.
 
-    Approach:
-        1. **Binary Search** over possible eating speeds (from 1 to the maximum pile size).
-        2. For each possible speed `midSpeed`, calculate total hours required:
-            - `hours = ceil(arr[i] / midSpeed)` for each pile.
-            - Implemented efficiently as `(arr[i] + midSpeed - 1) / midSpeed`.
-        3. If total hours ≤ k → try smaller speeds (move left).
-           Else → increase the speed (move right).
-        4. The smallest valid speed is the answer.
-
     Author: Vishal Singhaniya
 */
 
@@ -57,4 +48,5 @@ int main() {
          << k << " hours : " << kokoEatBanana(arr, k);
     return 0;
 }
+
 
