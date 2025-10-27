@@ -9,7 +9,7 @@
         - If the pile has fewer bananas than `midSpeed`, she finishes it and moves to the next.
         - Given a total of `k` hours, find the **minimum eating speed** that allows Koko to eat all bananas.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <bits/stdc++.h>
@@ -48,6 +48,7 @@ int main() {
          << k << " hours : " << kokoEatBanana(arr, k);
     return 0;
 }
+
 
 
 
