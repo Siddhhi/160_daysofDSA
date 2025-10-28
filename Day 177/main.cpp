@@ -8,25 +8,6 @@
         - Find the **minimum number of days** required to make `m` bouquets.
         - If it is not possible to make `m` bouquets, return -1.
 
-  
-            arr = [1, 10, 3, 10, 2]
-            m = 3, k = 1
-
-        Process:
-            - Day 3 → Flowers that bloom: [1, _, 3, _, 2]
-              Bouquets = 3 ✅
-            - Day 2 → Bouquets = 2 ❌
-            → Minimum days = 3
-
-        Output:
-            ✅ Minimum days required to make 3 bouquets = 3
-
-    Time Complexity:
-        - O(N log M), where N = number of flowers, M = max bloom day.
-
-    Space Complexity:
-        - O(1), no extra space used.
-
     Applications:
         - Scheduling problems, production line optimization, resource allocation.
 
