@@ -7,10 +7,7 @@
         - Each bouquet requires exactly `k` consecutive flowers that have bloomed on or before a certain day.
         - Find the **minimum number of days** required to make `m` bouquets.
         - If it is not possible to make `m` bouquets, return -1.
-
-    Applications:
-        - Scheduling problems, production line optimization, resource allocation.
-
+        
     Author: Vishal Singhaniya
 */
 
