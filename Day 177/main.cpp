@@ -8,20 +8,7 @@
         - Find the **minimum number of days** required to make `m` bouquets.
         - If it is not possible to make `m` bouquets, return -1.
 
-    Approach:
-        1. Use **Binary Search** on the range of days:
-            - Low = 0 (earliest possible day)
-            - High = max(arr) (latest blooming day)
-        2. For each day (mid), check if it’s possible to make `m` bouquets:
-            - Traverse the array:
-                - Count consecutive bloomed flowers (arr[i] <= mid).
-                - Whenever a flower is not bloomed, add `count / k` to bouquets and reset count.
-            - If total bouquets ≥ m → possible → try smaller day (move left).
-              Else → increase day (move right).
-        3. Return the smallest valid day.
-
-    Example:
-        Input:
+  
             arr = [1, 10, 3, 10, 2]
             m = 3, k = 1
 
