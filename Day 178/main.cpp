@@ -8,7 +8,7 @@
           or the average of the two middle values if total elements are even.
         - The combined array must be considered as if both arrays were merged and sorted.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -59,6 +59,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
