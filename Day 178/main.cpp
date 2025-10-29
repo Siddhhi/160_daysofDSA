@@ -8,9 +8,6 @@
           or the average of the two middle values if total elements are even.
         - The combined array must be considered as if both arrays were merged and sorted.
 
-    
-    Space Complexity:- O(1)
-
     Optimized Approach (not implemented here):
         - Using Binary Search in O(log(min(n, m))) time.
 
@@ -65,4 +62,5 @@ int main() {
 
     return 0;
 }
+
 
