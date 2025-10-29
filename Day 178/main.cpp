@@ -1,5 +1,5 @@
 /*
-    Title: Median of Two Sorted Arrays ⚖️
+    Title: Median of Two Sorted Arrays 
 
     Problem Statement:
         - You are given two sorted arrays `a[]` and `b[]` of sizes `n` and `m`.
@@ -8,10 +8,7 @@
           or the average of the two middle values if total elements are even.
         - The combined array must be considered as if both arrays were merged and sorted.
 
-    Optimized Approach (not implemented here):
-        - Using Binary Search in O(log(min(n, m))) time.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <bits/stdc++.h>
@@ -62,5 +59,6 @@ int main() {
 
     return 0;
 }
+
 
 
