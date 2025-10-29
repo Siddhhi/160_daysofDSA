@@ -8,30 +8,6 @@
           or the average of the two middle values if total elements are even.
         - The combined array must be considered as if both arrays were merged and sorted.
 
-    Approach (Merge Method):
-        1. Use two pointers (`i` for array a, `j` for array b`).
-        2. Iterate until you reach the middle of the merged array — i.e. `(m+n)/2` times.
-        3. Track two elements:
-            - `m1` = current element.
-            - `m2` = previous element.
-        4. At each step, pick the smaller of `a[i]` and `b[j]`.
-        5. When you reach the middle:
-            - If total (m+n) is **odd**, median = `m1`.
-            - If total (m+n) is **even**, median = `(m1 + m2) / 2.0`.
-
-    Example:
-        Input:
-            a = [1, 3, 5]
-            b = [2, 4, 6]
-
-        Process:
-            Merged sequence: [1, 2, 3, 4, 5, 6]
-            Middle two = 3, 4 → Median = (3 + 4) / 2 = 3.5
-
-        Output:
-            ✅ Median = 3.5
-
-    Time Complexity:- O(m + n)  
     
     Space Complexity:- O(1)
 
@@ -89,3 +65,4 @@ int main() {
 
     return 0;
 }
+
