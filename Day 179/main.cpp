@@ -5,21 +5,6 @@
         - Given an NxN matrix, rotate it **by 180 degrees in place**.
         - Rotation by 180° means each element at (i, j) moves to (n-1-i, n-1-j).
 
-        Output:
-            ✅ Rotated matrix by 180°:
-                [ [9, 8, 7],
-                  [6, 5, 4],
-                  [3, 2, 1] ]
-
-    Dry Run (n=3):
-        i=0, j=0 → swap(1, 9)
-        i=0, j=1 → swap(2, 8)
-        i=0, j=2 → swap(3, 7)
-        (middle row reversed for odd n)
-
-    Time Complexity:  O(N²)
-    Space Complexity: O(1)
-
     Author: Vishal Singhaniya
 */
 
@@ -70,4 +55,5 @@ int main() {
 
     return 0;
 }
+
 
