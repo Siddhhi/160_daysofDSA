@@ -5,26 +5,6 @@
         - Given an NxN matrix, rotate it **by 180 degrees in place**.
         - Rotation by 180° means each element at (i, j) moves to (n-1-i, n-1-j).
 
-    Approach (In-place Swapping):
-        1. For each element in the top half of the matrix (rows 0 → n/2):
-           → Swap mat[i][j] with mat[n-1-i][n-1-j].
-        2. This reverses both rows and columns simultaneously.
-        3. If the matrix has an odd dimension (n is odd), 
-           the **middle row** remains unprocessed in step 1.
-           So, reverse that middle row separately.
-
-    Example:
-        Input:
-            mat = [ [1, 2, 3],
-                    [4, 5, 6],
-                    [7, 8, 9] ]
-
-        Process:
-            After step 1:
-                [ [9, 8, 7],
-                  [6, 5, 4],
-                  [3, 2, 1] ]
-
         Output:
             ✅ Rotated matrix by 180°:
                 [ [9, 8, 7],
@@ -90,3 +70,4 @@ int main() {
 
     return 0;
 }
+
