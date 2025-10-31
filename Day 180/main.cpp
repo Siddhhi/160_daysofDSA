@@ -2,8 +2,7 @@
     Title: Fill a Matrix in Spiral Order
 
     Problem Statement:
-        Given a 1D array of size n*m, fill a matrix of size n x m 
-        in a spiral order starting from the top-left corner.
+        Given a 1D array of size n*m, fill a matrix of size n x m in a spiral order starting from the top-left corner.
         
     Author: Siddhi
 */
@@ -60,6 +59,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
