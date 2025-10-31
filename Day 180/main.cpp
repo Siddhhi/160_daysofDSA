@@ -4,22 +4,8 @@
     Problem Statement:
         Given a 1D array of size n*m, fill a matrix of size n x m 
         in a spiral order starting from the top-left corner.
-
-    Example:
-        Input: arr = [1,2,3,4,5,6,7,8,9,10,11,12], n = 3, m = 4
-        Output:
-            [ 1,  2,  3,  4 ]
-            [10, 11, 12,  5 ]
-            [ 9,  8,  7,  6 ]
-
-    Approach:
-        - Initialize 4 boundaries: top, bottom, left, right
-        - Fill top row → right column → bottom row → left column
-        - Shrink boundaries after each spiral cycle
-        - Continue until all elements are placed
-
-    Time Complexity:  O(N*M)
-    Space Complexity: O(N*M)
+        
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -74,4 +60,5 @@ int main() {
 
     return 0;
 }
+
 
