@@ -1,5 +1,5 @@
 /*
-    Title: Fill a Matrix in Spiral Order 🌀
+    Title: Fill a Matrix in Spiral Order
 
     Problem Statement:
         Given a 1D array of size n*m, fill a matrix of size n x m 
@@ -74,3 +74,4 @@ int main() {
 
     return 0;
 }
+
