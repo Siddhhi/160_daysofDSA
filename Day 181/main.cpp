@@ -6,12 +6,8 @@
         - Construct an m x n matrix such that:
             • The sum of each row equals rowSum[i]
             • The sum of each column equals colSum[j]
-        - If no such matrix is possible, return {{0}}.
-
-    Space Complexity:
-        - O(m × n) for the resulting matrix.
-
-    Author: Vishal Singhaniya
+        
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -61,6 +57,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
