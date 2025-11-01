@@ -8,16 +8,6 @@
             • The sum of each column equals colSum[j]
         - If no such matrix is possible, return {{0}}.
 
-    Approach:
-        1. Check if the total sum of rowSum equals the total sum of colSum.
-           → If not equal, matrix construction is impossible.
-        2. Use a greedy approach:
-            - Start from top-left cell.
-            - Assign res[i][j] = min(rowSum[i], colSum[j])
-            - Subtract the assigned value from both rowSum[i] and colSum[j].
-            - Move to the next row or column once any becomes 0.
-        3. Continue until all rows and columns are filled.
-
     Example:
         Input:
             rowSum = [1, 7, 2, 4, 5]
@@ -86,3 +76,4 @@ int main() {
     
     return 0;
 }
+
