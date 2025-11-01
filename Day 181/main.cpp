@@ -8,9 +8,6 @@
             • The sum of each column equals colSum[j]
         - If no such matrix is possible, return {{0}}.
 
-    Time Complexity:
-        - O(m + n), where m = number of rows and n = number of columns.
-
     Space Complexity:
         - O(m × n) for the resulting matrix.
 
@@ -64,5 +61,6 @@ int main() {
     
     return 0;
 }
+
 
 
