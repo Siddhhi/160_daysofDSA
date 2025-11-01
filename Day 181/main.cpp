@@ -8,18 +8,6 @@
             • The sum of each column equals colSum[j]
         - If no such matrix is possible, return {{0}}.
 
-    Example:
-        Input:
-            rowSum = [1, 7, 2, 4, 5]
-            colSum = [3, 4, 7, 2, 2, 1]
-        
-        Output:
-            1  0  0  0  0  0
-            2  4  1  0  0  0
-            0  0  1  0  1  0
-            0  0  3  1  0  0
-            0  0  2  1  1  1
-
     Time Complexity:
         - O(m + n), where m = number of rows and n = number of columns.
 
@@ -76,4 +64,5 @@ int main() {
     
     return 0;
 }
+
 
