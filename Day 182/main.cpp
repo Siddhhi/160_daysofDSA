@@ -7,20 +7,7 @@
         - In one operation, you can increment any element of the matrix by 1.
         - The task is to find the **minimum number of operations** required to make the matrix beautiful.
 
-
-        Output:
-            Minimum 5 operations are required to make the matrix beautiful.
-
-    Time Complexity:
-        - O(n²), as every element is visited a constant number of times.
-
-    Space Complexity:
-        - O(1), using only a few variables for calculations.
-
-    Applications:
-        - Used in matrix normalization, game design, and data balancing problems.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -75,5 +62,6 @@ int main() {
     
     return 0;
 }
+
 
 
