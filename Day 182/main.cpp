@@ -21,13 +21,6 @@
                     {5, 1, 2}
                   }
 
-        Process:
-            - Row sums: [8, 9, 8]
-            - Column sums: [9, 6, 10]
-            - Maximum sum = 10
-            - Total sum = 25
-            - Required operations = (3 × 10) - 25 = 5
-
         Output:
             Minimum 5 operations are required to make the matrix beautiful.
 
@@ -95,3 +88,4 @@ int main() {
     
     return 0;
 }
+
