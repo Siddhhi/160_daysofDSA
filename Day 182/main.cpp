@@ -7,19 +7,6 @@
         - In one operation, you can increment any element of the matrix by 1.
         - The task is to find the **minimum number of operations** required to make the matrix beautiful.
 
-    Approach:
-        1. Compute the sum of every row and every column.
-        2. Find the **maximum sum** among all rows and columns → this will be the target sum for each row/column.
-        3. Compute the **total sum** of all elements in the matrix.
-        4. The required operations = (n × maxSum) - totalMatrixSum
-
-    Example:
-        Input:
-            mat = {
-                    {1, 3, 4},
-                    {3, 2, 4},
-                    {5, 1, 2}
-                  }
 
         Output:
             Minimum 5 operations are required to make the matrix beautiful.
@@ -88,4 +75,5 @@ int main() {
     
     return 0;
 }
+
 
