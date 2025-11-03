@@ -7,14 +7,6 @@
           whose sum equals the target.
         - If such a triplet exists, return true; otherwise, return false.
 
-    Approach:
-        1. Sort the array to enable the two-pointer technique.
-        2. Fix one element (arr[i]) and then find if there exist
-           two other elements whose sum equals (target - arr[i]).
-        3. Use two pointers — one starting from the next element (low = i+1)
-           and another from the end (high = n-1).
-        4. Move the pointers based on the sum comparison until all combinations are checked.
-
     Example:
         Input:
             arr = [4, 2, 1, 9, 34, 20, 6]
@@ -80,3 +72,4 @@ int main() {
     }
     return 0;
 }
+
