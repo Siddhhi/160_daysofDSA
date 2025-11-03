@@ -7,18 +7,6 @@
           whose sum equals the target.
         - If such a triplet exists, return true; otherwise, return false.
 
-        Output:
-            Sum 32 is possible with three elements of the array.
-
-    Time Complexity:
-        - O(n²): Sorting O(n log n) + Two-pointer traversal for each element O(n²)
-
-    Space Complexity:
-        - O(1): No extra space used apart from variables.
-
-    Applications:
-        - Used in subset-sum, triplet-finding, and combination optimization problems.
-
     Author: Vishal Singhaniya
 */
 
@@ -62,5 +50,6 @@ int main() {
     }
     return 0;
 }
+
 
 
