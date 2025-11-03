@@ -7,7 +7,7 @@
           whose sum equals the target.
         - If such a triplet exists, return true; otherwise, return false.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -50,6 +50,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
