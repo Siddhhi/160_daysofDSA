@@ -7,16 +7,6 @@
           whose sum equals the target.
         - If such a triplet exists, return true; otherwise, return false.
 
-    Example:
-        Input:
-            arr = [4, 2, 1, 9, 34, 20, 6]
-            target = 32
-
-        Process:
-            - After sorting: [1, 2, 4, 6, 9, 20, 34]
-            - Check combinations:
-                6 + 9 + 17 = 32 ✅ Found!
-
         Output:
             Sum 32 is possible with three elements of the array.
 
@@ -72,4 +62,5 @@ int main() {
     }
     return 0;
 }
+
 
