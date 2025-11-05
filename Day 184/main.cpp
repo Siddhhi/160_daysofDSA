@@ -7,20 +7,6 @@
           the sum is closest to the given target.
         - If multiple sums are equally close, return the maximum among them.
 
-    Approach:
-        1. Sort the array to use the two-pointer technique efficiently.
-        2. Fix one element (arr[i]) and use two pointers:
-            - `l` (left) starting from i+1
-            - `r` (right) starting from n-1
-        3. Compute current sum = arr[i] + arr[l] + arr[r].
-        4. If the absolute difference |currSum - target| is smaller than the minimum difference so far,
-           update `minDiff` and `res`.
-        5. If the difference is equal but `currSum` is larger, update `res` to the maximum value.
-        6. Move the pointers:
-            - If currSum < target → increment l
-            - Else → decrement r
-        7. Continue until all triplets are checked.
-
     Example:
         Input:
             arr = [1, -5, 12, -3, 8]
@@ -89,3 +75,4 @@ int main() {
     cout << "The closest sum to target " << target << " is " << sum << endl;
     return 0;
 }
+
