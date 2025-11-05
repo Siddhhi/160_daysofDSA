@@ -2,12 +2,10 @@
     Title: Closest Triplet Sum to Target
 
     Problem Statement:
-        - Given an array `arr` and an integer `target`,
-          find the sum of three integers in the array such that
-          the sum is closest to the given target.
+        - Given an array `arr` and an integer `target`, find the sum of three integers in the array such that the sum is closest to the given target.
         - If multiple sums are equally close, return the maximum among them.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -54,6 +52,7 @@ int main() {
     cout << "The closest sum to target " << target << " is " << sum << endl;
     return 0;
 }
+
 
 
 
