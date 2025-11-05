@@ -7,20 +7,6 @@
           the sum is closest to the given target.
         - If multiple sums are equally close, return the maximum among them.
 
-    Example:
-        Input:
-            arr = [1, -5, 12, -3, 8]
-            target = 14
-
-        After sorting:
-            arr = [-5, -3, 1, 8, 12]
-
-        Checking triplets:
-            (-5, 8, 12) → sum = 15 → |15 - 14| = 1 → Closest so far.
-
-        Output:
-            The closest sum to target 14 is 15
-
     Time Complexity:
         - O(n²): Outer loop O(n), inner two-pointer traversal O(n)
         - Sorting adds O(n log n)
@@ -75,4 +61,5 @@ int main() {
     cout << "The closest sum to target " << target << " is " << sum << endl;
     return 0;
 }
+
 
