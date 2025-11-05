@@ -7,13 +7,6 @@
           the sum is closest to the given target.
         - If multiple sums are equally close, return the maximum among them.
 
-    Time Complexity:
-        - O(n²): Outer loop O(n), inner two-pointer traversal O(n)
-        - Sorting adds O(n log n)
-
-    Space Complexity:
-        - O(1): Only constant extra space used.
-
     Author: Vishal Singhaniya
 */
 
@@ -61,5 +54,6 @@ int main() {
     cout << "The closest sum to target " << target << " is " << sum << endl;
     return 0;
 }
+
 
 
