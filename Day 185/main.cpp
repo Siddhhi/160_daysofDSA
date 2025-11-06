@@ -5,19 +5,7 @@
         - Given an integer array `arr` and an integer `k`,
           find the number of subarrays that contain at most K distinct integers.
 
-    Approach (Sliding Window + Frequency Map):
-        1. Use a sliding window defined by pointers `left` and `right`.
-        2. Maintain a frequency map (unordered_map) of elements inside the window.
-        3. Expand the `right` pointer to include new elements.
-            - Decrease `k` when a new distinct element is added (freq == 1).
-        4. If `k` becomes negative, shrink the window from the left
-           until we again have at most K distinct elements.
-        5. For every valid window (where `k >= 0`),
-           all subarrays ending at `right` contribute `(right - left + 1)` to the result.
-
-    Dry Run Example:
-        Input:
-            arr = [1, 2, 1, 2, 3], k = 2
+   
         
         Output:
             Total subarrays = 12
@@ -72,3 +60,4 @@ int main() {
          << " distinct elements: " << countAtMostK(arr, k) << endl;
     return 0;
 }
+
