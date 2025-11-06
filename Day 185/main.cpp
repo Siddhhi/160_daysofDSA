@@ -5,7 +5,7 @@
         - Given an integer array `arr` and an integer `k`,
           find the number of subarrays that contain at most K distinct integers.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <bits/stdc++.h>
@@ -49,6 +49,7 @@ int main() {
          << " distinct elements: " << countAtMostK(arr, k) << endl;
     return 0;
 }
+
 
 
 
