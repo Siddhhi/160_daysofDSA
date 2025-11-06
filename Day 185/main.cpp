@@ -5,11 +5,6 @@
         - Given an integer array `arr` and an integer `k`,
           find the number of subarrays that contain at most K distinct integers.
 
-   
-        
-        Output:
-            Total subarrays = 12
-
     Time Complexity:
         - O(n): Each element is visited at most twice (once by right, once by left)
 
@@ -60,4 +55,5 @@ int main() {
          << " distinct elements: " << countAtMostK(arr, k) << endl;
     return 0;
 }
+
 
