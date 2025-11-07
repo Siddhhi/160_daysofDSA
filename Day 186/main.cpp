@@ -7,7 +7,7 @@
         so that the sum of the remaining elements equals `k`.
         If it’s not possible, return -1.
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -51,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
