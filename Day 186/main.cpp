@@ -7,10 +7,6 @@
         so that the sum of the remaining elements equals `k`.
         If it’s not possible, return -1.
 
-    Time Complexity: O(n) – Each element is visited at most twice (left and right pointer)
-
-    Space Complexity: O(1)
-
     Author: 
 */
 
@@ -55,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
