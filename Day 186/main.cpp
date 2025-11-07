@@ -7,15 +7,6 @@
         so that the sum of the remaining elements equals `k`.
         If it’s not possible, return -1.
 
-    Approach (Sliding Window):
-        1. Calculate totalSum of the array.
-        2. Let target = totalSum - k.  
-           We need to find the longest subarray with sum = target.
-        3. Use two pointers (`left`, `right`) to maintain a sliding window.
-        4. Expand `right`, and adjust `left` whenever the sum exceeds `target`.
-        5. Whenever `currSum == target`, update `maxLen`.
-        6. Finally, if `maxLen` exists, answer = n - maxLen, else -1.
-
     Time Complexity: O(n) – Each element is visited at most twice (left and right pointer)
 
     Space Complexity: O(1)
@@ -64,4 +55,5 @@ int main() {
 
     return 0;
 }
+
 
