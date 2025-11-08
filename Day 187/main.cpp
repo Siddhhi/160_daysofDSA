@@ -6,7 +6,7 @@
         determine whether there exists a pair (arr[i], arr[j]) such that:
                 arr[i] + arr[j] == target
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -55,6 +55,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
