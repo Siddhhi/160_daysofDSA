@@ -6,39 +6,6 @@
         determine whether there exists a pair (arr[i], arr[j]) such that:
                 arr[i] + arr[j] == target
 
-    Example:
-        arr = [12, 15, 2, 5, 7, 9, 11]
-        target = 23
-        Output: True → (12 + 11 = 23)
-
-    Approach (Two Pointer on Rotated Array):
-        1. First find the **pivot** — the index `i` where arr[i] > arr[i+1].
-           - This separates the largest and smallest elements.
-           - Example: in [12, 15, 2, 5, 7, 9, 11], pivot = 1 (15 > 2)
-        2. Set two pointers:
-           - `r = pivot` → largest element
-           - `l = (pivot + 1) % n` → smallest element
-        3. Use the two-pointer approach in circular fashion:
-           - If arr[l] + arr[r] == target → found
-           - If sum < target → move l forward (l = (l + 1) % n)
-           - If sum > target → move r backward (r = (r - 1 + n) % n)
-           - Stop when l == r.
-
-    Dry Run:
-        arr = [12, 15, 2, 5, 7, 9, 11], target = 23
-        Pivot = 1 (15 > 2)
-        l = 2 (arr[l] = 2), r = 1 (arr[r] = 15)
-        Iterations:
-            (2,15) → sum=17 < 23 → move l to 3
-            (5,15) → sum=20 < 23 → move l to 4
-            (7,15) → sum=22 < 23 → move l to 5
-            (9,15) → sum=24 > 23 → move r to 0
-            (9,12) → sum=21 < 23 → move l to 6
-            (11,12) → sum=23 ✅ FOUND
-
-    Time Complexity: O(n)
-    Space Complexity: O(1)
-
     Author: Vishal Singhaniya
 */
 
@@ -88,3 +55,4 @@ int main() {
 
     return 0;
 }
+
