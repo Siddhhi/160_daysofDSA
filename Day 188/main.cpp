@@ -6,16 +6,6 @@
         find all unique quadruples (a, b, c, d) such that:
                 a + b + c + d = target
 
-    Example:
-        Input:
-            arr = [10, 2, 3, 4, 5, 7, 8, 9]
-            target = 23
-        Output:
-            {2, 3, 8, 10}
-            {2, 4, 7, 10}
-            {2, 5, 7, 9}
-            {3, 4, 7, 9}
-
     Approach:
         1. Sort the array to handle duplicates easily.
         2. Fix the first two elements using two nested loops (i, j).
@@ -114,3 +104,4 @@ int main() {
 
     return 0;
 }
+
