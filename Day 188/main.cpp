@@ -2,11 +2,10 @@
     Title: Quadruple Sum in an Array
 
     Problem Statement:
-        Given an array of integers and a target value,
-        find all unique quadruples (a, b, c, d) such that:
-                a + b + c + d = target
+        Given an array of integers and a target value, find all unique quadruples (a, b, c, d) 
+        such that: a + b + c + d = target
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -76,6 +75,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
