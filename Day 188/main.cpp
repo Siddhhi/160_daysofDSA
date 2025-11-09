@@ -6,31 +6,6 @@
         find all unique quadruples (a, b, c, d) such that:
                 a + b + c + d = target
 
-    Approach:
-        1. Sort the array to handle duplicates easily.
-        2. Fix the first two elements using two nested loops (i, j).
-        3. Use the **two-pointer technique** on the remaining part of the array:
-            - k = j + 1 (next index)
-            - l = n - 1 (last index)
-        4. Calculate the sum = arr[i] + arr[j] + arr[k] + arr[l]
-            - If sum == target → store this quadruple.
-            - If sum < target → increase k (to increase sum).
-            - If sum > target → decrease l (to reduce sum).
-        5. Skip duplicates to ensure unique combinations.
-        6. Return all possible unique quadruples.
-
-    Dry Run:
-        arr = [10, 2, 3, 4, 5, 7, 8], target = 23
-        Sorted arr = [2, 3, 4, 5, 7, 8, 10]
-        
-        i=0 (2), j=1 (3)
-            k=2 (4), l=6 (10) → sum=19 < 23 → k++
-            k=3 (5), l=6 (10) → sum=20 < 23 → k++
-            k=4 (7), l=6 (10) → sum=22 < 23 → k++
-            k=5 (8), l=6 (10) → sum=23 ✅ Found {2,3,8,10}
-        Next combinations...
-        Final Result = { {2,3,8,10}, {2,4,7,10}, {3,4,7,9} (if 9 existed) }
-
     Time Complexity: O(n³)
     Space Complexity: O(1) (excluding output vector)
 
@@ -104,4 +79,5 @@ int main() {
 
     return 0;
 }
+
 
