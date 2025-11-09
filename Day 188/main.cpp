@@ -6,7 +6,7 @@
         find all unique quadruples (a, b, c, d) such that:
                 a + b + c + d = target
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include <bits/stdc++.h>
@@ -76,6 +76,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
