@@ -6,9 +6,6 @@
         find all unique quadruples (a, b, c, d) such that:
                 a + b + c + d = target
 
-    Time Complexity: O(n³)
-    Space Complexity: O(1) (excluding output vector)
-
     Author: Vishal Singhaniya
 */
 
@@ -79,5 +76,6 @@ int main() {
 
     return 0;
 }
+
 
 
