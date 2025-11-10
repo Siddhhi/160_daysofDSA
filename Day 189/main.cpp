@@ -5,7 +5,7 @@
         Given an array of integers and an integer K, find the total number of subarrays that contain 
         exactly K distinct integers.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
@@ -63,5 +63,6 @@ int main() {
     
     return 0;
 }
+
 
 
