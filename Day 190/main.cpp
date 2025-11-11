@@ -5,24 +5,7 @@
         Given a string representing a Roman numeral,
         convert it into its corresponding decimal (integer) value.
 
-    Roman Numerals and Their Values:
-        I → 1
-        V → 5
-        X → 10
-        L → 50
-        C → 100
-        D → 500
-        M → 1000
-
-    Dry Run:
-        s = "IX"
-        I (1) < X (10)
-        → result = 10 - 1 = 9
-
-    Time Complexity: O(n)
-    Space Complexity: O(1)
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
@@ -54,3 +37,4 @@ int main(){
     return 0;
 
 }
+
