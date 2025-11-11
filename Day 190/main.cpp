@@ -14,27 +14,6 @@
         D → 500
         M → 1000
 
-    Example:
-        Input:
-            s = "MCMIV"
-        Output:
-            1904
-
-        Explanation:
-            M  = 1000
-            CM = 900  (100 before 1000 → subtract)
-            IV = 4    (1 before 5 → subtract)
-            Total = 1000 + 900 + 4 = 1904
-
-    Approach:
-        1. Create a hash map (unordered_map) to store Roman numeral values.
-        2. Traverse the string from left to right.
-        3. For each character:
-            - If the current numeral is less than the next one,
-              subtract its value (handle cases like IV, IX, XL, etc.).
-            - Otherwise, add its value.
-        4. Return the accumulated result.
-
     Dry Run:
         s = "IX"
         I (1) < X (10)
@@ -73,4 +52,5 @@ int main(){
     string romanNum = "LXXVI";
     cout<<"Roman to int conversion for string : "<<romanToDecimal(romanNum);
     return 0;
+
 }
