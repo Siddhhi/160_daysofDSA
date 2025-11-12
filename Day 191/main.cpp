@@ -6,7 +6,7 @@
         two equal elements in the array.  
         The distance is defined as the difference between their indices.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -35,4 +35,5 @@ int main(){
     return 0;
 
 }
+
 
