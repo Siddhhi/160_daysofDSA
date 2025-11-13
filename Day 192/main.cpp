@@ -9,9 +9,6 @@
 
         - Each valid pair should be counted only once.
 
-    Time Complexity:  O(n)
-    Space Complexity: O(n)
-
     Author: Vishal Singhaniya
 */
 
@@ -53,4 +50,5 @@ int main() {
 
     return 0;
 }
+
 
