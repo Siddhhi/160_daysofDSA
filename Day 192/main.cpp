@@ -1,5 +1,5 @@
 /*
-    Title: Count Pairs with Given Difference (Using Hash Map)
+    Title: Count Pairs with Given Difference
 
     Problem Statement:
         - You are given an integer array `arr` and an integer `k`.
@@ -9,7 +9,7 @@
 
         - Each valid pair should be counted only once.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
@@ -50,5 +50,6 @@ int main() {
 
     return 0;
 }
+
 
 
