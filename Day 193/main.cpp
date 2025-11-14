@@ -15,7 +15,7 @@
               (x - 1) does NOT exist in the array.
           Meaning: x is the beginning of a new consecutive chain.
 
-    Author: Vishal Singhaniya
+    Author: Vishal Singhaniya.
 */
 
 #include<bits/stdc++.h>
@@ -39,3 +39,4 @@ int main(){
     return 0;
 
 }
+
