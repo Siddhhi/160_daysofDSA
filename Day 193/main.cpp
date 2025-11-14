@@ -5,7 +5,6 @@
         - You are given an array of integers.
         - A subset here is defined as a **sequence of consecutive integers**
           such that it forms a chain like:
-              
                 x, x+1, x+2, ... , y
 
         - The task is NOT to list all subsets, but simply to count how many
@@ -39,6 +38,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
