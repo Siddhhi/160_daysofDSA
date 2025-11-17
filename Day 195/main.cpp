@@ -1,5 +1,5 @@
 /*
-    Title: Group Shifted Strings (Using Normalized Hashing)
+    Title: Group Shifted Strings (Using Hashing)
 
     Problem Statement:
         - You are given a list of lowercase strings.
@@ -60,5 +60,6 @@ int main(){
     return 0;
 
 }
+
 
 
