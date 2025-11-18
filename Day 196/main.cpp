@@ -7,13 +7,7 @@
         - You must count how many times the cumulative-sum curve
           **touches or crosses the X-axis**.
 
-    Time Complexity:
-        - O(N), single pass.
-
-    Space Complexity:
-        - O(1), constant extra memory.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 #include<bits/stdc++.h>
