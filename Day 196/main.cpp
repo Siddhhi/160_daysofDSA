@@ -7,28 +7,6 @@
         - You must count how many times the cumulative-sum curve
           **touches or crosses the X-axis**.
 
-    Approach:
-        1. Maintain a running cumulative sum.
-        2. Each step, check whether adding the next value *changes the sign*
-           or brings the cumulative sum exactly to zero.
-           
-           Cases:
-                - If current sum > 0 and next causes ≤ 0 → crossing occurs.
-                - If current sum < 0 and next causes ≥ 0 → crossing occurs.
-
-        3. Increase count whenever such a sign change happens.
-        4. Return the total number of crossings.
-
-    Dry Run:
-        arr = {1, -4, 2}
-        
-        sum = 0
-        i=0: sum=1      (above)
-        i=1: 1 + (-4) = -3  → crosses ✓
-        i=2: -3 + 2 = -1    → no cross
-
-        Result = 1
-
     Time Complexity:
         - O(N), single pass.
 
