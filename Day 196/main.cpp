@@ -7,18 +7,6 @@
         - You must count how many times the cumulative-sum curve
           **touches or crosses the X-axis**.
 
-        Example:
-            arr = {1, -4, 2, -9, 10}
-            
-            Cumulative sum:
-                1  → above X-axis
-               -3  → crossed from + to -
-               -1  → stays below
-               -10 → stays below
-                0  → crosses from - to 0
-
-            Crossings = 2
-
     Approach:
         1. Maintain a running cumulative sum.
         2. Each step, check whether adding the next value *changes the sign*
