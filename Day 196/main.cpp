@@ -7,7 +7,7 @@
         - You must count how many times the cumulative-sum curve
           **touches or crosses the X-axis**.
 
-    Author: 
+    Author: S
 */
 
 #include<bits/stdc++.h>
