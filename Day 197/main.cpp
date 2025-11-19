@@ -7,7 +7,7 @@
         - A subarray (i, j) is valid if:
                 (arr[i] + arr[i+1] + ... + arr[j]) % k == 0
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
