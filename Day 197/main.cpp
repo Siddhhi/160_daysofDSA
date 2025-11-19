@@ -7,11 +7,6 @@
         - A subarray (i, j) is valid if:
                 (arr[i] + arr[i+1] + ... + arr[j]) % k == 0
 
-    Core Idea:
-        - Use prefix-sum modulo technique.
-        - If two prefix sums have the same remainder mod k,
-          then the subarray between them has sum divisible by k.
-
     Author: Vishal Singhaniya
 */
 
