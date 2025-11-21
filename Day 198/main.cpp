@@ -7,12 +7,6 @@
         - A subarray (i, j) is valid if:
                 (arr[i] + arr[i+1] + ... + arr[j]) % k == 0
 
-    Time Complexity:
-        - O(N), each element is processed once.
-
-    Space Complexity:
-        - O(K) for storing remainders in the map.
-
     Applications:
         - Data stream analysis
         - Subarray-based optimization problems
@@ -53,4 +47,5 @@ int main(){
     return 0;
 
 }
+
 
