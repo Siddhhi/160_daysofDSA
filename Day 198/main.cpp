@@ -7,11 +7,6 @@
         - A subarray (i, j) is valid if:
                 (arr[i] + arr[i+1] + ... + arr[j]) % k == 0
 
-    Applications:
-        - Data stream analysis
-        - Subarray-based optimization problems
-        - Competitive programming challenges
-
     Author: Vishal Singhaniya
 */
 
@@ -47,5 +42,6 @@ int main(){
     return 0;
 
 }
+
 
 
