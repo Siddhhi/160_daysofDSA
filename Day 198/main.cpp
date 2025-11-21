@@ -7,15 +7,7 @@
         - A subarray (i, j) is valid if:
                 (arr[i] + arr[i+1] + ... + arr[j]) % k == 0
 
-    Core Idea:
-        - Use **prefix sum with modulo k**.
-        - If two prefix sums have the same remainder when divided by k,
-          then the subarray between them has sum divisible by k.
-        - To get the *longest* such subarray, store the **first index**
-          where each remainder appears.
-
-    Approach:
-        1. Initialize `sum = 0` and `res = 0`.
+  
         2. Use an unordered_map to store:
                 remainder → first index of occurrence
         3. Traverse the array:
@@ -97,4 +89,5 @@ int main(){
     cout<<"Longest length of subarray whose sum is divisible by "<<k<<" is : "<<longestSubarrayDivK(arr,k);
     
     return 0;
+
 }
