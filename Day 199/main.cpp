@@ -7,25 +7,7 @@
           is MORE than the number of elements less than or equal to `k` in that subarray.
         - Your task is to find the LENGTH of the longest such subarray.
 
-    Example:
-        Input:
-            arr = [1, 2, 3, 4, 5, 3, 2]
-            k   = 3
 
-        Classification:
-            <=k : [1, 2, 3, -, -, 3, 2]
-            > k : [-, -, -, 4, 5, -, -]
-
-        One valid subarray:
-            [3, 4, 5, 3] → elements > k = {4,5} (2 elements)
-                           elements <= k = {3,3} (2 elements) → NOT majority
-
-            [4, 5, 3, 2] → >k = {4,5} (2), <=k = {3,2} (2) → NOT majority
-
-            [4, 5] → >k = 2, <=k = 0 → valid, length = 2
-
-        Output:
-            2
 
     Core Idea:
         - Convert the array into a "balance sum" array:
@@ -127,3 +109,4 @@ int main() {
 
     return 0;
 }
+
