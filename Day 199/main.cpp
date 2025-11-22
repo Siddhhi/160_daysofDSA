@@ -7,28 +7,6 @@
           is MORE than the number of elements less than or equal to `k` in that subarray.
         - Your task is to find the LENGTH of the longest such subarray.
 
-        Transform:
-            1 (<=3) → -1
-            2 (<=3) → -1
-            3 (<=3) → -1
-            4 (>3)  → +1
-            5 (>3)  → +1
-            3 (<=3) → -1
-            2 (<=3) → -1
-
-        Running sum and logic:
-            i=0: sum=-1 → store sum=-1 at i=0
-            i=1: sum=-2 → store sum=-2 at i=1
-            i=2: sum=-3 → store sum=-3 at i=2
-            i=3: sum=-2 → already seen, check sum-1=-3 at i=2 → length=3-2=1
-            i=4: sum=-1 → check sum-1=-2 at i=1 → length=4-1=3  (longest so far)
-            i=5: sum=-2 → check sum-1=-3 at i=2 → length=5-2=3
-            i=6: sum=-3 → no better than previous
-
-        Longest valid subarray length = 3.
-
-    Time Complexity:
-        - O(n), single pass through the array.
 
     Space Complexity:
         - O(n), for the hash map storing first occurrence of each prefix sum.
@@ -77,5 +55,6 @@ int main() {
 
     return 0;
 }
+
 
 
