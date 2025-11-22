@@ -7,10 +7,6 @@
           is MORE than the number of elements less than or equal to `k` in that subarray.
         - Your task is to find the LENGTH of the longest such subarray.
 
-
-    Space Complexity:
-        - O(n), for the hash map storing first occurrence of each prefix sum.
-
     Author: Vishal Singhaniya
 */
 
@@ -55,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
