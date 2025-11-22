@@ -7,38 +7,6 @@
           is MORE than the number of elements less than or equal to `k` in that subarray.
         - Your task is to find the LENGTH of the longest such subarray.
 
-
-
-    Core Idea:
-        - Convert the array into a "balance sum" array:
-            • For each element:
-                - If arr[i] > k → treat as +1
-                - If arr[i] <= k → treat as -1
-        - For any subarray, if the sum > 0, it means:
-              count(>k) > count(<=k)  → valid subarray.
-        - We need the longest subarray with sum > 0.
-
-    Approach (Prefix Sum + Hash Map):
-        1. Maintain a running sum:
-                sum += +1 (if arr[i] > k)
-                sum += -1 (if arr[i] <= k)
-        2. If sum > 0 at index i:
-                → subarray [0..i] is valid → update answer as i+1.
-        3. Otherwise:
-                - We want an earlier prefix with sum = (sum - 1),
-                  because:
-                    (current_sum - previous_sum) > 0
-                    → previous_sum < current_sum
-                    → previous_sum = sum - 1 is the smallest needed to ensure > 0 over the range.
-                - If we have seen (sum - 1) before at index j:
-                      subarray (j+1 .. i) is valid,
-                      and its length = i - j.
-        4. Use an unordered_map to store the **first occurrence** of each prefix sum.
-        5. Return the maximum length found.
-
-    Dry Run:
-        arr = [1, 2, 3, 4, 5, 3, 2], k = 3
-
         Transform:
             1 (<=3) → -1
             2 (<=3) → -1
@@ -109,4 +77,5 @@ int main() {
 
     return 0;
 }
+
 
