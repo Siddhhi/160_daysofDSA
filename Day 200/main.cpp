@@ -6,7 +6,7 @@
         - Your task is to find the area (number of cells) of the largest
           rectangular submatrix whose sum of all elements is exactly 0.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -84,5 +84,6 @@ int main() {
 
     return 0;
 }
+
 
 
