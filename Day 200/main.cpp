@@ -6,14 +6,6 @@
         - Your task is to find the area (number of cells) of the largest
           rectangular submatrix whose sum of all elements is exactly 0.
 
-    Space Complexity:
-        - O(C) for temp array and hash map used in the 1D routine.
-
-    Applications:
-        - Image processing (finding balanced/neutral regions).
-        - Financial and heatmap data where net sum zero regions matter.
-        - Submatrix-based optimization and DP problems.
-
     Author: Vishal Singhaniya
 */
 
@@ -92,4 +84,5 @@ int main() {
 
     return 0;
 }
+
 
