@@ -6,7 +6,7 @@
         - The lists may or may not intersect at some point.
         - If they intersect, return the node where they merge.
         - If they do not intersect, return NULL.
-
+ 
     Author: Siddhi
 */
 
@@ -71,6 +71,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
