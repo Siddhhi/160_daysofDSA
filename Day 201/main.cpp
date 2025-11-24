@@ -7,44 +7,6 @@
         - If they intersect, return the node where they merge.
         - If they do not intersect, return NULL.
 
-    Approach (Two Pointer Technique):
-        1. Initialize two pointers:
-            - ptr1 → head1
-            - ptr2 → head2
-        2. Traverse both lists simultaneously.
-        3. When ptr1 reaches the end, move it to head2.
-           When ptr2 reaches the end, move it to head1.
-        4. If the lists intersect, the pointers will meet
-           at the intersection node after at most (L1 + L2) steps.
-        5. If they don’t intersect, both pointers will become NULL.
-
-    Example:
-        List1:  1 → 2 → 3
-                          ↘
-                           7 → 8 → 9
-                          ↗
-        List2:     4 → 5 → 6
-
-        Intersection at Node: 7
-
-    Dry Run:
-        ptr1 starts at head1 (1)
-        ptr2 starts at head2 (4)
-
-        After first pass:
-        - ptr1 jumps to head2
-        - ptr2 jumps to head1
-
-        On second pass:
-        - Both meet at node 7 ✅
-
-    Time Complexity:
-        O(N + M)
-        Where N and M are lengths of both linked lists.
-
-    Space Complexity:
-        O(1)  (Only pointers used, no extra memory)
-
     Author: Vishal Singhaniya
 */
 
@@ -109,5 +71,6 @@ int main(){
 
     return 0;
 }
+
 
 
