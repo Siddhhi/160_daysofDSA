@@ -1,5 +1,5 @@
 /*
-    Title: Find the Intersection Point of Two Linked Lists.
+    Title: Find the Intersection Point of Two Linked Lists
 
     Problem Statement:
         - You are given the heads of two singly linked lists.
@@ -109,4 +109,5 @@ int main(){
 
     return 0;
 }
+
 
