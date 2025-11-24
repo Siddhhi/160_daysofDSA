@@ -7,7 +7,7 @@
         - If they intersect, return the node where they merge.
         - If they do not intersect, return NULL.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -71,6 +71,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
