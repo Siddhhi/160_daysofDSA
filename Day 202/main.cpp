@@ -7,7 +7,7 @@
         - A list is a palindrome if the sequence of node values reads the same
           forward and backward.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -50,7 +50,6 @@ bool isIdentical(Node* head1, Node* head2){
         temp1 = temp1->next;
         temp2 = temp2->next;
     }
-    // If lengths differ, not palindrome, but for our split they will match in length
     return true;
 }
 
@@ -59,7 +58,6 @@ bool isPlaindrome(Node* head){
         return true;
     }
     
-    // Find middle using slow and fast pointers
     Node* slow = head;
     Node* fast = head;
     while(fast->next && fast->next->next){
@@ -67,7 +65,6 @@ bool isPlaindrome(Node* head){
         fast = fast->next->next;
     }
     
-    // Reverse second half
     Node* head2 = reverse(slow->next);
     slow->next = nullptr;   // split the list
     
@@ -77,15 +74,12 @@ bool isPlaindrome(Node* head){
 }
 
 int main(){
-    // List: 1 -> 2 -> 3 -> 3 -> 2 -> 1
 
-    Node* common = new Node(3);
-    common->next = new Node(2);
-    common->next->next = new Node(1);
     Node* head1 = new Node(1);
     head1->next = new Node(2);
     head1->next->next = new Node(3);
-    head1->next->next->next = common;
+    head1->next->next->next = new Node(2);
+    head1->next->next->next->next = new Node(1);
     
     if(isPlaindrome(head1)){
         cout << "The linked list is palindrome\n";
@@ -96,6 +90,7 @@ int main(){
     
     return 0;
 }
+
 
 
 
