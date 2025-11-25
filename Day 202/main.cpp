@@ -7,17 +7,6 @@
         - A list is a palindrome if the sequence of node values reads the same
           forward and backward.
 
-
-    Time Complexity:
-        - O(n): 
-            • O(n) to find the middle,
-            • O(n) to reverse the second half,
-            • O(n) to compare halves.
-
-    Space Complexity:
-        - O(1): 
-            • Only a few extra pointers are used.
-
     Author: Vishal Singhaniya
 */
 
@@ -107,5 +96,6 @@ int main(){
     
     return 0;
 }
+
 
 
