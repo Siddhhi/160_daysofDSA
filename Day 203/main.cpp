@@ -6,18 +6,6 @@
         - The task is to merge all K linked lists into a single sorted linked list and
           return its head.
 
-        - mergeListsRecur(0, 3):
-            • mid = 1
-            • left  = mergeListsRecur(0, 1) → merge L1 & L2
-            • right = mergeListsRecur(2, 3) → merge L3 & L4
-            • final = mergeTwo(left, right)
-        - This reduces the number of lists roughly by half each level.
-
-    Time Complexity:
-        - Each mergeTwo of two lists with total N nodes costs O(N).
-        - We are effectively merging K lists using divide and conquer:
-            → Overall: O(N log K),
-              where N is total number of nodes across all lists.
 
     Space Complexity:
         - O(1) extra space for merging (ignoring recursion stack).
@@ -128,4 +116,5 @@ int main() {
 
     return 0;
 }
+
 
