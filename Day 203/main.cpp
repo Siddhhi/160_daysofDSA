@@ -6,47 +6,6 @@
         - The task is to merge all K linked lists into a single sorted linked list and
           return its head.
 
-    Approach (Divide and Conquer + Two-List Merge):
-        1. Helper Function: mergeTwo(head1, head2)
-            - Merge two sorted linked lists into one sorted list using the standard
-              two-pointer approach.
-            - Use a dummy node and a current pointer to build the merged list.
-            - At each step, attach the smaller of the two nodes (head1 or head2)
-              to the merged list.
-            - When one list ends, append the remaining nodes of the other list.
-
-        2. Recursive Function: mergeListsRecur(i, j, arr)
-            - arr is a vector<Node*> containing the heads of the K sorted lists.
-            - If i == j → only one list in this range, return arr[i].
-            - Find mid = (i + j) / 2.
-            - Recursively merge:
-                • left half:  mergeListsRecur(i, mid, arr)
-                • right half: mergeListsRecur(mid + 1, j, arr)
-            - Merge the two resulting lists using mergeTwo() and return the head.
-
-        3. Main Function: mergeKLists(arr)
-            - If K == 0 → return nullptr (no lists).
-            - Otherwise, call mergeListsRecur(0, K - 1, arr) and return the result.
-
-    Example:
-        Input:
-            K = 3
-            List 1: 1 → 4 → 5
-            List 2: 1 → 3 → 4
-            List 3: 2 → 6
-
-        Process:
-            - First, merge List 1 and List 2:
-                Result A: 1 → 1 → 3 → 4 → 4 → 5
-            - Then merge Result A with List 3:
-                Final: 1 → 1 → 2 → 3 → 4 → 4 → 5 → 6
-
-        Output:
-            Head of merged sorted list:
-            1 → 1 → 2 → 3 → 4 → 4 → 5 → 6
-
-    Dry Run (High Level):
-        - arr = [L1, L2, L3, L4]
         - mergeListsRecur(0, 3):
             • mid = 1
             • left  = mergeListsRecur(0, 1) → merge L1 & L2
@@ -169,3 +128,4 @@ int main() {
 
     return 0;
 }
+
