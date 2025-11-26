@@ -6,11 +6,6 @@
         - The task is to merge all K linked lists into a single sorted linked list and
           return its head.
 
-
-    Space Complexity:
-        - O(1) extra space for merging (ignoring recursion stack).
-        - O(log K) recursion depth for mergeListsRecur (stack space).
-
     Author: Vishal Singhaniya
 */
 
@@ -116,5 +111,6 @@ int main() {
 
     return 0;
 }
+
 
 
