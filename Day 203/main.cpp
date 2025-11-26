@@ -6,7 +6,7 @@
         - The task is to merge all K linked lists into a single sorted linked list and
           return its head.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
@@ -111,6 +111,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
