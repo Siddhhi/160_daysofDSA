@@ -9,7 +9,7 @@
         - The task is to flatten the entire structure into a single sorted list
           using only the `bottom` pointer (and ignore `next` in the final list).
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
@@ -112,5 +112,6 @@ int main(){
 
     return 0;
 }
+
 
 
