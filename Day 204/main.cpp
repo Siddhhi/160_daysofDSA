@@ -9,49 +9,7 @@
         - The task is to flatten the entire structure into a single sorted list
           using only the `bottom` pointer (and ignore `next` in the final list).
 
-    Node Structure:
-        struct Node {
-            int data;
-            Node* next;
-            Node* bottom;
-        };
-
-    Approach (Min Heap / Priority Queue):
-        1. Use a min heap (priority_queue with custom comparator) to always get
-           the smallest available node.
-        2. Push all head nodes of each vertical list (connected through `next`)
-           into the priority queue.
-        3. Repeat until the heap is empty:
-            - Pop the smallest node (minNode).
-            - Add it to the result list using the `bottom` pointer.
-            - If minNode->bottom exists, push that bottom node into the heap.
-            - Set minNode->bottom = nullptr to avoid old links.
-        4. The `head` of the final flattened list is returned.
-
-    Example:
-        Input List:
-            5 -> 10 -> 19 -> 28
-            |    |     |     |
-            7    20    22    35
-            |          |     |
-            8          50    40
-            |
-            30
-
-        Output:
-            5 -> 7 -> 8 -> 10 -> 19 -> 20 -> 22
-                -> 28 -> 30 -> 35 -> 40 -> 50 (using bottom pointers only)
-
-    Dry Run (Brief):
-        - Insert 5, 10, 19, 28 into min heap.
-        - Pop 5 → push 7
-        - Pop 7 → push 8
-        - Pop 8 → push 30
-        - Pop 10 → push 20
-        - Continue until heap is empty...
-        - Final list is sorted in increasing order.
-
-    Time Complexity:
+ 
         - Let total number of nodes be N.
         - Each node is inserted and removed from the heap once.
         - Heap operations cost O(log K),
@@ -165,3 +123,4 @@ int main(){
 
     return 0;
 }
+
