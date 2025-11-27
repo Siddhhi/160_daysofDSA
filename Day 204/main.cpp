@@ -77,18 +77,6 @@ void printList(Node* head){
 }
 
 int main(){
-    /*
-    Making this 2D list:
-
-    5 -> 10 -> 19 -> 28
-    |     |     |     |
-    7     20    22    35
-    |           |     |
-    8           50    40
-    |                 |
-    30                45
-    */
-
     Node* head = new Node(5);
     head->bottom = new Node(7);
     head->bottom->bottom = new Node(8);
@@ -106,12 +94,13 @@ int main(){
     head->next->next->next->bottom->bottom = new Node(40);
     head->next->next->next->bottom->bottom->bottom = new Node(45);
 
-    cout << "Flattened list: ";
+    cout << "Resultant List: ";
     Node* flat = flatten(head);
     printList(flat);
 
     return 0;
 }
+
 
 
 
