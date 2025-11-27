@@ -9,17 +9,6 @@
         - The task is to flatten the entire structure into a single sorted list
           using only the `bottom` pointer (and ignore `next` in the final list).
 
- 
-        - Let total number of nodes be N.
-        - Each node is inserted and removed from the heap once.
-        - Heap operations cost O(log K),
-          where K is the number of vertical lists (initial top nodes).
-        - Overall Time Complexity: O(N log K)
-
-    Space Complexity:
-        - O(K) for the priority queue (in worst case)
-        - No extra linked list is created (in-place linking)
-
     Author: Vishal Singhaniya
 */
 
@@ -123,4 +112,5 @@ int main(){
 
     return 0;
 }
+
 
