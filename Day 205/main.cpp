@@ -7,36 +7,7 @@
         - The task is to find all unique combinations of elements from `arr` whose sum is exactly equal to `target`.
         - The order of elements inside a combination does not matter, and combinations are printed based on the recursion order.
 
-        2. Base Cases:
-            - If sum == 0:
-                • Current combination `curr` is valid → push it into `res` and return.
-            - If sum < 0 or i >= arr.size():
-                • No valid combination from this path → backtrack (return).
-
-        3. Recursive Choices at index `i`:
-            - **Include** `arr[i]`:
-                • Push `arr[i]` into `curr`.
-                • Recurse with updated sum → `sum - arr[i]` and same index `i` (because elements can be reused).
-            - **Exclude** `arr[i]`:
-                • Pop `arr[i]` from `curr` (backtracking).
-                • Move to the next index → `i + 1`.
-
-        4. The main function `targetSumCombination(arr, target)`:
-            - Initializes an empty `curr` and `res`.
-            - Calls the recursive helper starting from index 0.
-            - Returns `res` containing all valid combinations.
-
-    Dry Run (Brief):
-        arr = [1, 2, 3, 4], target = 4
-
-        - Start with i = 0, sum = 4, curr = []
-        - Include 1 → sum = 3, curr = [1]
-            - Include 1 → sum = 2, curr = [1, 1]
-                - Include 1 → sum = 1, curr = [1, 1, 1]
-                    - Include 1 → sum = 0 → store [1,1,1,1]
-                - Exclude 1 → move to 2 → try 2, 3, 4...
-        - Exclude 1 → move to 2, repeat...
-        - Eventually get combinations like [2,2], [1,3], [4].
+    
 
     Time Complexity:
         - Exponential in nature: O(2^n) in the worst case,
@@ -100,4 +71,5 @@ int main() {
     }
     return 0;
 }
+
 
