@@ -7,7 +7,7 @@
         - The task is to find all unique combinations of elements from `arr` whose sum is exactly equal to `target`.
         - The order of elements inside a combination does not matter, and combinations are printed based on the recursion order.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -42,8 +42,8 @@ vector<vector<int>> targetSumCombination(vector<int>& arr, int target) {
 }
 
 int main() {
-    vector<int> arr = {1, 2, 3, 4};
-    int target = 8;
+    vector<int> arr = {1, 2, 3};
+    int target = 5;
     
     vector<vector<int>> res = targetSumCombination(arr, target);
     
@@ -61,6 +61,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
