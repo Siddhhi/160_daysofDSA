@@ -1,41 +1,11 @@
 /*
-    Title: Target Sum Combinations (Unbounded Combination Sum using Backtracking)
+    Title: Target Sum Combinations
 
     Problem Statement:
         - You are given an array of positive integers `arr` and a target sum `target`.
         - Each element in `arr` can be used **any number of times** (including zero).
         - The task is to find all unique combinations of elements from `arr` whose sum is exactly equal to `target`.
         - The order of elements inside a combination does not matter, and combinations are printed based on the recursion order.
-
-    Example:
-        Input:
-            arr    = [1, 2, 3, 4]
-            target = 8
-
-        Possible valid combinations (order may vary):
-            [1, 1, 1, 1, 1, 1, 1, 1]
-            [1, 1, 1, 1, 1, 1, 2]
-            [1, 1, 2, 4]
-            [2, 2, 2, 2]
-            [2, 2, 4]
-            [4, 4]
-            [1, 3, 4]
-            [2, 3, 3]
-            ...
-
-        Output Format:
-            Possible Combination :
-            [ 1 1 2 4 ]
-            [ 2 2 4 ]
-            [ 4 4 ]
-            ... (etc, depending on recursion order)
-
-    Approach (Recursion + Backtracking):
-        1. Use a helper function `makeCombination(arr, sum, curr, res, i)` where:
-            - `sum`  → remaining sum to be formed.
-            - `curr` → current combination being built.
-            - `res`  → list of all valid combinations.
-            - `i`    → current index in `arr`.
 
         2. Base Cases:
             - If sum == 0:
@@ -130,3 +100,4 @@ int main() {
     }
     return 0;
 }
+
