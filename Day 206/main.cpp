@@ -8,18 +8,6 @@
         - The solution set must not contain duplicate combinations (combinations differing only by order are considered the same).
 
 
-    Dry Run (brief):
-        arr = [1,1,2,5,6,7,10], target = 8 (sorted)
-        - idx=0: pick 1 (i=0) → recurse target=7
-            - idx=1: skip duplicate 1 (i=1) if already handled by previous branch, pick 2 → recurse target=5 ...
-        - Continue until all valid unique combinations found.
-
-    Time Complexity:
-        - Exponential in worst case (backtracking): O(2^n) roughly, depends on pruning and duplicates.
-
-    Space Complexity:
-        - O(target) recursion depth in worst case (or O(n) for recursion stack) + space for storing results.
-
     Author: Vishal Singhaniya
 */
 
@@ -74,4 +62,5 @@ int main() {
     }
     return 0;
 }
+
 
