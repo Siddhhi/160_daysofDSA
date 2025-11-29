@@ -7,24 +7,6 @@
         - Each element in `arr` may be used at most once in a combination.
         - The solution set must not contain duplicate combinations (combinations differing only by order are considered the same).
 
-    Example:
-        Input:
-            arr    = [10,1,2,7,6,1,5]
-            target = 8
-        Output (order of combinations may vary):
-            [1,1,6]
-            [1,2,5]
-            [1,7]
-            [2,6]
-
-    Approach:
-        - Sort the array first so duplicates are adjacent and we can skip them easily.
-        - Use backtracking to build combinations:
-            • At recursion index `idx`, iterate i from `idx` to end:
-                - If `i > idx` and `arr[i] == arr[i-1]`, skip `arr[i]` to avoid duplicate combinations.
-                - Choose `arr[i]`, recurse with updated remaining sum `sum - arr[i]` and next index `i+1` (since each element can be used once).
-                - Backtrack by popping the last chosen element.
-        - If remaining sum becomes 0, the current combination is valid — add it to results.
 
     Dry Run (brief):
         arr = [1,1,2,5,6,7,10], target = 8 (sorted)
@@ -92,3 +74,4 @@ int main() {
     }
     return 0;
 }
+
