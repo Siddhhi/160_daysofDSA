@@ -15,7 +15,7 @@
                 9 → wxyz
         - Digits 0 and 1 do not map to any characters and should be skipped.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
@@ -66,5 +66,6 @@ int main(){
     
     return 0;
 }
+
 
 
