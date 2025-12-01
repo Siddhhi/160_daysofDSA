@@ -15,13 +15,6 @@
                 9 → wxyz
         - Digits 0 and 1 do not map to any characters and should be skipped.
 
-    Time Complexity:
-        - O(4^N), because each digit can represent up to 4 characters.
-        - N = number of digits.
-
-    Space Complexity:
-        - O(N) recursion depth + O(result size).
-
     Author: Vishal Singhaniya
 */
 
@@ -73,4 +66,5 @@ int main(){
     
     return 0;
 }
+
 
