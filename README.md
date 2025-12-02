@@ -1,5 +1,5 @@
 
-DATA STRUCTURES AND ALGORITHMS (160 days of DSA) - Geekforgeeks
+DATA STRUCTURES AND ALGORITHMS (160 days of DSA) -
 
 1. Arrays
 
