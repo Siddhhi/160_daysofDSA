@@ -1,5 +1,5 @@
 
-DATA STRUCTURES AND ALGORITHMS (DSA) 
+DATA STRUCTURES AND ALGORITHMS (DSA) from the platform of 
 
 1. Arrays
 
