@@ -1,5 +1,5 @@
 
-DATA STRUCTURES AND ALGORITHMS (DSA) from the platform of 
+DATA STRUCTURES AND ALGORITHMS (DSA) from the platform of GFG
 
 1. Arrays
 
