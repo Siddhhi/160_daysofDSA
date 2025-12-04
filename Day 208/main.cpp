@@ -1,5 +1,5 @@
 /*
-    Title: Restore IP Addresses (Generate All Valid IPv4 Addresses)
+    Title: Restore IP Addresses
 
     Problem Statement:
         - Given a string `s` containing only digits, return all possible valid IPv4 addresses
@@ -71,6 +71,7 @@ int main(){
     }
     return 0;
 }
+
 
 
 
