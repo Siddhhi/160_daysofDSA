@@ -7,24 +7,6 @@
         - An IPv4 address consists of four decimal numbers (each between 0 and 255) separated by dots.
         - Each of the four parts must not contain leading zeros unless the part is exactly "0".
 
-    Example:
-        Input:  s = "25525511135"
-        Output: ["255.255.11.135", "255.255.111.35"]
-
-    Approach (Backtracking / Recursion):
-        1. Use a recursive helper that builds parts one by one.
-        2. Maintain:
-            - `index` : current position in the string `s`.
-            - `cnt`   : how many dots/parts have been placed so far (0..3).
-            - `curr`  : the prefix built so far (parts + dots).
-            - `res`   : vector to collect valid IP strings.
-        3. At each recursion step, try to take 1, 2 or 3 digits from `s` (as long as available).
-            - For each candidate substring, check if it is a valid part:
-                • Not empty, no leading zeros (except single '0').
-                • Its numeric value is between 0 and 255.
-            - If valid, recurse from the next index, appending the part and a dot (unless it's the final part).
-        4. When `cnt == 3`, treat the remaining substring as the final part and validate it. If valid, append to result.
-
     Dry Run (brief):
         s = "101023"
         - Try splits like 1.0.10.23, 10.10.2.3, 101.0.2.3, etc.
@@ -102,3 +84,4 @@ int main(){
     }
     return 0;
 }
+
