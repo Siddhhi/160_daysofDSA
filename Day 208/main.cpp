@@ -7,14 +7,6 @@
         - An IPv4 address consists of four decimal numbers (each between 0 and 255) separated by dots.
         - Each of the four parts must not contain leading zeros unless the part is exactly "0".
 
-    Time Complexity:
-        - Upper-bounded by exploring a small constant branching factor (at most 3 choices per part),
-          so practically O(1) relative to input length limits (string length <= 12 for any valid IP).
-        - For longer `s`, complexity grows but valid IP formation restricts depth; typical bound O(3^4) combinations checked.
-
-    Space Complexity:
-        - O(1) extra apart from the recursion stack and output storage. Recursion depth ≤ 4.
-
     Author: Vishal Singhaniya
 */
 
@@ -79,5 +71,6 @@ int main(){
     }
     return 0;
 }
+
 
 
