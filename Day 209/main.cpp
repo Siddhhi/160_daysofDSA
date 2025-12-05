@@ -6,25 +6,7 @@
         - A binary tree is symmetric if its left subtree is a mirror image of its right subtree.
         - Determine whether the given binary tree is symmetric.
 
-    Approach (Using Two Stacks):
-        1. If root is NULL → symmetric.
-        2. Use two stacks:
-                s1 → traverse left subtree
-                s2 → traverse right subtree
-        3. Compare nodes in mirror order:
-                - node1->left  vs node2->right
-                - node1->right vs node2->left
-        4. Any mismatch → return false.
-        5. If traversal ends without mismatch → return true.
-
-    Example:
-            Input Tree:
-                      1
-                   /     \
-                  2       2
-                /  \    /  \
-               3    4  4    3
-
+   
             Output: true
 
     Time Complexity:
@@ -116,3 +98,4 @@ int main() {
 
     return 0;
 }
+
