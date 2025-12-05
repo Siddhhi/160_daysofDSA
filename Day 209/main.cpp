@@ -6,7 +6,7 @@
         - A binary tree is symmetric if its left subtree is a mirror image of its right subtree.
         - Determine whether the given binary tree is symmetric.
 
-    Author:
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -89,6 +89,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
