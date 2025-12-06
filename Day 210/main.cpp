@@ -8,7 +8,7 @@
                 of its left and right subtree is NOT more than 1.
         - Determine whether the given binary tree is height-balanced.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
