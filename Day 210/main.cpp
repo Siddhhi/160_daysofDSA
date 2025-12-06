@@ -8,9 +8,6 @@
                 of its left and right subtree is NOT more than 1.
         - Determine whether the given binary tree is height-balanced.
 
-    Time Complexity:
-        - O(N), where N = number of nodes.
-
     Space Complexity:
         - O(H), where H = height of the tree (due to recursion stack).
 
