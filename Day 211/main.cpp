@@ -7,23 +7,7 @@
         - A height-balanced BST is defined as a binary tree in which the depth
           of the two subtrees of every node never differ by more than 1.
 
-    Approach:
-        1. Do an inorder traversal of the original BST to collect the node values
-           in a sorted vector `nodes`.
-        2. Build a balanced BST from the sorted vector by recursively choosing
-           the middle element as the root for every subarray:
-               - mid = (start + end) / 2
-               - left subtree  = buildBalancedBST(nodes, start, mid-1)
-               - right subtree = buildBalancedBST(nodes, mid+1, end)
-        3. This produces a height-balanced BST with the same values.
-
-    Time Complexity:
-        - O(N), to collect inorder + O(N) to construct the balanced tree -> overall O(N).
-
-    Space Complexity:
-        - O(N) for the vector storing inorder nodes + O(H) recursion stack (H ~ logN for balanced tree).
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -116,6 +100,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
