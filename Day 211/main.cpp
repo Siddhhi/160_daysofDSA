@@ -5,7 +5,7 @@
         - Given the root of a (possibly unbalanced) binary search tree (BST),
           transform it into a height-balanced BST containing the same node values.
         - A height-balanced BST is defined as a binary tree in which the depth
-          of the two subtrees of every node never differ by more than 1.
+          of the two subtrees of every node never differ by more than 1
 
     Approach:
         1. Do an inorder traversal of the original BST to collect the node values
@@ -116,6 +116,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
