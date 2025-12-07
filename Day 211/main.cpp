@@ -1,6 +1,5 @@
 /*
-    Title: Balance a Binary Search Tree (Convert BST to Balanced BST)
-
+    Title: Balance a Binary Search Tree 
     Problem Statement:
         - Given the root of a (possibly unbalanced) binary search tree (BST),
           transform it into a height-balanced BST containing the same node values.
@@ -116,3 +115,4 @@ int main() {
 
     return 0;
 }
+
