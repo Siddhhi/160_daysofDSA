@@ -7,30 +7,7 @@
                      L ≤ node->data ≤ H
         - The BST property allows us to skip unnecessary subtrees and improve efficiency.
 
-    Approach:
-        1. If the current node is NULL → return 0.
-        2. If node->data lies within [L, H]:
-               - Count this node → 1
-               - Recursively count nodes in left and right subtrees.
-        3. If node->data < L:
-               - Only right subtree may contain values ≥ L.
-        4. If node->data > H:
-               - Only left subtree may contain values ≤ H.
-        5. Return the accumulated count.
-
-    Example:
-        Input BST (in-order):
-            [5, 7, 10, 15, 20, 25, 30]
-
-        Range:
-            L = 7, H = 20
-
-        Valid nodes:
-            7, 10, 15, 20
-
-        Output:
-            4
-
+  
     Dry Run:
         Node = 15 → in range → count = 1
         Left subtree (10, 7) → both in range → +2
@@ -98,4 +75,5 @@ int main(){
     cout<<"Number of node lies in range ("<<l<<" , "<<h<<") : ";
     cout<<countNode<<"\n";
     return 0;
+
 }
