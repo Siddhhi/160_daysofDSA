@@ -7,7 +7,7 @@
                      L ≤ node->data ≤ H
         - The BST property allows us to skip unnecessary subtrees and improve efficiency.
 
-    Author: Vishal Singhaniya
+    Author:
 */
 
 #include<bits/stdc++.h>
@@ -60,4 +60,5 @@ int main(){
     return 0;
 
 }
+
 
