@@ -7,23 +7,6 @@
                      L ≤ node->data ≤ H
         - The BST property allows us to skip unnecessary subtrees and improve efficiency.
 
-  
-    Dry Run:
-        Node = 15 → in range → count = 1
-        Left subtree (10, 7) → both in range → +2
-        Right subtree (20, 25):
-            20 in range → +1
-            25 > H → skip right subtree
-        Final count = 4
-
-    Time Complexity:
-        - O(H), where H = height of the BST
-        - Worst case (skewed tree): O(N)
-        - Best case (balanced tree): O(log N)
-
-    Space Complexity:
-        - O(H) recursion depth
-
     Author: Vishal Singhaniya
 */
 
@@ -77,3 +60,4 @@ int main(){
     return 0;
 
 }
+
