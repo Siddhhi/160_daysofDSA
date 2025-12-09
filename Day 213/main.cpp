@@ -9,9 +9,6 @@
         - The task is to compute the **minimum number of moves** required so that
           every node has exactly one candy.
 
-        Output:
-            8 moves (for balancing all nodes to 1 candy each)
-
     Dry Run:
         - Each leaf with 0 → needs 1 candy → returns -1
         - Internal children accumulate deficits
