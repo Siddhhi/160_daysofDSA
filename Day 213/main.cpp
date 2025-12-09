@@ -9,10 +9,7 @@
         - The task is to compute the **minimum number of moves** required so that
           every node has exactly one candy.
 
-    Space Complexity:
-        - O(H), where H = tree height (recursion stack).
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 
