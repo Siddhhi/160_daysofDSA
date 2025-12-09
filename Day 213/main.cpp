@@ -9,21 +9,6 @@
         - The task is to compute the **minimum number of moves** required so that
           every node has exactly one candy.
 
-    Approach:
-        1. Use a post-order DFS traversal to process children before the parent.
-        2. For each node:
-             - Calculate how many candies its left subtree needs/has extra → `l`
-             - Do the same for the right subtree → `r`
-        3. Total moves are increased by `abs(l) + abs(r)` because:
-             - Positive value → subtree has extra candies to give.
-             - Negative value → subtree needs candies.
-        4. Return the "net balance" to the parent:
-               balance = root->data + l + r - 1
-           This represents:
-               +ve → extra candies
-               -ve → required candies
-        5. The accumulated `ans` becomes the final count of moves.
-
     Example:
         Tree:
                    5
