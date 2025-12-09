@@ -9,15 +9,6 @@
         - The task is to compute the **minimum number of moves** required so that
           every node has exactly one candy.
 
-    Dry Run:
-        - Each leaf with 0 → needs 1 candy → returns -1
-        - Internal children accumulate deficits
-        - Root with 5 distributes extra candies downward
-        - Total moves = |l| + |r| at each node
-
-    Time Complexity:
-        - O(N), where N = number of nodes (each visited once).
-
     Space Complexity:
         - O(H), where H = tree height (recursion stack).
 
