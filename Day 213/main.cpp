@@ -9,14 +9,6 @@
         - The task is to compute the **minimum number of moves** required so that
           every node has exactly one candy.
 
-    Example:
-        Tree:
-                   5
-                 /   \
-                0     0
-               /       \
-              0         0
-
         Output:
             8 moves (for balancing all nodes to 1 candy each)
 
