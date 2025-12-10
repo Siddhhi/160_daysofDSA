@@ -10,10 +10,6 @@
         - The traversal must be level-order (BFS) so that nodes appearing earlier 
           in the tree appear earlier in their vertical group.
 
-    Dry Run:
-        Queue sequence → (1,0), (2,-1), (3,1), (4,-2), (5,0), (6,0), (7,2)
-        Result built HD-wise from -2 to +2.
-
     Time Complexity:
         - O(N), each node visited once.
 
@@ -110,4 +106,5 @@ int main() {
 
     return 0;
 }
+
 
