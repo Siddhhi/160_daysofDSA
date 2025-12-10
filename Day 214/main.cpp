@@ -10,17 +10,6 @@
         - The traversal must be level-order (BFS) so that nodes appearing earlier 
           in the tree appear earlier in their vertical group.
 
-    Time Complexity:
-        - O(N), each node visited once.
-
-    Space Complexity:
-        - O(N) for queue + map storage.
-
-    Applications:
-        - Tree column visualization
-        - Graph layout systems
-        - Hierarchical clustering
-
     Author: Vishal Singhaniya
 */
 
@@ -106,5 +95,6 @@ int main() {
 
     return 0;
 }
+
 
 
