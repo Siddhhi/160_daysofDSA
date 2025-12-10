@@ -10,33 +10,6 @@
         - The traversal must be level-order (BFS) so that nodes appearing earlier 
           in the tree appear earlier in their vertical group.
 
-    Approach:
-        1. Use BFS with a queue storing {node, horizontalDistance}.
-        2. Maintain a map<int, vector<int>> to store values grouped by HD.
-        3. Track the minimum and maximum HD encountered.
-        4. For each popped node:
-               - Append its value to lst[HD].
-               - Push left child with HD - 1.
-               - Push right child with HD + 1.
-        5. After BFS completes, build the result from HD = mn → mx.
-
-    Example:
-            Tree:
-                     1
-                   /   \
-                  2     3
-                 / \   / \
-                4   5 6   7
-
-        Output:
-            [
-              {4},
-              {2},
-              {1, 5, 6},
-              {3},
-              {7}
-            ]
-
     Dry Run:
         Queue sequence → (1,0), (2,-1), (3,1), (4,-2), (5,0), (6,0), (7,2)
         Result built HD-wise from -2 to +2.
@@ -137,3 +110,4 @@ int main() {
 
     return 0;
 }
+
