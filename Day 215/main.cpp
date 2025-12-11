@@ -6,22 +6,7 @@
           every node is covered. A vaccine placed at a node covers the node itself,
           its parent, and its immediate children.
 
-    Approach:
-        - Use a DFS that returns one of three states for each node:
-            0 -> node is not covered (needs vaccine from parent)
-            1 -> node is covered (by a child) and has no vaccine
-            2 -> node has a vaccine
-        - Traverse post-order:
-            • If any child returns 0 => place vaccine at current node (res++) and return 2.
-            • Else if any child returns 2 => current node is covered -> return 1.
-            • Else -> current node is not covered -> return 0.
-        - After DFS for root, if root returns 0, increment the vaccine count.
 
-    Time Complexity:
-        - O(N), each node visited once.
-
-    Space Complexity:
-        - O(H) recursion stack where H is tree height.
 
     Author: Vishal Singhaniya
 */
@@ -99,4 +84,5 @@ int main() {
 
     return 0;
 }
+
 
