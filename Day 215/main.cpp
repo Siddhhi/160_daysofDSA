@@ -6,7 +6,7 @@
           every node is covered. A vaccine placed at a node covers the node itself,
           its parent, and its immediate children
 
-    Author: 
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -82,6 +82,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
