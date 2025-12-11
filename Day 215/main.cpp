@@ -4,7 +4,7 @@
     Problem Statement:
         - Given a binary tree, place the minimum number of "vaccines" on nodes such that
           every node is covered. A vaccine placed at a node covers the node itself,
-          its parent, and its immediate children.
+          its parent, and its immediate children
 
     Author: Vishal Singhaniya
 */
@@ -82,6 +82,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
