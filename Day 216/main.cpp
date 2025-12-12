@@ -5,11 +5,6 @@
         - Given an integer array `arr` and an integer `k`, return the `k` most frequent elements.
         - If multiple elements have the same frequency, return the larger elements first (tie-breaker).
 
-    Example:
-        Input:  arr = [1,1,1,2,2,3,3,4], k = 3
-        Frequencies: 1->3, 2->2, 3->2, 4->1
-        Output: [1, 3, 2]   (3 and 2 have same freq; 3 > 2 so 3 appears before 2)
-
     Approach:
         1. Count frequencies using an unordered_map<int,int>.
         2. Use bucket-sort by frequency:
@@ -71,3 +66,4 @@ int main() {
 
     return 0;
 }
+
