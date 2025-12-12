@@ -5,17 +5,6 @@
         - Given an integer array `arr` and an integer `k`, return the `k` most frequent elements.
         - If multiple elements have the same frequency, return the larger elements first (tie-breaker).
 
-    Approach:
-        1. Count frequencies using an unordered_map<int,int>.
-        2. Use bucket-sort by frequency:
-            - Create vector<vector<int>> buckets where index = frequency.
-            - Place each number in bucket[freq[num]].
-        3. Iterate buckets from high frequency to low:
-            - Sort each bucket in descending order (to satisfy tie-breaker: larger number first).
-            - Append elements to result until we have k elements.
-        4. Return the result vector of size k (or fewer if k > unique elements).
-
-    Time Complexity:
         - O(n + U log U) where n = arr.size(), U = number of unique elements.
           (Counting is O(n); sorting elements inside buckets in total costs up to O(U log U).)
 
@@ -66,4 +55,5 @@ int main() {
 
     return 0;
 }
+
 
