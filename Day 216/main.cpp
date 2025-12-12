@@ -5,9 +5,6 @@
         - Given an integer array `arr` and an integer `k`, return the `k` most frequent elements.
         - If multiple elements have the same frequency, return the larger elements first (tie-breaker).
 
-        - O(n + U log U) where n = arr.size(), U = number of unique elements.
-          (Counting is O(n); sorting elements inside buckets in total costs up to O(U log U).)
-
     Space Complexity:
         - O(n) for frequency map + buckets.
 
@@ -55,5 +52,6 @@ int main() {
 
     return 0;
 }
+
 
 
