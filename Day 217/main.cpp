@@ -9,7 +9,7 @@
         - Each meeting requires one room.
         - Find the minimum number of meeting rooms required so that no meetings overlap.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 #include<bits/stdc++.h>
 using namespace std;
