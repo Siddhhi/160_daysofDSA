@@ -9,29 +9,6 @@
         - Each meeting requires one room.
         - Find the minimum number of meeting rooms required so that no meetings overlap.
 
-    Approach:
-        1. Sort both `start` and `end` arrays.
-        2. Use two pointers:
-            - `i` for start times
-            - `j` for end times
-        3. Traverse meetings:
-            - If a meeting starts before the previous one ends → need a new room.
-            - Else → free a room.
-        4. Keep track of:
-            - `room` → current rooms in use
-            - `res`  → maximum rooms needed at any point.
-
-    Dry Run:
-        Sorted start = [2, 6, 9]
-        Sorted end   = [4, 10, 12]
-
-        i=0, j=0 → 2 < 4 → room=1
-        i=1, j=0 → 6 >= 4 → room=0
-        i=1, j=1 → 6 < 10 → room=1
-        i=2, j=1 → 9 < 10 → room=2  ✅
-
-        Maximum rooms needed = 2
-
     Time Complexity:
         - O(n log n) due to sorting.
 
