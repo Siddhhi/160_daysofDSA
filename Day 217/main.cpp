@@ -9,17 +9,6 @@
         - Each meeting requires one room.
         - Find the minimum number of meeting rooms required so that no meetings overlap.
 
-    Example:
-        Input:
-            start = [2, 9, 6]
-            end   = [4, 12, 10]
-
-        Meetings:
-            (2,4), (6,10), (9,12)
-
-        Output:
-            Number of room required to conduct these meetings : 2
-
     Approach:
         1. Sort both `start` and `end` arrays.
         2. Use two pointers:
