@@ -9,17 +9,6 @@
         - Each meeting requires one room.
         - Find the minimum number of meeting rooms required so that no meetings overlap.
 
-    Time Complexity:
-        - O(n log n) due to sorting.
-
-    Space Complexity:
-        - O(1) extra space (ignoring input arrays).
-
-    Applications:
-        - Scheduling systems
-        - Conference room allocation
-        - CPU task scheduling
-
     Author: Vishal Singhaniya
 */
 #include<bits/stdc++.h>
