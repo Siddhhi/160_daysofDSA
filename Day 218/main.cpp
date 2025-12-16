@@ -7,33 +7,6 @@
           characters are the same.
         - If it is not possible to rearrange the string, return an empty string.
 
-    Dry Run:
-        s = "aaabbc"
-        Frequencies:
-            a → 3, b → 2, c → 1
-
-        Heap picks:
-            a → b → a → b → a → c
-
-        Result = "ababac" ✅
-
-        s = "aaab"
-        Heap cannot place characters without repetition
-        Result length < original length → return ""
-
-    Time Complexity:
-        - O(n log k), where:
-            n = length of string
-            k = number of unique characters (≤ 26)
-
-    Space Complexity:
-        - O(k), for frequency map and priority queue.
-
-    Applications:
-        - Task scheduling with cooling period
-        - Load balancing
-        - String rearrangement problems
-
     Author: Vishal Singhaniya
 */
 
