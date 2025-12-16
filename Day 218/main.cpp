@@ -7,26 +7,6 @@
           characters are the same.
         - If it is not possible to rearrange the string, return an empty string.
 
-  
-
-        Output:
-            ""  (not possible)
-
-    Approach (Greedy + Max Heap):
-        1. Count the frequency of each character using a hash map.
-        2. Push all characters into a max heap (priority queue),
-           ordered by their frequency.
-        3. Repeatedly:
-            - Take the character with the highest remaining frequency.
-            - Append it to the result string.
-            - Decrease its frequency.
-            - Push the previously used character back into the heap
-              (if it still has remaining frequency).
-        4. This ensures that the same character is never placed
-           adjacent to itself.
-        5. If the final string length is not equal to the input length,
-           rearrangement is not possible.
-
     Dry Run:
         s = "aaabbc"
         Frequencies:
