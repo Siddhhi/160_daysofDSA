@@ -7,7 +7,7 @@
           characters are the same.
         - If it is not possible to rearrange the string, return an empty string.
 
-    Author: Vishal Singhaniya
+    Author:
 */
 
 #include<bits/stdc++.h>
