@@ -7,20 +7,7 @@
           characters are the same.
         - If it is not possible to rearrange the string, return an empty string.
 
-    Example:
-        Input:
-            s = "aaabbc"
-
-        Possible Output:
-            "ababac"
-
-        Explanation:
-            - Characters are rearranged so that no two identical characters
-              appear next to each other.
-            - Multiple valid outputs may exist.
-
-        Input:
-            s = "aaab"
+  
 
         Output:
             ""  (not possible)
