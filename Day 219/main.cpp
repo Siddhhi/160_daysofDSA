@@ -7,20 +7,6 @@
         - Such an array is called a **k-sorted** or **nearly sorted** array.
         - The task is to efficiently sort the array.
 
-    Dry Run:
-        arr = [2, 3, 1, 4], k = 2
-
-        Heap initially: {2, 3}
-        Insert 1 → heap = {1, 3, 2}
-        Extract min → arr[0] = 1
-
-        Insert 4 → heap = {2, 3, 4}
-        Extract min → arr[1] = 2
-
-        Remaining heap → {3, 4}
-        arr[2] = 3, arr[3] = 4
-
-        Final Array = [1, 2, 3, 4]
 
     Time Complexity:
         - O(n log k), where:
