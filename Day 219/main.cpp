@@ -7,15 +7,6 @@
         - Such an array is called a **k-sorted** or **nearly sorted** array.
         - The task is to efficiently sort the array.
 
-        2. Insert the first `k` elements into the heap.
-        3. For each remaining element:
-            - Push the current element into the heap.
-            - Extract the minimum element from the heap and place it
-              in the correct position in the array.
-        4. After processing all elements, extract and place
-           the remaining elements from the heap.
-        5. This guarantees the array is fully sorted.
-
     Dry Run:
         arr = [2, 3, 1, 4], k = 2
 
