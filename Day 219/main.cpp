@@ -7,20 +7,6 @@
         - Such an array is called a **k-sorted** or **nearly sorted** array.
         - The task is to efficiently sort the array.
 
-    Example:
-        Input:
-            arr = [2, 3, 1, 4]
-            k = 2
-
-        Output:
-            [1, 2, 3, 4]
-
-        Explanation:
-            - Each element is at most 2 positions away from its correct position.
-            - Using a min heap of size (k + 1), we can sort efficiently.
-
-    Approach (Min Heap / Priority Queue):
-        1. Create a min heap (priority queue).
         2. Insert the first `k` elements into the heap.
         3. For each remaining element:
             - Push the current element into the heap.
