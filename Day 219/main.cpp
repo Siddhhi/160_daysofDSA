@@ -7,16 +7,7 @@
         - Such an array is called a **k-sorted** or **nearly sorted** array.
         - The task is to efficiently sort the array.
 
-
-    Time Complexity:
-        - O(n log k), where:
-            n = number of elements
-            k = maximum distance from sorted position
-
-    Space Complexity:
-        - O(k), for the min heap.
-
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
