@@ -12,7 +12,6 @@
             3. Delayed meetings keep the same duration.
         - Return the index of the room that gets booked the maximum number of times.
         - If there is a tie, return the smallest room index.
-
     Example:
         Input:
             n = 2
@@ -123,5 +122,6 @@ int main(){
 
     return 0;
 }
+
 
 
