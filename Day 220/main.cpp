@@ -13,7 +13,7 @@
         - Return the index of the room that gets booked the maximum number of times.
         - If there is a tie, return the smallest room index.
 
-    Author: Vishal Singhaniya
+    Author: 
 */
 
 
@@ -74,6 +74,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
