@@ -12,55 +12,6 @@
             3. Delayed meetings keep the same duration.
         - Return the index of the room that gets booked the maximum number of times.
         - If there is a tie, return the smallest room index.
-        
-    Example:
-        Input:
-            n = 2
-            meetings = {{0,10}, {1,5}, {2,7}, {3,4}}
-
-        Output:
-            0
-
-        Explanation:
-            - Room 0 hosts meetings at [0,10], [10,15]
-            - Room 1 hosts meetings at [1,5], [5,9]
-            - Room 0 is booked more times → answer = 0
-
-    Approach (Greedy + Priority Queues):
-        1. Sort meetings by start time.
-        2. Maintain two priority queues:
-            - `available` → min-heap of free room indices.
-            - `occupied` → min-heap storing {endTime, roomIndex}.
-        3. For each meeting:
-            - Free rooms whose meetings have ended.
-            - If a room is available:
-                assign the meeting to it.
-            - Else:
-                delay the meeting until the earliest room frees up.
-        4. Count how many times each room is used.
-        5. Return the room with maximum usage.
-
-    Dry Run:
-        meetings = {{0,10}, {1,5}, {2,7}}
-        rooms = {0,1}
-
-        Meeting [0,10] → room 0
-        Meeting [1,5]  → room 1
-        Meeting [2,7]  → delayed → room 1 at time 5
-
-        Usage count:
-            room 0 → 1
-            room 1 → 2
-
-        Output → 1
-
-    Time Complexity:
-        - O(m log n), where:
-            m = number of meetings
-            n = number of rooms
-
-    Space Complexity:
-        - O(n), for priority queues and counters.
 
     Author: Vishal Singhaniya
 */
@@ -123,6 +74,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
