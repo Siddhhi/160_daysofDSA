@@ -10,30 +10,6 @@
             5. getMax()   → Return the maximum element present in the stack.
         - All operations must run in **O(1) time complexity**.
         - You are NOT allowed to use an auxiliary stack to store maximum values.
-
-    Key Idea:
-        - Use a mathematical encoding technique to store values in the stack
-          whenever a new maximum element is pushed.
-        - Maintain a variable `maxElement` that always stores the current maximum.
-
-    Encoding Logic:
-        - When pushing:
-            • If the stack is empty → push x, set maxElement = x
-            • If x ≤ maxElement → push x normally
-            • If x > maxElement → push encoded value:
-                    encoded = 2*x − maxElement
-              and update maxElement = x
-
-        - When popping:
-            • If popped value ≤ maxElement → normal pop
-            • If popped value > maxElement → it is an encoded value
-              → recover previous max using:
-                    previousMax = 2*maxElement − encodedValue
-
-        - When peeking:
-            • If top ≤ maxElement → actual top is top
-            • Else → actual top is maxElement
-
     Example:
         Operations:
             push(3)
@@ -173,3 +149,4 @@ int main() {
 
     return 0;
 }
+
