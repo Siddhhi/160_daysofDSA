@@ -11,10 +11,8 @@
         - All operations must run in **O(1) time complexity**.
         - You are NOT allowed to use an auxiliary stack to store maximum values.
 
-    Author: 
+    Author: Siddhi
 */
-
-
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -119,6 +117,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
