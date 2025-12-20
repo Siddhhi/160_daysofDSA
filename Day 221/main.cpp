@@ -10,34 +10,7 @@
             5. getMax()   → Return the maximum element present in the stack.
         - All operations must run in **O(1) time complexity**.
         - You are NOT allowed to use an auxiliary stack to store maximum values.
-    Example:
-        Operations:
-            push(3)
-            push(5)
-            getMax() → 5
-            push(2)
-            push(1)
-            getMax() → 5
-            pop()
-            getMax() → 5
-            pop()
-            peek() → 5
-
-    Dry Run:
-        push(3) → stack = [3], max = 3
-        push(5) → encoded = 2*5−3 = 7 → stack = [3,7], max = 5
-        push(2) → stack = [3,7,2], max = 5
-        pop()   → removes 2
-        pop()   → removes 7 (encoded)
-                  restore max = 2*5−7 = 3
-
-    Time Complexity:
-        - push()   → O(1)
-        - pop()    → O(1)
-        - peek()   → O(1)
-        - getMax() → O(1)
-
-    Space Complexity:
+ 
         - O(n), where n is the number of elements in the stack.
         - No extra auxiliary stack is used.
 
@@ -149,4 +122,5 @@ int main() {
 
     return 0;
 }
+
 
