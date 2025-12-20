@@ -10,9 +10,6 @@
             5. getMax()   → Return the maximum element present in the stack.
         - All operations must run in **O(1) time complexity**.
         - You are NOT allowed to use an auxiliary stack to store maximum values.
- 
-        - O(n), where n is the number of elements in the stack.
-        - No extra auxiliary stack is used.
 
     Author: Vishal Singhaniya
 */
@@ -122,5 +119,6 @@ int main() {
 
     return 0;
 }
+
 
 
