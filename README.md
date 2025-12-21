@@ -37,7 +37,7 @@ DATA STRUCTURES AND ALGORITHMS (DSA)
 
 18. Trie
 
-19. Bitwise Manipulation 
+19. Bitwise Manipulation .
 
  
 
