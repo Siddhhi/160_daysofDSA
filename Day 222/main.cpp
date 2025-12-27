@@ -9,25 +9,6 @@
             2. Is known by everyone else.
         - Find the index of the celebrity if present, otherwise return -1.
 
-    Approach:
-        1. Push all people (0 to N-1) into a stack.
-        2. Pop two people at a time:
-            - If A knows B → A cannot be celebrity.
-            - Else B cannot be celebrity.
-        3. Push the potential candidate back.
-        4. After one candidate remains, verify:
-            - Candidate does not know anyone.
-            - Everyone knows the candidate.
-
-    Example:
-        Input:
-            mat = {
-                {0, 1, 0},
-                {0, 0, 0},
-                {0, 1, 0}
-            }
-
-
     Author: Vishal Singhaniya
 */
 
@@ -79,5 +60,6 @@ int main() {
 
     return 0;
 }
+
 
 
