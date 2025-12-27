@@ -1,5 +1,5 @@
 /*
-    Title: Celebrity Problem (Using Stack)/
+    Title: Celebrity Problem (Using Stack)
 
     Problem Statement:
         - You are given a matrix `mat` of size N×N.
@@ -27,17 +27,6 @@
                 {0, 1, 0}
             }
 
-        Output:
-            1
-
-    Explanation:
-        Person 1 is known by everyone and does not know anyone.
-
-    Time Complexity:
-        - O(N)
-
-    Space Complexity:
-        - O(N) (stack usage)
 
     Author: Vishal Singhaniya
 */
@@ -90,4 +79,5 @@ int main() {
 
     return 0;
 }
+
 
