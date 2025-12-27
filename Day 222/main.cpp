@@ -9,7 +9,7 @@
             2. Is known by everyone else.
         - Find the index of the celebrity if present, otherwise return -1.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -60,6 +60,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
