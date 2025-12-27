@@ -7,7 +7,7 @@
         - A celebrity is a person who:
             1. Does NOT know anyone.
             2. Is known by everyone else.
-        - Find the index of the celebrity if present, otherwise return -1.
+        - Find the index of the celebrity if present, otherwise return -1
 
     Author: Siddhi
 */
@@ -60,6 +60,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
