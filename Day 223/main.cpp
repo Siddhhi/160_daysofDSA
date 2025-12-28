@@ -8,12 +8,6 @@
           to its right while traversing circularly.
         - If no such element exists, return -1 for that position.
 
-
-    Applications:
-        - Stock span problems
-        - Circular array processing
-        - Monotonic stack problems
-
     Author: Vishal Singhaniya
 */
 
@@ -51,4 +45,5 @@ int main(){
 
     return 0;
 }
+
 
