@@ -6,11 +6,6 @@
           of all possible subarrays.
         - For every subarray, identify its maximum element and add it to the total sum.
 
-    Steps:
-        1. Traverse from left to right to calculate `left[]`.
-        2. Traverse from right to left to calculate `right[]`.
-        3. Multiply contribution for each index and accumulate result.
-
     Time Complexity:
         - O(n), each element is pushed and popped once.
 
@@ -68,5 +63,6 @@ int main(){
     cout << "Sum of maximum elements of all subarrays: " << sumOfMax(arr) << endl;
     return 0;
 }
+
 
 
