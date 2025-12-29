@@ -6,14 +6,6 @@
           of all possible subarrays.
         - For every subarray, identify its maximum element and add it to the total sum.
 
-
-        - Use a **monotonic decreasing stack** to compute:
-            • `left[i]`  → number of subarrays ending at `i` where `arr[i]` is the maximum  
-            • `right[i]` → number of subarrays starting at `i` where `arr[i]` is the maximum
-        - Contribution of each element:
-              arr[i] × left[i] × right[i]
-        - Sum contributions of all elements.
-
     Steps:
         1. Traverse from left to right to calculate `left[]`.
         2. Traverse from right to left to calculate `right[]`.
@@ -76,4 +68,5 @@ int main(){
     cout << "Sum of maximum elements of all subarrays: " << sumOfMax(arr) << endl;
     return 0;
 }
+
 
