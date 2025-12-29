@@ -6,18 +6,7 @@
           of all possible subarrays.
         - For every subarray, identify its maximum element and add it to the total sum.
 
-    Time Complexity:
-        - O(n), each element is pushed and popped once.
-
-    Space Complexity:
-        - O(n), for stacks and auxiliary arrays.
-
-    Applications:
-        - Subarray maximum/minimum problems
-        - Sliding window optimizations
-        - Histogram and monotonic stack problems
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include<bits/stdc++.h>
@@ -63,6 +52,7 @@ int main(){
     cout << "Sum of maximum elements of all subarrays: " << sumOfMax(arr) << endl;
     return 0;
 }
+
 
 
 
