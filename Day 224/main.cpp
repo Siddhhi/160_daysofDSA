@@ -6,26 +6,7 @@
           of all possible subarrays.
         - For every subarray, identify its maximum element and add it to the total sum.
 
-    Example:
-        Input:
-            arr = [3, 1, 2, 4]
 
-        Subarrays and their maximums:
-            [3] → 3
-            [3,1] → 3
-            [3,1,2] → 3
-            [3,1,2,4] → 4
-            [1] → 1
-            [1,2] → 2
-            [1,2,4] → 4
-            [2] → 2
-            [2,4] → 4
-            [4] → 4
-
-        Output:
-            Sum = 30
-
-    Approach:
         - Use a **monotonic decreasing stack** to compute:
             • `left[i]`  → number of subarrays ending at `i` where `arr[i]` is the maximum  
             • `right[i]` → number of subarrays starting at `i` where `arr[i]` is the maximum
@@ -95,3 +76,4 @@ int main(){
     cout << "Sum of maximum elements of all subarrays: " << sumOfMax(arr) << endl;
     return 0;
 }
+
