@@ -9,43 +9,7 @@
           to make all elements of the array equal to 1.
         - If it is not possible, return `-1`.
 
-    Example:
-        Input:
-            arr = [0, 1, 0]
-            k = 1
-
-        Output:
-            2
-
-        Explanation:
-            Flip index 0 → [1,1,0]
-            Flip index 2 → [1,1,1]
-
-    Approach:
-        - Use a **sliding window + greedy approach**.
-        - Maintain a variable `flag` to track how many flips affect the current index.
-        - Use a queue to track when a flip window expires.
-        - If current bit (after considering flips) is `0`, we must flip starting here.
-        - If flipping goes out of bounds, return `-1`.
-
-    Steps:
-        1. Traverse the array from left to right.
-        2. Remove the effect of flips that are out of range.
-        3. Apply flip when encountering a `0`.
-        4. Count total flips.
-
-    Time Complexity:
-        - O(n), each element is processed once.
-
-    Space Complexity:
-        - O(k), for the sliding window queue.
-
-    Applications:
-        - Bit manipulation problems
-        - Greedy optimization problems
-        - Window-based transformations
-
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -90,6 +54,7 @@ int main(){
 
     return 0;
 }
+
 
 
 
