@@ -9,11 +9,6 @@
         - Each time you land on an index, you collect its value.
         - Your task is to find the **maximum total score** obtainable when reaching the end.
 
-    Applications:
-        - Game score optimization
-        - Dynamic programming with sliding window optimization
-        - Jump-based path optimization problems
-
     Author: Vishal Singhaniya
 */
 
@@ -52,5 +47,6 @@ int main() {
     cout << "Maximum score obtainable: " << getScore(arr, k) << endl;
     return 0;
 }
+
 
 
