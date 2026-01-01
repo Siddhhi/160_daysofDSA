@@ -9,19 +9,6 @@
         - Each time you land on an index, you collect its value.
         - Your task is to find the **maximum total score** obtainable when reaching the end.
 
-    Steps:
-        1. Initialize dp[n-1] = arr[n-1].
-        2. Maintain a deque to track max dp in range.
-        3. Remove indices that are out of range (i + k).
-        4. Update dp[i] using the front of the deque.
-        5. Maintain decreasing order in deque.
-
-    Time Complexity:
-        - O(n), each element is pushed and popped once.
-
-    Space Complexity:
-        - O(n), for dp array and deque.
-
     Applications:
         - Game score optimization
         - Dynamic programming with sliding window optimization
@@ -65,4 +52,5 @@ int main() {
     cout << "Maximum score obtainable: " << getScore(arr, k) << endl;
     return 0;
 }
+
 
