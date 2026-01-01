@@ -9,7 +9,7 @@
         - Each time you land on an index, you collect its value.
         - Your task is to find the **maximum total score** obtainable when reaching the end.
 
-    Author: Vishal Singhaniya
+    Author: Siddhi
 */
 
 #include <bits/stdc++.h>
@@ -47,6 +47,7 @@ int main() {
     cout << "Maximum score obtainable: " << getScore(arr, k) << endl;
     return 0;
 }
+
 
 
 
