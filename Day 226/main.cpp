@@ -9,29 +9,6 @@
         - Each time you land on an index, you collect its value.
         - Your task is to find the **maximum total score** obtainable when reaching the end.
 
-    Example:
-        Input:
-            arr = [1, -1, -2, 4, -7, 3]
-            k = 2
-
-        Output:
-            7
-
-        Explanation:
-            Path taken:
-            1 → -1 → 4 → 3
-            Total score = 1 + (-1) + 4 + 3 = 7
-
-    Approach:
-        - Use **Dynamic Programming + Deque (Monotonic Queue)**.
-        - Let `dp[i]` be the maximum score obtainable starting from index `i`.
-        - Transition:
-            dp[i] = arr[i] + max(dp[j]) for all j ∈ [i+1, i+k]
-        - To optimize this:
-            - Maintain a deque that stores indices in decreasing order of `dp` values.
-            - The front of the deque always holds the best next jump.
-        - Traverse from right to left.
-
     Steps:
         1. Initialize dp[n-1] = arr[n-1].
         2. Maintain a deque to track max dp in range.
@@ -88,3 +65,4 @@ int main() {
     cout << "Maximum score obtainable: " << getScore(arr, k) << endl;
     return 0;
 }
+
